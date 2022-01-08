@@ -15,7 +15,7 @@
 class Controller_Page extends Controller_Abstract
 {
     /**
-     * Главная страница
+     * Все посты
      * @Route("/pages")
      */
     public function index()
@@ -31,7 +31,7 @@ class Controller_Page extends Controller_Abstract
     }
 
     /**
-     * 123
+     * Все посты пользователя
      * @Route("/pages/{$userId}")
      */
     public function roll($userId)
@@ -51,15 +51,6 @@ class Controller_Page extends Controller_Abstract
             'user' => $user,
             'postCollection' => $postCollection->raw()
         ]);
-    }
-    /**
-     * test ajax
-     * @Template(null)
-     * @Ajax
-     */
-    public function testAjax()
-    {
-        $this->output->send('data', ['msg' => 'test']);
     }
     /**
      * Проверка формы
