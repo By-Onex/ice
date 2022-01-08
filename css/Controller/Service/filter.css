@@ -1,0 +1,64 @@
+.filter_block h1 {
+    text-align: left !important;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.filter_block .selected {
+    color: #333;
+    font-size: 110%;
+}
+
+.filter_discount_service {
+    position: relative;
+    background: #F7F7F7;
+    border: 1px solid #D5D5D5;
+    color: #3C3A30;
+    border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    -khtml-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 10px 15px 0px;
+    margin: 20px 0 25px;
+}
+.list_service {
+    position: relative;
+}
+.list_service li {
+    display: inline-block;
+    width: 30%;
+    color: #448cba;
+    font-size: 14px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+.list_service li span{
+    color: #a2a2a2;
+}
+.list_service li a.selected_service{
+    display: inline-block;
+    text-decoration: none;
+    cursor: default;
+    /*width: 30%;*/
+    color: #333;
+    /*font-size: 14px;*/
+/*    margin-bottom: 12px;
+    margin-right: 10px;
+    vertical-align: top;*/
+}
+
+/*.page_discount .list_service li.selected_service {
+    color: #333;
+}*/
+.list_service li.no_new {
+    color: #a2a2a2;
+}
+.filter_discount_service .arrow_filter {
+    position: absolute;
+    bottom: -15px;
+    left: 40%;
+    background: url(/images_site/basic_sprite.png) no-repeat -661px -468px;
+    width: 89px;
+    height: 18px;
+}

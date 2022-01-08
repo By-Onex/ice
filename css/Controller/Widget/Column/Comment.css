@@ -1,0 +1,39 @@
+/* Widget_Comments*/
+
+.widget-comment
+
+{
+
+
+
+}
+
+.widget-comment .comment
+
+{
+
+	margin:0 5px 10px;
+
+}
+
+.widget-comment .left-text
+
+{
+
+	color:#5B95C2;
+
+	font-size:12px;
+
+}
+
+.widget-comment a,
+
+.widget-comment a:hover,
+
+.widget-comment a:visited
+
+{
+
+	color:#647783;
+
+}

@@ -1,0 +1,237 @@
+/* Клиника - форма добавления отзыва, подтверждения отзыва */
+.review_form {
+    margin-top:10px !important;
+    font-family:Tahoma;
+    color:#2a667a;
+    font-size:12px;
+}
+.review_form h3 {
+    color:#b5b5b5;	font-size:18px;	margin:4px 0 !important; padding:0;
+}
+.review_form input.button, 
+.review_form input.submit{
+    color:#2a667a;
+    border:none;
+    font-size:12px;
+    font-weight: bold;
+    font-family:'Tahoma';
+    background: url('/images_site/basic_sprite.png') -36px -91px no-repeat;
+    height:27px;
+    width:121px;
+    display:block;
+    cursor:pointer;
+    margin: 8px auto;
+    outline:none;
+}
+
+.review_form input.button:hover, 
+.review_form input.submit:hover{
+    background-position:-36px -118px;
+}
+
+
+.review_form a, #clinic-rates-list a{padding:0 2px 0 2px; color:#707988;}
+.review_form a.select, #clinic-rates-list a.select{color: #378FBF; text-decoration: none; border:0; padding:2px;}
+
+/* Комментарий администрации */
+.clinic_comments .comment_from_admin {
+    background: #ddffdd;
+}
+
+/* Комментарий клиники */
+.clinic_comments .comment_from_clinic {
+    background: #ffdddd;
+}
+
+/* Комментарий врача */
+.clinic_comments .comment_from_doctor {
+    background: #ddddff;
+}
+
+/* Остальные комментарии */
+.clinic_comments .comment_from_none {
+
+}
+.review_comments{
+    margin-left:20px;
+}
+.comment_block_item {
+    padding:8px 4px;
+    cursor:default;
+}
+.comment_block_item.tree_bg{
+    background-color:#fdfbea;
+}
+
+.comment-author-data .smallhint
+{
+    text-indent:40px;
+    color:#BD2D09;
+    font-size:12px;
+    line-height:1em;
+}
+.comment-author-data .smallhint
+{
+    text-indent:40px;
+    color:#BD2D09;
+    font-size:12px;
+    line-height:1em;
+}
+
+/* "тянущаяся" кнопка  */
+.stretch-button{
+    display: inline-block;
+    cursor: pointer;
+    border: 0;
+    text-decoration: none;
+}
+.stretch-button-holder{
+    text-align: center;
+    display:block;
+    padding: 8px;
+}
+.stretch-button-center{
+    top:0;
+    height: 27px;
+    border: 0;
+    vertical-align: middle;
+    float: left;
+    color: #2A667A;
+}
+.stretch-button .stretch-button-center{
+    background-image: url(/images_site/review_button_1px.png);
+}
+.stretch-button:hover .stretch-button-center{
+    background-image: url(/images_site/review_button_1px_hover.png);
+}
+.stretch-button-center span{
+    color: #2A667A;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Tahoma';
+}
+.stretch-button-lside,
+.stretch-button-rside
+{
+    top:0;
+    width:13px;
+    height: 27px;
+    margin: 0;
+    float: left
+}
+.stretch-button .stretch-button-lside{
+    background: url("/images_site/basic_sprite.png") -36px -91px no-repeat;
+}
+.stretch-button .stretch-button-rside{
+    background: url("/images_site/basic_sprite.png") -144px -91px no-repeat;
+}
+.stretch-button:hover .stretch-button-lside{
+    background: url("/images_site/basic_sprite.png") -36px -118px no-repeat;
+}
+.stretch-button:hover .stretch-button-rside{
+    background: url("/images_site/basic_sprite.png") -144px -118px no-repeat;
+}
+/*Все поле авторизации*/
+#mainContent .review_authorization_on_site {
+    margin-bottom: 10px;
+}
+#mainContent .review_authorization_on_site table{
+    width: 100%;
+}
+#mainContent .non_autorize{
+    margin: 10px 0;
+}
+#mainContent .non_autorize #show_auth{
+    margin-left: 5px
+}
+#mainContent #review_on_articles{
+    display: none;
+}
+/*Блок ИЛИ*/
+td .block_or{
+    font-size: 17px;
+    margin: 27px 2px 0 2px;
+    color: #348fbc;
+    float: left;
+}
+/*Часть левого или правого блока*/
+.authorize_block{
+    border: 1px solid #dbdcde;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    padding: 5px;
+    padding-left: 7px;
+    min-height: 55px;
+    height: 94px;
+}
+.authorize_block a {
+    padding: 0px;
+}
+/*Через социалку*/
+td .login_by_social
+{
+   /* max-width: 300px;*/
+    width: 49%;
+}
+.login_by_social img{
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    width: 32px;
+}
+
+.login_by_social_label{
+    margin-top: 13px !important;
+    margin-bottom: 5px !important;
+}
+/*Правый блок*/
+.review_contact_data{
+    width: 49%;   
+}
+/*Поле отзыва*/
+#mainContent .review_form_content textarea {
+    width: 99%;
+    border: 1px solid #3d8dc0;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    height: 65px;
+    padding: 4px;
+    color: #939191;  
+    font-size: 12px;
+    font-family: Arial, Verdana, sans-serif;
+    resize: vertical;
+}
+/*Имя и email*/
+.authorize_block input{
+    width: 45%;
+    height: 27px;    
+    border: 1px solid #dcdddf;
+    padding-left: 4px;
+    margin: 4px;
+    font-size: 12px;
+    min-width: 150px;
+}
+.non_autorize input
+{
+    width: 20%;
+    height: 20px;    
+    border: 1px solid #dcdddf;
+    padding-left: 5px;
+    margin-bottom: 7px;
+    font-size: 12px;
+    min-width: 149px;
+
+}
+/*Подписи*/
+.authorize_block p{
+    color: #378FBF;
+    margin-bottom: 5px;
+}
+
+.send_message:hover{
+    background-image: url(/images_site/bg_button_settings_hover.png)!important;
+    background-repeat: repeat-x;
+}

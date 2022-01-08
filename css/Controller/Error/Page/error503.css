@@ -1,0 +1,66 @@
+.error_body 
+
+{
+
+	margin:0;
+
+	padding:0;
+
+	 background: #dedede
+
+}
+
+error_div
+
+{
+
+    background: url('error_503_bg.jpg') 50% top no-repeat;
+
+	position:absolute;
+
+	height:70px;
+
+	width:410px;
+
+	position:absolute;
+
+	top:470px;
+
+	left:50%;
+
+	margin-left:-190px;
+
+}
+
+
+
+error_p
+
+{
+
+	margin-top:0;
+
+	font-family:'Candara';
+
+	font-size:16px;
+
+	color:#808080;
+
+}
+
+error_h2
+
+{
+
+	color:#544037;
+
+	font-size:30px;
+
+	font-family:Candara;
+
+	font-style:italic;
+
+	margin-bottom:0;
+
+}
+

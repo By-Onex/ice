@@ -1,0 +1,64 @@
+#primaryContent #stom-page-stat{ width:auto; display:none;}
+#primaryContent #stom-page-stat div{ width: auto;	height: 100%; padding: 0;
+	/*border: 1px solid blue;*/
+
+}
+#primaryContent #stom-page-stat table .sps-date-col{
+
+	width: 60px;
+
+}
+
+#primaryContent #stom-page-stat table .sps-pv-col{
+
+	width: 150px;
+
+}
+
+#primaryContent #stom-page-stat table .sps-sv-col{
+	width: 120px;
+
+}
+#primaryContent #stom-page-stat table .sps-prv-col{
+	width: 100px;
+
+}
+#primaryContent #stom-page-stat table{
+
+	/*width: 450px;*/
+
+	height:auto;
+
+	margin: 0;
+
+	border-collapse:collapse;
+
+}
+#primaryContent #stom-page-stat table caption{
+
+	font-size: 10pt;
+
+	font-weight: bold;
+
+}
+
+#primaryContent #stom-page-stat table th{
+	font-size: 12px;
+	color:#333;
+	/*border: solid 1px black;*/
+	text-align: center;
+	padding-top: 0;
+	padding-bottom: 0;
+
+	border:1px solid #999;
+
+	background-color: #eee;
+
+}
+
+#primaryContent #stom-page-stat table td{
+	font-size: 11px;
+	text-align: center;
+
+	border:1px solid #999
+}

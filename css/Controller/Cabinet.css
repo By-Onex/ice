@@ -1,0 +1,379 @@
+.choise_type_user {
+    margin-left: 165px;
+    width: 65%;
+}
+.choise_type_user input {
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+}
+.choise_type_user label {
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.choise_type_user.attention{
+    color: #FF0000;
+    background: url('image.jpg') repeat-x;
+    background-image: url('image.jpg');
+    background-repeat: repeat-x;
+} 
+
+.block_user_confirmation {
+    position: relative;
+    background: #e2eff7;
+    border: 1px solid #77afd0;
+    padding: 10px;
+    border-radius: 5px; 
+    margin: 5px 0 0 165px;
+    -moz-border-radius: 5px; 
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #3b3b3b;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.block_user_confirmation .hint {
+    color: #3b3b3b;
+    font-size: 12px;
+    margin: 2px 0 15px;
+}
+.block_user_confirmation .item_name_confirm {
+    position: relative;
+    color: #3b3b3b;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.block_user_confirmation .item_name_confirm .icon_name {
+    display: inline-block;
+    margin-right: 5px;
+    background: url(/images_site/basic_sprite.png) no-repeat -704px -502px;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+.block_user_confirmation .item_name_confirm .name_doctor {
+    display: inline;
+    font-size: 16px;
+    line-height: 15px;
+    color: #378fbf;
+    border-bottom: 1px dashed #378fbf;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.block_user_confirmation .item_name_confirm .block_information_doctor {
+    position: relative;
+    background: #fff;
+    display: none;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #77afd0;
+    margin: 15px 0 0;
+}
+.block_user_confirmation .item_name_confirm .block_information_doctor .block_img {
+    float: left;
+    width: 135px;
+    overflow: hidden;
+}
+.block_user_confirmation .item_name_confirm .block_information_doctor .block_img img {
+    width: 135px;
+    height: auto;
+}
+.block_user_confirmation .item_name_confirm .block_information_doctor .contact_info {
+    margin-left: 145px;
+    position: relative;
+}
+.block_user_confirmation .item_name_confirm .link_name_user {
+    color: #378fbf;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.block_user_confirmation .item_name_confirm p{
+    line-height: 18px;
+}
+.block_user_confirmation .arrow {
+    position: absolute;
+    top: -10px;
+    left: 134px;
+    display: block;
+    background: url(/images_site/basic_sprite.png) no-repeat -767px -496px;
+    width: 10px;
+    height: 11px;
+}
+.block_user_confirmation .arrow_white {
+    position: absolute;
+    top: -10px;
+    left: 120px;
+    display: block;
+    background: url(/images_site/basic_sprite.png) no-repeat -693px -508px;
+    width: 8px;
+    height: 10px;
+}
+/*.cancel_settings {
+    width: 175px;
+    height: 15px;
+    border: 1px solid #b4b4b4;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-align: center;
+    padding: 5px 0;    
+    float: right;
+    cursor: pointer;
+    margin-top: 20px;
+    background: #e2e2e2;     
+    background: -moz-linear-gradient(#f3f3f3, #d0d0d0);  FF 3.6+   
+    background: -ms-linear-gradient(#f3f3f3, #d0d0d0);  IE10   
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f3f3f3), color-stop(100%, #d0d0d0));  Safari 4+, Chrome 2+   
+    background: -webkit-linear-gradient(#f3f3f3, #d0d0d0);  Safari 5.1+, Chrome 10+   
+    background: -o-linear-gradient(#f3f3f3, #d0d0d0);  Opera 11.10   
+ 
+    background: linear-gradient(#f3f3f3, #d0d0d0);  the standard 
+    color: #333!important;
+    background: #e2e2e2\0/;
+}*/
+.personal_page_profile .content_tab .block_user_confirmation .cancel_settings, 
+.personal_page_profile .content_tab .block_user_confirmation .save_settings {
+    float: left;
+    width: 100px;
+    margin: 20px 15px 0 0;
+    display: inline-block;
+}
+.personal_page_profile .content_tab .block_user_confirmation a.save_settings {
+    text-decoration: none;
+    float: none;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 0;
+}
+.block_user_confirmation .title_confirm {
+    color: #378fbf;
+    font-size: 16px;
+}
+.personal_page_profile .container_info_profile .personal_data h2 {
+    color: #3b3b3b;
+    font-size: 22px;
+    margin-bottom: 20px!important;
+    font-family: Tahoma, Arial, sans-serif;
+    font-weight: normal;
+}
+.personal_page_profile .container_info_profile  .notfications_table_th{
+    color: #939393;
+    font-size: 16px;
+    font-weight: bold;
+    width: 20%;
+    padding: 10px 0px;
+}
+.personal_page_profile .container_info_profile  .notfications_table_td_first{
+    width: 60%;
+}
+
+
+.personal_page_profile .block_place_work {
+    background: #E2EFF7;
+    border: 1px solid #77AFD0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #3B3B3B;
+    font-size: 12px;
+    margin: 0 0 15px;
+    padding: 10px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.personal_page_profile .block_place_work .block_column {
+    float: left;
+    width: 48%;
+    margin-right: 5px;
+}
+.personal_page_profile .block_place_work .block_column p span {
+    color: #838383;
+}
+.personal_page_profile .block_place_work .block_column p {
+    line-height: 22px;
+}
+.personal_page_profile .block_place_work .remove_clinic {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: url(/images_site/basic_sprite.png) no-repeat -751px -487px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+.personal_page_profile .container_info_profile .personal_data .block_place_work ul li {
+    margin-top: 15px;
+    position: relative;
+    margin-bottom: 0;
+}
+.personal_page_profile .container_info_profile .personal_data .block_place_work ul li:first-child {
+    margin-top: 0;
+}
+
+.personal_page_profile .container_info_profile .personal_data li .item_personal_data_settings {
+    color: #3B3B3B;
+    display: block;
+    float: left;
+    margin-right: 15px;
+    text-align: right;
+    /*width: 110px;*/
+    font-size: 14px;
+}
+.personal_page_profile .block_place_work li .more_info_settings {
+    background-color: transparent;
+    margin-left: 130px;
+    width: 47%;
+    height: auto;
+    border: 0 none;
+    font-size: 14px;
+}
+.personal_page_profile .block_place_work li .more_info_settings.for_input {
+    width: 50%;
+}
+.personal_page_profile .block_place_work li .more_info_settings input {
+    border: 1px solid #D5D5D5!important;
+    width: 90%!important;
+    padding: 2px;
+    margin: 0;
+}
+.personal_page_profile .block_place_work li .more_info_settings select {
+    display: inline-block;
+    margin: 0 5px;
+    border: 1px solid #D5D5D5;
+    width: 41%;
+    height: 22px;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', Verdana, Arial, sans-serif;
+}
+.personal_page_profile .block_place_work li .more_info_settings .ajax_loader{
+    background-image: url(/images_site/ajax_loader.gif);
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: 3px 0 0 3px;
+    display: none;
+}
+.personal_page_profile .block_place_work li .more_info_settings input#clinic_id
+{
+    float: left;
+}
+
+
+.personal_page_profile .block_place_work .button_block {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.personal_page_profile .block_place_work .button_block.delete {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    display: none;
+}
+
+.personal_page_profile .container_info_profile .personal_data .button_block .save_settings {
+    width: 92px;
+    float: left;
+    margin-left: 12px;
+    margin-bottom: 0;
+}
+.personal_page_profile .container_info_profile .notifications_form .status_block {
+    float: none;
+    margin-left: 12px;
+    margin-bottom: 0;
+}
+.personal_page_profile .save_avatar, .personal_page_profile .save_avatar:hover {
+    margin-top: 6px;
+}
+.personal_page_profile .container_info_profile .personal_data .save_settings{
+    float: left;
+    margin: 0 0 20px;
+}
+.personal_page_profile .container_info_profile .personal_data .services {
+    position: relative;
+    top: -5px;
+    margin-bottom: 10px;
+}
+.personal_page_profile .container_info_profile .personal_data .services_list {
+    color: #3b3b3b;
+    font-size: 18px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+.personal_page_profile .container_info_profile .personal_data .services_list input[type="checkbox"] {
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+}
+.personal_page_profile .container_info_profile .personal_data .services_list label {
+    vertical-align: middle;
+}
+.personal_page_profile .container_info_profile .personal_data ul.services_list li {
+    margin-bottom: 10px;
+}
+.personal_page_profile .container_info_profile .personal_data ul.services_list li li:first-child {
+    margin-top: 10px;
+}
+.personal_page_profile .container_info_profile .personal_data ul.services_list li li {
+    font-size: 14px;
+}
+.personal_page_profile .container_info_profile .personal_data ul.services_list .collapse{
+    color: #378fbf;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.personal_page_profile .container_info_profile .personal_data .services_list .collapse:hover{
+    text-decoration: underline;
+    color: #378fbf;
+}
+.personal_page_profile .item_field_description {
+    position: relative;
+    margin-bottom: 25px;
+}
+.personal_page_profile .item_field_description .title_description {
+    display: inline-block;
+    width: 140px;
+    color: #3b3b3b;
+    float: left;
+    font-size: 14px;
+    font-family: Tahoma, Arial, sans-serif;
+    text-align: right;
+}
+.personal_page_profile .item_field_description .block_description {
+    margin-left: 162px;
+    position: relative;
+    border: 1px solid #acaead;
+    overflow: hidden;
+    background: #fff;
+}
+.personal_page_profile .item_field_description .block_description textarea {
+    border: 0 none;
+    border-top: 1px solid #cdcece;
+    border-radius: 0; 
+    -moz-border-radius: 0; 
+    -khtml-border-radius: 0;   
+    -webkit-border-radius: 0;
+    margin: 0;
+    width: 99%!important;
+    min-height: 80px;
+    resize: vertical;
+}
+.personal_page_profile .item_field_description .block_description .header {
+    background: #fcfcfc;
+    border-bottom: 1px solid #dcdddc;
+    height: 18px;
+}
+.personal_page_profile .container_info_profile .personal_data .save_info.save_settings {
+    float: right;
+    margin: 0;
+}
+.personal_page_profile .container_info_profile .personal_data .status_block {
+    margin-top: 0;
+    position: relative;
+    top: 5px;
+}

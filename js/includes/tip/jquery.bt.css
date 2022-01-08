@@ -1,0 +1,127 @@
+/**
+
+ * styling for tip content
+
+ * mostly for example
+
+ * note: canvas (the tip itself) cannot be styled here. use javascript options for that.
+
+ */
+
+.bt-content {
+
+  color: #000;
+
+  line-height: normal;
+
+}
+
+
+
+/* styling for active target elements - usually for background hilighting */
+
+.bt-active {
+
+  /* example:
+
+  background-color: yellow !important;
+
+  */
+
+}
+
+
+
+a.doctor-fio, a.clinic-name,a.service-name,
+#right-col .balloon a.doctor-fio, #right-col .balloon a.clinic-name, #right-col .balloon a.service-name
+{
+	font-weight:normal;
+	text-decoration:underline;
+	color: #378FBF;	
+}
+a.doctor-fio:hover, a.clinic-name:hover,a.service-name:hover,
+#right-col .balloon a.doctor-fio:hover, #right-col .balloon a.clinic-name:hover, #right-col .balloon a.service-name:hover
+{
+	text-decoration:none;
+	
+}
+
+#tipWait
+
+{
+
+	position:absolute;
+
+	z-index:100;
+
+	background:gray;
+
+	opacity:0.5;
+
+	left:300px;
+
+	width:100%;
+
+	height:100%;
+
+}
+
+#closeImg
+
+{
+
+	cursor:pointer;
+
+}
+
+
+
+.fioTip
+
+{
+
+	font-weight:bold;
+
+	padding-bottom:10px;
+
+	text-align:center;
+
+}
+
+
+
+.titleTip
+
+{
+
+	vertical-align:top;
+
+	border-bottom:1px solid #6089a8;
+
+	color:#6089a8;
+
+}
+
+#tipTable p
+
+{
+
+	font-size:11px;
+
+	text-align:left;
+
+}
+
+
+
+#tipDiv
+
+{
+
+	overflow: auto;
+	min-height:225px;
+	max-height:225px;
+
+	_height:225px;
+
+}

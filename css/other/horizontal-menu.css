@@ -1,0 +1,210 @@
+#horizontal-menu {
+}
+
+
+#horizontal-menu div.left { /*position: relative;*/
+    height: 29px;
+    padding: 0;
+    background: #b9c728 url(/images_site/menu_bg.png) left top repeat-x;
+}
+
+
+#horizontal-menu div.right { /*position: relative;*/
+    height: 29px;
+    padding: 0;
+    margin: 0;
+    background: url(/images_site/menu_left.png) left top no-repeat;
+}
+
+
+#horizontal-menu div.google-search {
+    float: right;
+    margin: 4px 7px 0 0;
+    vertical-align: center;
+}
+
+
+#horizontal-menu ul.outer {
+    padding: 0 0 0 17px;
+    margin: 0;
+    color: #fff;
+}
+
+
+#horizontal-menu ul.outer li {
+
+
+    background: url(/images_site/menu_razdelitel.png) left top no-repeat;
+
+
+    padding: 7px 7px 5px 10px;
+
+
+    margin: 0;
+
+
+    font-weight: bold;
+
+
+    font-size: 10pt;
+
+
+    display: block;
+
+
+    float: left;
+
+
+    position: relative;
+
+
+}
+
+
+#horizontal-menu ul.outer li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+#horizontal-menu ul.outer li.first {
+    background: none;
+}
+
+
+#horizontal-menu div ul.inner {
+
+
+    list-style: none;
+
+
+    margin: 0;
+
+
+    padding: 0 0 0 0;
+
+
+    float: left;
+
+
+    position: absolute;
+
+
+    left: -10px;
+
+
+    top: 16px;
+
+
+    border: solid 1px #A9BA15;
+
+
+    background-color: #BCC92B;
+
+
+    border-top-width: 0;
+
+
+    color: white;
+
+
+    z-index: 1000000;
+
+
+}
+
+
+#horizontal-menu div ul.inner li {
+
+
+    background: none;
+
+
+    padding: 0;
+
+
+    margin: 0;
+
+
+    float: none;
+
+
+    border: 1px solid #BCC92B;
+
+
+    position: relative;
+
+
+    z-index: 1000001;
+
+
+}
+
+
+#horizontal-menu div ul.inner li a {
+
+
+    display: block;
+
+
+    padding: 2px 5px;
+
+
+    position: relative;
+
+
+    margin: 0;
+
+
+    white-space: nowrap;
+
+
+    z-index: 1000002;
+
+
+}
+
+
+* html #horizontal-menu div ul.inner li a {
+
+
+    /*height: 1px;*/
+
+
+}
+
+
+#horizontal-menu div ul.inner li a:hover {
+
+
+    background-color: #A9BA15;
+
+
+}
+
+
+#horizontal-menu div.turned-in ul.inner {
+
+
+    display: none;
+
+
+}
+
+
+#horizontal-menu div.turned-out ul.inner {
+
+
+    display: block;
+
+
+}
+
+
+#horizontal-menu ul.outer li div {
+
+
+    position: relative;
+
+
+}

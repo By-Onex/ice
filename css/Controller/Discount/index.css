@@ -1,0 +1,162 @@
+
+#all_link {
+    float: right;
+    margin: 10px 0;
+}
+
+.page_discount {
+    position: relative;
+}
+#mainContent .page_discount h1 {
+    text-align: left;
+    font-size: 22px;
+    font-weight: normal;
+}
+.page_discount .filter_discount_service {
+    position: relative;
+    background: #F7F7F7;
+    border: 1px solid #D5D5D5;
+    color: #3C3A30;
+    border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    -khtml-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding: 10px 15px 0px;
+    margin: 20px 0 25px;
+}
+.page_discount .list_service {
+    position: relative;
+}
+.page_discount .list_service li {
+    display: inline-block;
+    width: 30%;
+    color: #448cba;
+    font-size: 14px;
+    margin-bottom: 12px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+.page_discount .list_service li.selected_service {
+    color: #333;
+}
+.page_discount .list_service li.no_new {
+    color: #a2a2a2;
+}
+.page_discount .filter_discount_service .arrow_filter {
+    position: absolute;
+    bottom: -15px;
+    left: 40%;
+    background: url(images_site/basic_sprite.png) no-repeat -661px -468px;
+    width: 89px;
+    height: 18px;
+}
+.page_discount .add_service {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #29709f;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 2px 2px 3px;
+    line-height: 14px;
+    border: 1px solid #29709f;
+    width: 116px;
+    background: #3b84b4;
+    background: -moz-linear-gradient(#58a0c8, #3680b1); /* FF 3.6+ */  
+    background: -ms-linear-gradient(#58a0c8, #3680b1); /* IE10 */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #58a0c8), color-stop(100%, #3680b1)); /* Safari 4+, Chrome 2+ */  
+    background: -webkit-linear-gradient(#58a0c8, #3680b1); /* Safari 5.1+, Chrome 10+ */  
+    background: -o-linear-gradient(#58a0c8, #3680b1); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#58a0c8', endColorstr='#3680b1'); /* IE6 & IE7 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#58a0c8', endColorstr='#3680b1')"; /* IE8+ */  
+    background: linear-gradient(#58a0c8, #3680b1); /* the standard */
+}
+.page_discount .add_service span {
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}
+.page_discount .block_list_discount {
+    position: relative;
+}
+.page_discount .block_list_discount #select_clinic {
+    top: 27px;
+}
+.list_promtions {
+    position: relative;
+    margin-top: 10px;
+}
+.list_promtions li {
+    position: relative;
+    padding: 20px;
+    border-bottom: 1px solid #d5d5d5;
+}
+.list_promtions li .block_price {
+    float: left;
+    text-align: center;
+    width: 95px;
+}
+.list_promtions li .block_price .per_sent {
+    color: #cc2a2a;
+    text-align: center;    
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.list_promtions li .block_price .per_sent span {
+    display: block;
+    font-size: 32px;
+    line-height: 22px;
+    margin-top: 5px;
+}
+.list_promtions li .block_price .old_price {
+    color: #a2a2a2;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.list_promtions li .block_price .new_price {
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+}
+.list_promtions li .block_image_clinic {
+    float: left;
+    width: 100px;
+    overflow: hidden;
+}
+.list_promtions li .info_promo {
+    margin-left: 215px;
+}
+.list_promtions li .info_promo .title_discount {
+    color: #086CA5;
+    font-size: 18px;
+    font-family: Tahoma, Geneva, serif;
+}
+.list_promtions li .info_promo p {
+    margin: 8px 0 17px;
+    font-size: 12px;
+    font-family: Tahoma, Geneva, serif;
+}
+.list_promtions li .info_promo .name_clinic {
+    color: #086ca5;
+    font-style: italic;
+    font-size: 13px;
+    font-family: Georgia,'Times New Roman', Times, serif;
+    float: left;
+    width: 56%;
+}
+.list_promtions li .period_discount {
+    float: right;
+    color: #333;
+    font-size: 13px;
+    width: 40%;
+    text-align: right;
+}
+.paid_clinic {
+    background: #f7f7f7;
+    border: 1px solid #d5d5d5;
+    margin-top: 10px;
+}

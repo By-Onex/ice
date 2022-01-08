@@ -1,0 +1,177 @@
+.autofill_form
+
+{
+
+	width:390px;
+
+	padding:5px;
+
+	font-size:13px;
+
+}
+
+.autofill_form p
+
+{
+
+	margin-bottom:10px;
+
+}
+
+.autofill_form .inf
+
+{
+
+	color:#616161;
+
+	margin-bottom: 10px;
+
+}
+
+.autofill_form .header
+
+{
+
+	color:#616161;
+
+	font:18px/18px Trebuchet MS;
+
+	margin-bottom:10px;
+
+}
+
+.autofill_form .qwe
+
+{
+
+	width:100%;
+
+	background-color:#fdf3d1;
+
+	border: 1px solid #e6cc72;
+
+	border-top: 1px solid #ffe086;
+
+	position: absolute;
+
+	width: 390px;
+
+	padding: 10px;
+
+	margin-left: -11px;
+
+	border-bottom-right-radius: 5px;
+
+	border-bottom-left-radius: 5px;
+
+}
+
+.autofill_form .line
+
+{
+
+	position: absolute;
+
+	width: 400px;
+
+	margin-left: -10px;
+
+	margin-top: -10px;
+
+	height: 1px;
+
+	background-color: #fef9e7;
+
+}
+
+.autofill_form .btn
+
+{
+
+	color:#616161;
+
+	font:13px/25px Trebuchet Ms;
+
+	padding:0 10px;
+
+	border: 1px solid #e0c360;
+
+	border-radius:4px;
+
+	background-color:#fff;
+
+	cursor:pointer;
+
+	cursor:hand;
+
+	height: 27px;
+
+}
+
+.autofill_form .btn:hover
+
+{
+
+	background-color:#ffdf72;
+
+}
+
+.autofill_form .photo
+
+{
+
+	overflow:hidden;
+
+	border:1px solid #e0c360;
+
+	background:white;
+
+	width:86px;
+
+	height:auto;
+
+	float: left;
+
+	margin: 0 10px 10px 0;
+
+}
+
+.autofill_form .photo img
+
+{
+
+	width:100%;
+
+	height:auto;
+
+}
+
+.autofill_form .close
+
+{
+
+	width:20px;
+
+	height:20px;
+
+	position:absolute;
+
+	top:0; left:100%;
+
+	margin:10px 0 0 -30px; 
+
+	background: url(/images_site/basic_sprite.png) -137px -388px no-repeat;
+
+	cursor:hand;
+
+	cursor:pointer;
+
+}
+
+.autofill_form .info_list
+
+{
+
+	margin: 0 0 10px 98px;
+
+}

@@ -1,0 +1,81 @@
+.error_body {margin:0; padding:0;background: #dedede;}
+
+.error_div{
+
+	background: transparent url('error_404_bg.png') left top no-repeat;
+
+	margin:0 auto;
+
+	height:525px;
+
+	width:475px;
+
+	position:absolute;
+
+	top:10%;
+
+	left:30%;
+
+}
+
+.error_span
+
+{
+
+	position:absolute;
+
+	bottom:0;
+
+	margin-left:50px;
+
+}
+
+.error_p
+
+{
+
+	margin-top:0;
+
+	font-family:'Trebuchet MS';
+
+	font-size:15px;
+
+	color:#787878;
+
+}
+
+.error_h2
+
+{
+
+	color:#c34340;
+
+	font-size:36px;
+
+	font-family:Candara;
+
+	font-style:italic;
+
+	margin-bottom:0;
+
+}
+
+.error_a, .error_a:visited, .error_a:hover
+
+{
+
+	color:#c9504d;
+
+	font-family:'Trebuchet MS';
+
+	font-size:14px;
+
+}
+
+.error_a:hover
+
+{
+
+	text-decoration:none;
+
+}

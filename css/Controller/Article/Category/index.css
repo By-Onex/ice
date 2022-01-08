@@ -1,0 +1,24 @@
+.container_kind_article {
+    position: relative;
+    margin: 15px;
+    text-align: center;
+}
+.container_kind_article .item_kind_article { 
+    display: inline-block;
+    width: 250px;
+    min-height: 286px;
+    vertical-align: top;
+    margin: 0 3% 25px;
+}
+.container_kind_article .item_kind_article a {
+    display: block;    
+    font-size: 20px;
+    text-align: left;
+}
+.container_kind_article .item_kind_article a span {
+    display: block;
+    margin-bottom: 10px;
+}
+.container_kind_article .item_kind_article a img {
+    border: 1px solid #77afd0;
+}

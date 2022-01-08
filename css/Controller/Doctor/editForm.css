@@ -1,0 +1,143 @@
+.form_add .clinic_list
+
+{
+
+    width:61.25%;
+
+    line-height:1.1em;
+
+}
+
+.form_add .clinic_list .add_clinic
+
+{
+
+    margin: 9px auto 9px;
+
+    cursor:hand; cursor:pointer;
+
+    color:#378FBF;
+
+    /*margin-bottom: 6px;*/
+
+    font-size: 16px;
+
+    text-align: center;
+
+    margin-left:42px;
+
+}
+
+.form_add .clinic_list .capacity
+
+{
+
+    margin-top:7px;
+
+}
+
+.form_add .clinic_list .capacity .caption
+
+{
+
+    color: #444;
+
+}
+
+.form_add .clinic_list .help
+
+{
+
+    color: #777;
+
+    font-size:12px;
+
+    line-height:1.1em;
+
+}
+
+.form_add .clinic_list .capacity input
+
+{
+
+    font-size: 13px;
+
+    height: 14px;
+
+    margin-bottom: 5px;
+
+}
+
+.ui-menu-item 
+
+{
+
+    position: relative;
+
+}
+
+
+
+.doc_info.hint
+
+{
+
+    position: absolute;
+
+    z-index: 10;
+
+    height: auto; width: 120px;
+
+    left: 100%; top: -15px;
+
+    margin-left:10px;
+
+    padding:5px;
+
+    background-color:#FFEFB9;
+
+    border: 1px solid #E0C360;
+
+    border-radius:5px;
+
+}
+
+.doc_info.hint .label
+
+{
+
+    top:0;
+
+    margin-top:11px;
+
+}
+
+.doc_info.hint img
+
+{
+
+    width: 100%;
+
+    height: auto;
+
+    border:1px solid #FDF3D1;
+
+}
+
+.add_doctor .cancel
+
+{
+
+	width:auto;
+
+	height:27px;
+
+}
+
+.add_doctor .cancel p
+
+{
+
+	margin-top:5px;
+
+}

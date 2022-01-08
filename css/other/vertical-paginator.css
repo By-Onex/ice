@@ -1,0 +1,51 @@
+#container .vertical_paginator {
+    visibility: hidden;
+    display: none;
+}
+
+#container .vertical_paginator .previous_page {
+    text-align: right;
+    position: absolute;
+}
+
+#container .vertical_paginator .arrows {
+    position: relative;    
+    z-index: 150;
+    opacity: 0.5;
+}
+
+#container .vertical_paginator .previous_page .arrows a {
+    color: #4a8eba;
+    font-size: 16px;
+    display: block;
+    padding-top: 120px;
+    width: 97px;
+    background: url(/images_site/left_paginator.jpg) no-repeat 100% 0;
+    text-decoration: none;
+}
+
+#container .vertical_paginator .next_page {
+    text-align: left;
+    position: absolute;
+}
+
+
+#container .vertical_paginator .next_page .arrows a {
+    color: #4a8eba;
+    font-size: 16px;
+    display: block;
+    padding-top: 120px;
+    width: 97px;
+    background: url(/images_site/right_paginator.jpg) no-repeat 0 0;
+    text-decoration: none;
+}
+
+#container .vertical_paginator .next_page.area_guidance {
+    opacity : 0.5;
+    padding: 40px 40px 40px 0;
+}
+
+#container .vertical_paginator .previous_page.area_guidance {
+   opacity : 0.5;
+    padding: 40px 0 40px 40px; 
+}

@@ -1,0 +1,282 @@
+.standart_form_add_review  {
+    position: relative;
+}
+.standart_form_add_review p{
+    color: #3d3d3d;
+    font-size: 14px;
+    font-family: Tahoma, Arial, sans-serif;
+    margin-bottom: 20px;
+}
+.standart_form_add_review  .block_steps {
+    background: #f7f7f7;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid #d4d4d4;
+    padding: 13px 15px;
+    color: #3d3d3d;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: Tahoma, Arial, sans-serif;
+}
+.standart_form_add_review .count_steps {
+    display: inline-block;
+    border: 1px solid #48709c;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 31px;
+    height: 31px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: "Trebuchet MS", Verdana, Arial, sans-serif;
+    background: #638eb9;
+    background: -moz-linear-gradient(#73a0c6, #547eae); /* FF 3.6+ */
+    background: -ms-linear-gradient(#73a0c6, #547eae); /* IE10 */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #73a0c6), color-stop(100%, #547eae)); /* Safari 4+, Chrome 2+ */
+    background: -webkit-linear-gradient(#73a0c6, #547eae); /* Safari 5.1+, Chrome 10+ */
+    background: -o-linear-gradient(#73a0c6, #547eae); /* Opera 11.10 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#73a0c6', endColorstr='#547eae'); /* IE6 & IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#73a0c6', endColorstr='#547eae')"; /* IE8+ */
+    background: linear-gradient(#73a0c6, #547eae); /* the standard */
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.standart_form_add_review .count_steps span{
+    position: absolute;
+    top: 2px;
+    left: 8px;
+}
+.standart_form_add_review .item_block_steps {
+    background: #e5eef6;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: Tahoma, Arial, sans-serif;
+    border: 1px solid #9fbcd6;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.standart_form_add_review .item_block_steps .save_settings {
+    margin: 0;
+    width: 154px;
+    text-decoration: none;
+}
+.standart_form_add_review .item_block_steps input {
+    width: 65%;
+    border: 1px solid #abacac;
+    color: #787878;
+    font-size: 14px;
+    padding: 0px 5px 0px;
+    position: relative;
+    top: 2px;
+}
+.standart_form_add_review .block_steps.no_active_step {
+    color: #787878;
+}
+.standart_form_add_review .block_steps.no_active_step .count_steps{
+    background: #f6f6f6;
+    background: -moz-linear-gradient(#fafafa, #ececec); /* FF 3.6+ */
+    background: -ms-linear-gradient(#fafafa, #ececec); /* IE10 */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fafafa), color-stop(100%, #ececec)); /* Safari 4+, Chrome 2+ */
+    background: -webkit-linear-gradient(#fafafa, #ececec); /* Safari 5.1+, Chrome 10+ */
+    background: -o-linear-gradient(#fafafa, #ececec); /* Opera 11.10 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#ececec'); /* IE6 & IE7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa', endColorstr='#ececec')"; /* IE8+ */
+    background: linear-gradient(#fafafa, #ececec); /* the standard */
+    color: #787878;
+    border: 1px solid #d4d4d4;
+}
+.standart_form_add_review .block_steps .list_found {
+    position: relative;
+    margin-top: 20px;
+}
+.standart_form_add_review .block_steps .list_found .item_block_steps{
+    margin:  0 0 8px;
+}
+.standart_form_add_review .block_steps .item_block_steps .name_found {
+    font-size: 16px;
+    display: inline-block;
+    border-bottom: 1px dashed #4a8bb1;
+    margin-bottom: 4px;
+    color: #4a8bb1;
+    cursor: pointer;
+}
+.standart_form_add_review .block_steps .item_block_steps .description {
+    color: #3d3d3d;
+    font-size: 14px;
+}
+.standart_form_add_review .block_steps .item_block_steps .title_review {
+    margin: 15px 0 10px;
+    color: #3d3d3d;
+    font-size: 18px;
+}
+.standart_form_add_review .block_steps .item_block_steps .opinion_clinic {
+    color: #787878;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
+}
+.standart_form_add_review .block_steps .item_block_steps .opinion_clinic a {
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #333;
+    margin: 2px 5px 8px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0;
+    border: 1px solid #b4b4b4;
+    background: #e0e0e0;
+    background: -moz-linear-gradient(#f3f3f3, #d0d0d0);
+    background: -ms-linear-gradient(#f3f3f3, #d0d0d0);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f3f3f3), color-stop(100%, #d0d0d0));
+    background: -webkit-linear-gradient(#f3f3f3, #d0d0d0);
+    background: -o-linear-gradient(#f3f3f3, #d0d0d0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3f3f3', endColorstr='#d0d0d0');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3f3f3', endColorstr='#d0d0d0')";
+    background: linear-gradient(#f3f3f3, #d0d0d0);
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+}
+.standart_form_add_review .block_steps .item_block_steps .opinion_clinic a span {
+    border-left: 1px solid transparent;
+    border-top: 1px solid transparent;
+    display: block;
+    color: #333;
+    line-height: 24px;
+    text-align: center;
+}
+.standart_form_add_review .block_steps .item_block_steps .opinion_clinic a.select {
+    background: #ffdb7a;
+    background: -moz-linear-gradient(#ffd565, #fee39a);
+    background: -ms-linear-gradient(#ffd565, #fee39a);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffd565), color-stop(100%, #fee39a));
+    background: -webkit-linear-gradient(#ffd565, #fee39a);
+    background: -o-linear-gradient(#ffd565, #fee39a);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd565', endColorstr='#fee39a');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd565', endColorstr='#fee39a')";
+    background: linear-gradient(#ffd565, #fee39a);
+    padding: 0;
+    width: 120px;
+    color: #333;
+    text-align: center;
+    border: 1px solid #f6ba17;
+    text-decoration: none;
+}
+.standart_form_add_review .block_steps .item_block_steps .opinion_clinic  a.select span {
+    border-left: 1px solid #b59341;
+    border-top: 1px solid #b59341;
+    display: block;
+    color: #333;
+}
+.standart_form_add_review .block_steps .item_block_steps textarea {
+    border: 1px solid #abacac;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #939191;
+    font-family: Arial,Verdana,sans-serif;
+    font-size: 12px;
+    height: 65px;
+    padding: 4px;
+    resize: vertical;
+    width: 98%;
+    margin-bottom: 5px;
+}
+.standart_form_add_review .block_steps .item_block_steps .clarification {
+    color: #787878;
+    font-size: 13px;
+    font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+.info_required_field {
+    background:  #FFF5BC;
+    border: 1px solid #D6D6D6;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #333!important;
+    font-size: 12px!important;
+    margin: 10px 0 5px!important;
+    padding: 5px 8px!important;
+    position: relative;
+}
+.info_required_field span.red_text {
+    color: #FF1D1D;
+    font-weight: normal;
+    line-height: normal;
+}
+.info_required_field span.close_info {
+    background: url("images_site/basic_sprite.png") no-repeat scroll -750px -511px;
+    cursor: pointer;
+    height: 8px;
+    position: absolute;
+    right: 9px;
+    top: 8px;
+    width: 7px;
+}
+.standart_form_add_review .review_authorization_on_site {
+    position: relative;
+    color: #3d3d3d;
+    font-size: 13px;
+    margin-bottom: 7px;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+.standart_form_add_review .review_authorization_on_site p {
+    color: #3d3d3d;
+    font-size: 13px;
+    margin: 0;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+.standart_form_add_review .review_authorization_on_site .authorize_block {
+    background: #f7f7f7;
+    padding: 10px;
+    border: 1px solid #dbddde;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.standart_form_add_review .review_authorization_on_site .item_social {
+    height: 32px;
+    margin-top: 8px;
+}
+.standart_form_add_review .review_authorization_on_site .login_by_social {
+    width: 165px;
+}
+.standart_form_add_review .review_authorization_on_site .review_contact_data {
+    width: auto;
+}
+.standart_form_add_review .review_authorization_on_site td.block_or {
+    float: none;
+    padding: 56px 5px 0;
+    text-align: center;
+}
+.standart_form_add_review .item_block_steps .review_authorization_on_site  input {
+    width: 96%;
+    font-size: 18px;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+.standart_form_add_review .item_block_steps input.send_message {
+    border: 1px solid #2A719D;
+    padding: 3px 0;
+    width: 150px;
+    font-size: 13px;
+}
+.standart_form_add_review .item_block_steps .button_rating, .standart_form_add_review .item_block_steps .title {
+    float: left;
+    position: relative;
+}

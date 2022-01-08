@@ -1,0 +1,12 @@
+/* 
+    Document   : clinicCheckMetro
+    Created on : 29.08.2011, 14:26:29
+    Author     : dp
+    Description:
+        Purpose of the stylesheet follows.
+*/
+ 
+table#checkMetro tr th, table#checkMetro tr td {
+	border: 1px solid black;
+	padding: 2px;
+}

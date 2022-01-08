@@ -1,0 +1,298 @@
+.discount-percent{
+
+	position: absolute;
+
+	right: 5px;
+
+	top: 30px;
+
+	font-size: 35pt;
+
+	color: #337CAF;
+
+}
+
+.discount-word{
+
+	position: absolute;
+
+	top: 15px;
+
+	right: 5px;
+
+	font-size: 15pt;
+
+	color: #337CAF;
+
+}
+
+.discount-conditions{
+
+	text-align: right;
+
+	font-size: 14pt;
+
+	color: #337CAF;
+
+	margin: 0 5px;
+
+}
+
+.discount-coupon-text{
+
+	color: #378FBF;
+
+	margin: 5px 5px 0 5px;
+
+}
+
+.discount-finish-date{
+
+	color: #378FBF;
+
+	font-weight: bold;
+
+	margin: 0 5px 5px 5px;
+
+}
+
+.discount-clinic-name{
+
+	text-align: center;
+
+	font-weight: bold;
+
+	font-size: 12pt;
+
+	color: #337CAF;
+
+	margin: 0 5px;
+
+}
+
+.discount-clinic-contacts{
+
+	text-align: center;
+
+	font-size: 10pt;
+
+	color: #378FBF;
+
+	margin: 0 5px 5px 5px;
+
+}
+
+.discount_logo {
+
+	background: url(/images_site/basic_sprite.png) -599px -355px no-repeat;
+
+	height:65px;
+
+	width:181px;
+
+	margin-top:10px;
+
+	margin-left:10px;
+
+}
+
+.coupon
+
+{
+
+	border: 3px dashed #0e93bf;
+
+	background-color: white;
+
+	position: relative;
+
+	margin:10px 0;
+
+	width:605px;
+
+	height:auto;
+
+	padding-bottom:10px;
+
+}
+
+
+
+.coupon_logo
+
+{
+
+	height: 74px;
+
+	position: relative;
+
+	margin: 5px;
+
+}
+
+.coupon_logo img {
+
+	height: 74px;
+
+	position:absolute;
+
+	left:0;
+
+	top:0;
+
+}
+
+.coupon_discount_perc
+
+{
+
+	float:right;
+
+	position:relative;
+
+	text-align:center;
+
+	padding:8px 5px;
+
+	color: #0e93bf;
+
+	font:bold 15px/17px 'Trebuchet Ms';
+
+}
+
+.coupon_discount_perc span.label {
+
+	white-space:nowrap;
+
+	font: bolder 15px/17px Tahoma;
+
+}
+
+
+
+.coupon_discount_perc span.percent {
+
+	font: bolder 43px/46px Tahoma;
+
+	position: relative;
+
+}
+
+
+
+.coupon_conditions
+
+{
+
+	font:bold 15px/18px 'Trebuchet Ms';
+
+	text-align: right;
+
+	font-size: 14pt;
+
+	color: #0e93bf;
+
+	padding: 0 10px 5px;
+
+	margin: 0 5px 0;
+
+	border-bottom: 1px solid #333;
+
+	max-height:130px;
+
+}
+
+
+
+#coupon_scissors
+
+{
+
+    position: relative;
+
+	top:auto;
+
+	left:-3px;
+
+}
+
+.coupon_text_near_scissors
+
+{
+
+	padding-top:7px;
+
+	max-width:90px;
+
+	text-align: left;
+
+	margin-left: 33px;
+
+	color: #666666;
+
+	font: 9px/10px Tahoma;
+
+	position: relative;
+
+	top: -31px;
+
+}
+
+.coupon_clinic_info {
+
+	position:absolute;
+
+	right:0;
+
+	bottom:0;
+
+	text-align:right;
+
+}
+
+.coupon_clinic_name
+
+{
+
+	font-weight: bold;
+
+	font-size: 12pt;
+
+	color: #0e93bf;
+
+	margin: 0 10px;
+
+	font-family: Tahoma;
+
+	padding-left:130px;
+
+}
+
+.coupon_clinic_address
+
+{
+
+	color: #666666;
+
+	margin: 0 10px 10px 10px;
+
+	font: bold 13px/14px Tahoma;
+
+}
+
+a.print_link
+
+{
+
+	display: inline;
+
+	background:none;
+
+	
+
+}
+.all_discounts {
+    float: right; 
+    margin-bottom: 10px;
+}
+

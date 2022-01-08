@@ -1,0 +1,97 @@
+<?
+
+
+	session_start();
+
+
+	include('../config.php');
+
+
+	include "../includes/functions.php";
+
+
+	$serverAddress = $_SERVER['HTTP_HOST'];
+
+
+	if (stripos($serverAddress, "vipgeo") === 0)
+
+
+	$serverAddress = "www." . $serverAddress;
+
+
+	$domains = explode(".", $serverAddress);
+
+
+	$citySql = "select * from cities where subdomain = '" . $domains[0] . "'";
+
+
+	$cityResult = mysql_query($citySql);
+
+
+	if ((is_resource($cityResult)) and (mysql_num_rows($cityResult) == 1))
+
+
+	{
+
+
+		if ($cityRow = mysql_fetch_array($cityResult))
+
+
+		{
+
+
+			$city = $cityRow;
+
+
+		}
+
+
+	}
+
+
+	header("Content-type: text/html; charset=windows-1251");
+
+
+?>
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+<head>
+
+
+<title>Сайт VipGeo</title>
+
+
+</head>
+
+
+
+
+
+<body>
+
+
+	<div style="width: 440px;">
+
+
+		<iframe src = "http://vipgeo" width = "430" height = "500">
+
+
+		</iframe>
+
+
+	</div>
+
+
+</body>
+
+
+</html>

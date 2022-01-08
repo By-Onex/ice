@@ -1,0 +1,36 @@
+#diagnost_answer_plugin{
+    margin: 0 0 20px 0;
+    background-color: #fff;
+    width: 700px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#diagnost_answer_plugin #links_select_chzn{
+    float: left;
+    margin-right: 5px;
+}
+#diagnost_answer_plugin .link_text_conteiner{
+    display: none;
+}
+#diagnost_answer_plugin .link_text_conteiner .link_text{
+    width: 350px;
+    margin-bottom: 0;
+}
+#diagnost_answer_plugin .exists_link_block.hidden{
+    display: none;
+}
+#diagnost_answer_plugin .exists_link_scroll{
+    max-height: 200px;
+    overflow-y: auto;
+}
+#diagnost_answer_plugin .exists_link td{
+    padding: 10px;
+}
+#diagnost_answer_plugin .exists_link td input[type=text]{
+    width: 300px;
+}
+
+
+
+

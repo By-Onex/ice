@@ -1,0 +1,249 @@
+.title_block {
+    display: block;
+    margin: 0 0 10px;
+    color: #333;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
+}
+.article p {
+    line-height: 18px;
+    text-align: justify;
+}
+.article p .prize{
+    font-size: 13px;
+    font-weight: bold;
+}
+.article p .date{
+    font-size: 13px;
+    font-weight: bold;
+}
+.page_info_konkurs {
+    position: relative;
+}
+/*========BANNER===================*/
+.page_info_konkurs__banner {
+    position: relative;
+    height: 397px;
+    overflow: hidden;
+    margin: 0 0 30px 0;}
+.page_info_konkurs__banner__text {position: absolute; top: 60px; left: 20px;}
+.page_info_konkurs__banner__iphone {
+    background: #005e94 url('/images_site/konkurs-banner.png') no-repeat right center;
+    float: right;
+    width: 100%;
+    height: 100%;}
+.page_info_konkurs__banner__title {
+    color:#fff600;
+    font:bold 40px 'Trebuchet MS';
+    text-shadow: 1px 1px 0 #298db8;}
+.page_info_konkurs__banner__list {margin: 55px 0 0 40px;}
+.page_info_konkurs__banner__list li {
+    color:#fff;
+    font:italic 24px 'Trebuchet MS';
+    margin-bottom: 25px;
+    list-style: none!important;
+    text-shadow: 1px 1px 0 #298db8;}
+.page_info_konkurs__banner__list li span {
+    background: yellow;
+    border-radius: 52px;
+    color: #0369a5;
+    padding: 5px 13px;
+    margin: 0 15px 0 0;
+    text-shadow:none;}
+/*========END-BANNER===============*/
+.page_info_konkurs .col_container {
+/*    float: left;
+    width: 100%;
+    margin-right: -270px;*/
+}
+
+.page_info_konkurs .col_container .content_info_konkurs {
+    /*margin-right: 300px;*/
+}
+.page_info_konkurs .col_container .content_info_konkurs .participation_rules {
+    position: relative;
+    margin: 20px 0;
+    font-family: Tahoma, Geneva, Times, serif;
+    font-size: 12px;
+}
+.page_info_konkurs .col_container .content_info_konkurs .participation_rules .header {
+    background: #77afd0;
+    color: #fff;
+    padding: 15px 20px;
+    border: 1px solid #6999b5;
+    font: 18px 'Trebuchet MS';    
+    text-shadow: 1px 1px 0 #5192b8;
+    border-radius: 5px 5px 0 0;
+}
+.page_info_konkurs .col_container .content_info_konkurs .participation_rules .text {
+    background: #fff;
+    border: 1px solid #d5d5d5;
+    padding: 15px 20px;
+    border-top: 0 none;
+    font:12px 'Trebuchet MS';
+    border-radius: 0 0 5px 5px;
+}
+
+.participation_now {width:100%; margin-bottom: 20px;}
+.participation_now__header {
+    height: 40px;
+    font: 18px 'Trebuchet MS';
+    line-height: 40px;
+    border: 1px solid #6999b5;
+    border-bottom: none;
+    padding:0 0 0 15px;
+    border-radius: 5px 5px 0 0;
+}
+.participation_now__header,
+.participation_now__footer {
+    background: #77afd0;
+    text-shadow: 1px 1px 0 #5192b8;
+     color: #fff;}   
+.participation_now__footer {
+    height: 40px;
+    font: 18px 'Trebuchet MS';
+    padding: 5px 0 15px 15px;
+    border-radius:0 0 5px 5px;
+}    
+.participation_now__body {
+    padding: 20px 20px 0 20px;
+    border: 1px solid #d5d5d5;}
+.participation_now__body__wrapper {
+    overflow: hidden; 
+    display: inline-block;
+    margin: 0 0 11px 0;}    
+.participation_now__body__title {
+    font: 13px 'Trebuchet MS';
+    margin: 0 0 20px 0;}
+.participation_now__body__items {text-align: justify;}
+.participation_now__body__item {
+    width: 32%;
+    display: inline-block;
+    text-align: left;
+    margin: 0 0 20px 0;  }   
+.participation_now__body__item.help {width: 100%; visibility: hidden;}    
+.participation_now__body__item img {
+    float: left;
+    margin: 0 10px 4px 0;
+    border: 1px solid #d5d5d5;}
+.participation_now__body__item a {font: 13px 'Trebuchet MS';}
+.participation_now__body__item__continue {
+    float: right;
+    margin: 0 22px 0 0;}
+.participation_now__body__item span {
+    font: 13px 'Trebuchet MS'; 
+    color:#a1a4a6;
+    display: block;
+    margin: 10px 0 0;}
+.participation_now__body__item span.name {margin: 0;}
+.participation_now__body__item p {margin: 0;}
+
+
+.page_info_konkurs .col_container .content_info_konkurs .block_last_participation{ 
+    background: #f3f3f3;
+    position: relative;
+    padding: 15px;
+    color: #333;
+    font-size: 13px;
+    font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
+    border: 1px solid #d5d5d5;
+    margin-bottom: 10px;
+}
+.page_info_konkurs .col_container .content_info_konkurs .block_last_participation li {
+    float: left;
+    width: 33%;
+    margin-bottom: 15px;
+}
+.page_info_konkurs .col_container .content_info_konkurs .block_last_participation li .block_avatar {
+    float: left;
+    width: 75px;
+    height: 75px;
+    overflow: hidden;
+}
+.page_info_konkurs .col_container .content_info_konkurs .block_last_participation li .block_avatar img {
+    border: 0 none;
+}
+.page_info_konkurs .col_container .content_info_konkurs .block_last_participation li .info {
+    margin-left: 85px;
+    position: relative;
+    padding: 0 15px 0 0;
+    color: #333;
+    font-size: 13px;
+    font-family: 'Trebuchet MS', Arial, Verdana, sans-serif;
+}
+.page_info_konkurs .col_container .content_info_konkurs .block_last_participation li .info .price {
+    color: #cc2a2a;
+}
+.page_info_konkurs .col_container .content_info_konkurs .block_last_participation hr {
+    background: #d5d5d5;
+    height: 1px;
+    width: 100%;
+    outline: 0 none;
+    border: 0 none;
+}
+.page_info_konkurs .list_participants {
+    width: 270px;
+    float: right;
+    position: relative;
+    z-index: 1;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.page_info_konkurs .list_participants .header {
+    background: #77AFD0;
+    border: 1px solid #6999B5;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 8px 10px;
+    text-shadow: 1px 1px 0 #5192B8;
+    border-radius: 7px 7px 0 0; 
+    -moz-border-radius: 7px 7px 0 0; 
+    -khtml-border-radius: 7px 7px 0 0;
+    -webkit-border-radius: 7px 7px 0 0;
+}
+.page_info_konkurs .list_participants .container_list {
+    background: #fff;
+    border: 1px solid #d5d5d5;
+    padding: 15px 17px;
+    border-top: 0 none;
+    border-bottom: 0 none;
+    font-size: 13px;
+}
+.page_info_konkurs .list_participants .container_list .item_info_participants {
+    position: relative;
+    margin: 20px 0 0 0;
+}
+.page_info_konkurs .list_participants .container_list .item_info_participants .block_avatar {
+    float: left;
+    height: 75px;
+    overflow: hidden;
+    width: 75px;
+}
+.page_info_konkurs .list_participants .container_list .item_info_participants .block_avatar img {
+    border: 0 none;
+}
+.page_info_konkurs .list_participants .container_list .item_info_participants .info{
+    margin-left: 85px;
+}
+.page_info_konkurs .list_participants .container_list .item_info_participants .info p {
+    margin: 10px 0;
+    color: #a1a4a6;
+}
+.page_info_konkurs .list_participants .container_list .item_info_participants p {
+    margin: 8px 0;
+}
+.page_info_konkurs .list_participants .container_list .item_info_participants .more_info {
+    text-align: right;
+}
+.page_info_konkurs .list_participants .footer{
+    background: #77AFD0;
+    border: 1px solid #6999B5;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding: 8px 10px;
+    text-shadow: 1px 1px 0 #5192B8;
+    border-radius: 0 0 7px 7px; 
+    -moz-border-radius: 0 0 7px 7px; 
+    -khtml-border-radius: 0 0 7px 7px;
+    -webkit-border-radius: 0 0 7px 7px;
+}

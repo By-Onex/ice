@@ -1,0 +1,67 @@
+.doctor_whitelist_table {width: 100%; margin-bottom: 10px;}
+
+.doctor_whitelist_table .order_none {}
+.doctor_whitelist_table .order_asc {}
+.doctor_whitelist_table .order_desc {}
+
+.doctor_whitelist_table .th_number {padding: 0 17px;width:30px;}
+.doctor_whitelist_table .th_name {width: auto;}
+.doctor_whitelist_table .th_rating,.doctor_whitelist_table .th_votes {padding: 0 10px;width:115px;}
+.doctor_whitelist_table .th_avg_rate {padding: 0 10px;}
+.doctor_whitelist_table .th_answers {padding: 0 10px;}
+.doctor_whitelist_table .th_reviews {padding: 0 10px;}
+
+.doctor_whitelist_table {position:relative;}
+.doctor_whitelist_table th {font-size:11px; border-bottom:1px solid #e4e4e4; height:30px; vertical-align:middle;}
+.doctor_whitelist_table th.th_name {text-align:left;}
+.doctor_whitelist_table td {height:38px; vertical-align:middle; font-size:14px;}
+
+.doctor_whitelist_table td.num {
+	padding:0 10px;
+	text-align:center;
+	border-left:1px solid #e4e4e4;
+	white-space:nowrap;
+}
+
+.doctor_whitelist_table td.name {}
+
+.doctor_whitelist_table td.rait {
+	background-color: #fff5bb;
+	color:#a57800;
+	text-align:center;
+	border-right:1px solid #e4e4e4;
+	padding: 0 20px;
+	white-space:nowrap;
+}
+
+.doctor_whitelist_table td.feed {
+	text-align:center;
+	padding: 0 20px;
+	white-space:nowrap;
+}
+
+.doctor_whitelist_table td.avgrate {
+	background-color: #e8f3f9;
+	color: #345469;
+	text-align:center;
+	padding: 0 10px;
+	white-space:nowrap;
+}
+
+.doctor_whitelist_table td.avgrate span {
+	color: #7E8B93;
+}
+
+.doctor_whitelist_table {
+	border-bottom:1px solid #e4e4e4;
+}
+
+.doctor_whitelist .small_search_block {
+	margin: 0 auto;
+}
+
+.doctor_whitelist .result_pagelist.bot {
+	z-index: 5;
+	position: relative;
+	margin-top: -16px !important;
+}

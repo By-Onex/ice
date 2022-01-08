@@ -1,0 +1,347 @@
+#filtering_clinics_site {
+
+    position: relative;
+
+    background: #f7f7f7;
+
+    border: 1px solid #d5d5d5;
+
+    border-radius: 5px; 
+
+    -moz-border-radius: 5px; 
+
+    -khtml-border-radius: 5px;
+
+    -webkit-border-radius: 5px;
+
+    padding: 7px 17px 11px;
+
+    font-family: Trebuchet MS, Verdana, Geneva, sans-serif;
+
+}
+
+
+
+#filtering_clinics_site #clarify_parameters {
+
+    color: #448cba;
+
+    font-size: 15px;
+
+    cursor: pointer;
+
+}
+
+
+
+
+
+#filtering_clinics_site .border_bottom_span {
+
+     border-bottom: 1px dashed #448cba;
+
+}
+
+#filtering_clinics_site .arrow_right {
+
+    background: url('/images_site/basic_sprite.png') -176px -472px no-repeat;
+
+    width: 10px;
+
+    height: 10px;
+
+    display: inline-block;
+
+    margin-right: 12px;
+
+}
+
+
+
+#filtering_clinics_site .arrow_down {
+
+    background: url('/images_site/basic_sprite.png') -175px -457px no-repeat;
+
+    width: 10px;
+
+    height: 10px;
+
+    display: inline-block;
+
+    margin-right: 12px;
+
+}
+
+
+
+#filtering_clinics_site #choise_required_parameters {
+
+    position: relative;
+
+    display: none;
+
+}
+
+
+
+#filtering_clinics_site #choise_required_parameters #department_frame {
+
+    height: 1px;
+
+    background: #d5d5d5  repeat-x;
+
+    margin: 10px 0;
+
+}
+
+
+
+#filtering_clinics_site #choise_required_parameters #left_block_with_param { 
+
+    float: left;
+
+    width: 45%;
+
+    margin-right: 15px;
+
+}
+
+
+
+#filtering_clinics_site #choise_required_parameters #right_block_with_param  {
+
+    float: right;
+
+    width: 45%;
+
+}
+
+
+
+#filtering_clinics_site .name_parameters {
+
+    font-size: 13px;
+
+    color: #434343;
+
+    font-weight: bold;
+
+    display: inline-block;
+
+}
+
+
+
+#filtering_clinics_site #choise_required_parameters .input_container {
+
+    height: 27px;
+
+    width: 100%;
+
+    background: #fff url('/images_site/bg_input.png') repeat-x;
+
+    border: 1px solid #aaa;
+
+    margin: 8px 0;
+
+}
+
+
+
+#filtering_clinics_site #choise_required_parameters .input_container input {
+
+    border: 0;
+
+    outline: 0;
+
+    line-height: 25px;
+
+    width: 97%;
+
+    height: 23px;
+
+    background: transparent;
+
+    padding-left: 4px;
+
+}
+
+
+
+#filtering_clinics_site #choise_required_parameters #not_save_and_uninteresting {
+
+    position: relative;
+
+    width: 100%;
+
+}
+
+
+
+#filtering_clinics_site #choise_required_parameters #not_save_and_uninteresting #arrow_on_top {
+
+    background: url('/images_site/basic_sprite.png') -196px -451px no-repeat;
+
+    margin: 0 auto;
+
+    width: 18px;
+
+    height: 14px;
+
+}
+
+
+
+#filtering_clinics_site #choise_required_parameters #not_save_and_uninteresting #text_about_search_clinic {
+
+    background: #dde9ef;
+
+    border-radius: 5px; 
+
+    -moz-border-radius: 5px; 
+
+    -khtml-border-radius: 5px;
+
+    -webkit-border-radius: 5px;
+
+    text-align: center;
+
+    font-size: 11px;
+
+    color: #5e5e5e;
+
+    padding: 5px 8px;
+
+}
+
+
+
+#filtering_clinics_site #choise_required_parameters #right_block_with_param .list_of_item li {
+
+    color: #434343;
+
+    float: left;
+
+    margin-right: 8px;
+
+}
+
+#filtering_clinics_site #choise_required_parameters #right_block_with_param .list_of_item li label {
+
+    cursor: default!important;
+
+    vertical-align: middle;
+
+    margin-left: 2px;
+
+}
+
+#filtering_clinics_site #choise_required_parameters #right_block_with_param .list_of_item {
+
+    margin: 8px 0;
+
+}
+
+
+
+#filtering_clinics_site #choise_required_parameters #right_block_with_param .list_of_item li input {
+
+    vertical-align: middle;
+
+}
+
+
+
+#filtering_clinics_site #close_form_filters {
+
+    position: absolute;
+
+    top: 12px;
+
+    right: 17px;
+
+    background: url('/images_site/basic_sprite.png') -199px -473px no-repeat;
+
+    cursor: pointer;
+
+    width: 8px;
+
+    height: 8px;
+
+    display: none;
+
+}
+
+
+
+#filtering_clinics_site #choise_required_parameters #test_me_chzn {
+
+    display: block;
+
+    width: 100%!important;
+
+}
+
+.chzn-drop, .default {
+
+    width: 75%!important;
+
+}
+
+
+
+.chzn-drop {
+
+    width: 100%!important;
+
+}
+
+#filtering_clinics_site #choise_required_parameters #apply_filter_options {
+
+    color: #fff;
+
+    background: url('/images_site/45.png') repeat-x;
+
+    height: 25px;
+
+    text-align: center;
+
+    font-size: 14px;
+
+    padding-top: 5px;
+
+    border-radius: 5px; 
+
+    -moz-border-radius: 5px; 
+
+    -khtml-border-radius: 5x;
+
+    -webkit-border-radius: 5px;
+
+    margin: 0 auto;
+
+    width: 160px;
+
+    cursor: pointer;
+
+    margin-top: 22px;
+
+    margin-bottom: 5px;
+
+} 
+
+
+
+#clinics_notfound_site {
+
+    color: #bc5559;
+
+    display: block;
+
+    text-align: center;
+
+    font-size:  14px;
+
+    margin: 5px;
+
+}

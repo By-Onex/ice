@@ -1,0 +1,133 @@
+/*
+	Paginator 3000
+	- idea by ecto (ecto.ru)
+	- coded by karaboz (karaboz.ru)
+
+	HTML example
+	<div class="paginator" id="paginator_example">
+		<table>
+			<tr>
+				<td><span><strong>1</strong></span></td>
+				...
+				<td><span><a href="">3000</a></span></td>
+			</tr>
+			<tr>
+				<td colspan="">
+					<div class="scroll_bar">
+						<div class="scroll_trough"></div>
+						<div class="scroll_thumb">
+							<div class="scroll_knob"></div>
+						</div>
+						<div class="current_page_mark"></div>
+					</div>				
+				</td>
+
+			</tr>
+		</table>
+	</div>
+*/
+.paginator-smart {
+    font-size: 1.2em;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 660px;
+}
+.paginator-smart table {
+    border-collapse: collapse;
+    float: left;
+    margin: 0 15px;
+    table-layout: fixed;
+    width: 586px;
+}
+.paginator-smart table td {
+	padding:0;
+	white-space:nowrap;
+	text-align:center;
+}
+.paginator-smart span {
+	display:block;
+	padding:3px 0;
+	color:#fff;
+}
+.paginator-smart span strong,
+.paginator-smart span a {
+	padding:2px 6px;
+}
+.paginator-smart span strong {
+	background:#488CBA;
+	font-style:normal;
+	font-weight:normal; 
+}
+.paginator-smart .scroll_bar {
+	width:100%;	
+    height:20px;
+	position:relative;
+	margin-top:10px; 
+}
+.paginator-smart .paginator-previous {
+    background: url("/images_site/basic_sprite.png") 
+        no-repeat scroll -309px -181px transparent;
+    cursor: pointer;
+    float: left;
+    height: 37px;
+    margin-top: 1px;
+    width: 22px;
+}
+.paginator-smart .paginator-next {
+    background: url("/images_site/basic_sprite.png") 
+        no-repeat scroll -287px -181px transparent;
+    float: left;
+    height: 37px;
+    margin-top: 1px;
+    width: 22px;   
+    cursor: pointer;
+}
+.paginator-smart .paginator-empty-button {
+    float: left;
+    height: 37px;
+    margin-top: 1px;
+    width: 22px;       
+}
+.paginator-smart .scroll_trough {
+	width:100%;	height:3px;
+	background:#ccc;
+	overflow:hidden;
+}
+.paginator-smart .scroll_thumb {
+	position:absolute;
+	z-index:1;
+	width:0; height:3px;
+	top:0; left:0;
+	font-size:1px;
+	background:#363636;
+}
+.paginator-smart .scroll_knob {
+	position:absolute;
+	top:-5px; left:50%;
+	margin-left:-10px;
+	width:20px; height:20px;
+	overflow:hidden;
+	background:url(/images_site/slider_knob.gif) no-repeat 50% 50%;
+	cursor:pointer; cursor:hand;
+}
+.paginator-smart .current_page_mark {
+	position:absolute;
+	z-index:1;
+	top:0; left:0;
+	width:0; height:3px;
+	overflow:hidden;
+	background:#488CBA;
+}
+
+.fullsize .scroll_thumb {
+	display:none;
+}
+
+
+.paginator_pages {
+	width:600px;
+	text-align:right;
+	font-size:0.8em; 
+	color:#808080;
+	margin-top:-10px; 
+}

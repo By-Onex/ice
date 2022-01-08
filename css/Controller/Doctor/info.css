@@ -1,0 +1,186 @@
+/* 
+    Document   : info
+    Created on : 30.08.2011, 9:54:40
+    Author     : Максим Кречетов
+    Description:
+        Таблица стилей для страницы доктора
+*/
+#doctor-page-content ul {margin-left: 25px;}
+#doctor-page-content ul li{
+    font-size: 10pt;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 5px 0 0 0;}
+#doctor-page-content ul ul li{
+    font-weight: normal;
+    list-style-type:disc;}		
+#doctor-page-content ul li .comment_block_item {
+	font-weight:normal;}
+#doctor-header {
+    margin:0 0 20px 0;
+    font-size: 14px;}
+#doctor-header h1 {
+    color:#448cba;
+    text-align: left!important;
+    display: inline-block;}
+#doctor-header p {
+    margin:0 0 0 0;
+    color: #778A98;}
+#doctor-page-photo {
+    float:right; 
+    margin:5px;}
+#doctor-page-photo .avatar {
+    border: 4px solid #EFEFEF; 
+    height: auto; 
+    margin: 5px 0 10px 0;
+    width: 150px;}
+#doctor-page-webpages {
+    padding: 6px 5px 6px 7px;
+    background-color: #F7F7F7;
+    border: 4px solid #EFEFEF;
+    -moz-border-radius: 8px;
+    width: 140px;}
+#doctor-page-webpages p {margin-bottom: 2px;}
+#doctor-page-prof{margin-bottom: 12px;}
+#doctor-page-prof-tab p {margin-bottom: 2px;}
+#doctor-page-prof-tab a {color: #2B6B99;}
+#doctor-page-prof-tab td {
+    background-color: #D1E4EE;
+    font-size: 14px;}
+#doctor-page-opinion{margin-bottom: 12px;}
+#doctor-page-opinion-tab p {margin-bottom: 2px;}
+#doctor-page-opinion-tab a {color: #2B6B99;}
+#doctor-page-opinion-tab td {
+    background-color: #D1E4EE;
+    font-size: 14px;}
+#doctor-descr {font-size: 14px;}
+#doctor-descr .previous {margin-top: 10px;}
+
+/*========== ПРЕДОСТАВЛЯЕМЫЕ УСЛУГИ ==========*/
+
+#doctor-service {margin-top: 25px;}
+#doctor-service h3 {margin:0 0 20px 0!important;}
+.doctor-service__container {
+    margin: 0!important;
+    overflow: hidden;
+    background: #F9EE97;
+    width: 100%;
+    border: 2px solid #3ea2d3;}
+.doctor-service__title {margin: 0!important;} 
+.doctor-service__title:last-child {border-bottom: 1px solid #fff;}   
+.doctor-service__title.on .doctor-service__title__head__service:before {
+    display: none;} 
+.doctor-service__title.on .doctor-service__title__head__service:after {
+    display: block;} 
+.doctor-service__title.on .doctor-service__title__table {
+    display: table;}           
+.doctor-service__title .doctor-service__title__head__service:after {
+    display: none;} 
+.doctor-service__title .doctor-service__title__head__service:before {
+    display: block;}        
+.doctor-service__title .doctor-service__title__table {
+    display: none;}           
+.doctor-service__title__head {
+    width: 100%;
+    height: 33px;
+    padding: 0 10px 0;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-top:1px solid #fff;
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #F9E24E), color-stop(1, #FFC83C));
+    background-image: -o-linear-gradient(bottom, #F9E24E 0%, #FFC83C 100%);
+    background-image: -moz-linear-gradient(bottom, #F9E24E 0%, #FFC83C 100%);
+    background-image: -webkit-linear-gradient(bottom, #F9E24E 0%, #FFC83C 100%);
+    background-image: -ms-linear-gradient(bottom, #F9E24E 0%, #FFC83C 100%);
+    background-image: linear-gradient(to bottom, #F9E24E 0%, #FFC83C 100%);
+}
+.doctor-service__title__head__service {
+    position: relative;
+    color: #745632;
+    font: bold 16px/33px 'Trebuchet MS';}
+.doctor-service__title__head__service:before,
+.doctor-service__title__head__service:after {
+    content: " ";
+    border: 5px solid transparent; 
+    position: absolute;
+    right: -23px;}
+.doctor-service__title__head__service:before {
+    border-top: 10px solid #745632;
+    top: 6px;}
+.doctor-service__title__head__service:after { 
+    border-bottom: 10px solid #745632;
+    bottom: 4px;}
+.doctor-service__title__table {
+    display: table;
+    background: #fff;
+    width: 100%;}
+.doctor-service__title__table__row {
+    display: table-row;
+    height: 32px;
+    width: 100%;}
+.doctor-service__title__table__row:first-child 
+.doctor-service__title__table__cell {
+    text-align: center;
+    color: #fff;
+    font: bold 16px/32px 'Trebuchet MS';
+    background: #77adf0!important;}
+.doctor-service__title__table__cell {
+    display: table-cell;
+    height: 32px;
+    width: 30%;
+    padding: 0 10px;
+    background: #deedf4;
+    border-top:1px solid #fff;    
+    border-left: 1px solid #fff;
+    font: normal 13px/32px 'Trebuchet MS';
+    text-align: center;}
+.doctor-service__title__table__cell:first-child {
+    text-align: left;
+    border-left: none;}
+.doctor-service__title__table__row:nth-of-type(odd) 
+.doctor-service__title__table__cell {background: #bfdcec;}    
+.doctor-service__title__table__cell a,
+.doctor-service__title__table__cell a:hover {color: #333;}
+
+
+#doctor-services .tooltip {
+    position: absolute;
+    z-index: 1000;
+    border: 1px solid gray;
+    background-color: #FFFFD4;
+    padding: 10px 10px 10px 10px;
+    opacity: 0.85;
+    filter: alpha(opacity=85);}
+#doctor-page-content .bwlist-comment {
+	font-size: 12px;
+    font-weight: normal;}
+#doctor-page-content ul ul li{list-style-type: none;}
+#article_comments .comment_rate,
+#clinic-list-white-and-black .comment_rate {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: bottom;
+    cursor: help;
+    margin-right: 4px;
+    float: left;}
+#article_comments .comment_rate.positive,
+#clinic-list-white-and-black .comment_rate.positive {
+    background: url(/images_site/icon_vote_good.png);}
+#article_comments .comment_rate.negative,
+#clinic-list-white-and-black .comment_rate.negative {
+    background: url(/images_site/icon_vote_bad.png);}
+#article_comments .comment_rate.neutral,
+#clinic-list-white-and-black .comment_rate.neutral {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAABD0lEQVQoz1XRP05jYQwEcNNEoqFgyYML0JC0nAF6aDkBEXsTkgIk7rLaE6RFP3OD/NlyKQgK8RbvJRvk4pP8jcfjmRBdXXiUPnyQjy62/fbpefKVpSxzmaV8eXG4BfT8UmYeHIsMjZ9mym+9FvCsTPO0pcyWs8lplicRBtbm+jstXWXfwtogjFWOhDNHu+8jZ8JIGYe00bi08scPIZxYWrnUqMywshBulI1zIZzbKLfCwmoLOHDnerfiyl0eCAt/2xX9bxdERndueQ1jZSSEylJKZWV0IidhaJ2zlmOfQd/MOoc7ozS570OTU+U5963Oe8fa2Yf8ZnUXllLm5rqw8vB/miEMTLz59O7VxHCr6B+N4DlFagzOogAAAABJRU5ErkJggg==');
+}    
+.no-child:before,.no-child:after {
+    border: 0; 
+}
+#image-doctor-photo {
+    margin-bottom: 10px;
+    padding: 2px 6px 2px 6px;
+}
+#image-doctor-photo .imgContainer {
+    margin: 0;
+}

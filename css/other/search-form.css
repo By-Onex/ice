@@ -1,0 +1,288 @@
+*html #pf_wrapper
+
+{
+
+	width: 100%;
+
+}
+
+#pf_wrapper
+
+{
+
+	position: relative;;
+
+}
+
+#clinic-above-search-form-ad-block
+
+{
+
+	margin: 5px 0 10px 0;
+
+}
+
+#poisk_forma
+
+{
+
+	position: relative;
+
+	height: 70px;
+
+	overflow: hidden;
+
+	font-size: 8pt;
+
+	margin: 0;
+
+	padding: 0;
+
+	text-align: left;
+
+	background-color: #e3f0fd;
+
+	border: solid 2px #5388bc;
+
+}
+
+
+
+#pf_lt, #pf_rt, #pf_lb, #pf_rb
+
+{
+
+	width: 17px;
+
+	height: 17px;
+
+	position: absolute;
+
+	z-index: 10;
+
+}
+
+
+
+#pf_lt
+
+{
+
+	left: 0; top: 0; background: url(/images_site/seacrh_form_lt.png) left top no-repeat;
+
+}
+
+#pf_rt
+
+{
+
+	right: 0; top: 0; background: url(/images_site/seacrh_form_rt.png) left top no-repeat;
+
+}
+
+#pf_lb
+
+{
+
+	left: 0; bottom: 0; background: url(/images_site/seacrh_form_lb.png) left top no-repeat;
+
+}
+
+#pf_rb
+
+{
+
+	right: 0; bottom: 0; background: url(/images_site/seacrh_form_rb.png) left top no-repeat;
+
+}
+
+*html #pf_rt, *html #pf_rb
+
+{
+
+	right: -1px;
+
+}
+
+*html #pf_lb, *html #pf_rb
+
+{
+
+	/*bottom: -1px;*/
+
+}
+
+
+
+#poisk_forma table div
+
+{
+
+	position: absolute;
+
+}
+
+
+
+#poisk_forma select, #poisk_forma input
+
+{
+
+	width: 100%;
+
+	height: 18px;
+
+	line-height: 16px;
+
+	background-color: #f2fbfe;
+
+	color: #000000;
+
+	font-size: 11px;
+
+	border: solid 1px #91a00a;
+
+	padding: 0;
+
+	vertical-align: middle;
+
+}
+
+
+
+#poisk_forma input
+
+{
+
+	text-align: center;
+
+}
+
+
+
+#poisk_forma select option.first
+
+{
+
+	text-align: center !important;
+
+}
+
+
+
+#search-clinic-name-input
+
+{
+
+	width: 122px;
+
+	left: 300px;
+
+	top: 13px;
+
+}
+
+
+
+#search-clinic-addr-input
+
+{
+
+	width: 122px;
+
+	left: 300px;
+
+	top: 45px;
+
+	text-align: center;
+
+}
+
+
+
+
+
+.poisk-element-text{
+
+	color: #000000;
+
+	font-size: 8pt;
+
+	border: solid 1px #91a00a;
+
+}
+
+
+
+#search-city-select select
+
+{
+
+	background-color: #f2fbd6;
+
+	width: 100%;
+
+}
+
+
+
+#search-submit-button
+
+{
+
+	width: 65px;
+
+	left: 436px;
+
+	top: 45px;
+
+	cursor: pointer;
+
+	cursor: hand;
+
+}
+
+
+
+#search-submit-div
+
+{
+
+	position: absolute;
+
+	width: 1px;
+
+	height: 1px;
+
+	left: -1000px;
+
+	top: -1000px;
+
+}
+
+
+
+#search-header
+
+{
+
+	position: absolute;
+
+	width: 85px;
+
+	height: 50px;
+
+	color: #5388bc;
+
+	font-weight: bold;
+
+	font-size: 14pt;
+
+	text-align: center;
+
+	top: 15px;
+
+	left: 22px;
+
+}
+

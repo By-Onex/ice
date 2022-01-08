@@ -1,0 +1,245 @@
+/* Клиника - форма добавления отзыва, подтверждения отзыва */
+.review_form{
+    margin-top:10px !important;
+    font-family:Tahoma;
+    color:#2a667a;
+    font-size:12px;
+}
+
+.review_form h3 {
+    color:#b5b5b5;	font-size:18px;	margin:4px 0 !important; padding:0;
+}
+.review_form input.button, 
+.review_form input.submit{
+    color:#2a667a;
+    border:none;
+    font-size:12px;
+    font-weight: bold;
+    font-family:'Tahoma';
+    background: url('/images_site/basic_sprite.png') -36px -91px no-repeat;
+    height:27px;
+    width:121px;
+    display:block;
+    cursor:pointer;
+    cursor:hand;
+    margin: 8px auto;
+    outline:none;
+}
+.review_form input.button:hover, 
+.review_form input.submit:hover{
+    background-position:-36px -118px;
+}
+.review_form span{color:#707988;	/*line-height:30px;*/}
+.review_form .clinic-rates-neutral span {line-height: 23px;}
+.review_form a, .clinic-rates-list a{padding:0 2px 0 2px; color:#707988;}
+.review_form a.select, .clinic-rates-list a.select {color: #378FBF; text-decoration: none; border:0; padding:2px;}
+
+
+.form_clinic_add_review .clinic-rates-list a {
+    border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: #333;
+    margin: 2px 5px 8px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 0;
+    border: 1px solid #b4b4b4;
+    background: #e0e0e0;
+    background: -moz-linear-gradient(#f3f3f3, #d0d0d0); /* FF 3.6+ */  
+    background: -ms-linear-gradient(#f3f3f3, #d0d0d0); /* IE10 */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f3f3f3), color-stop(100%, #d0d0d0)); /* Safari 4+, Chrome 2+ */  
+    background: -webkit-linear-gradient(#f3f3f3, #d0d0d0); /* Safari 5.1+, Chrome 10+ */  
+    background: -o-linear-gradient(#f3f3f3, #d0d0d0); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3f3f3', endColorstr='#d0d0d0'); /* IE6 & IE7 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#f3f3f3', endColorstr='#d0d0d0')"; /* IE8+ */  
+    background: linear-gradient(#f3f3f3, #d0d0d0); /* the standard */
+    width: 120px;
+    text-align: center;
+}
+.form_clinic_add_review .clinic-rates-list a span {
+    border-left: 1px solid transparent;
+    border-top: 1px solid transparent;
+    display: block;
+    color: #333;
+}
+.form_clinic_add_review .clinic-rates-list a.select {
+    background: #ffdb7a;
+    background: -moz-linear-gradient(#ffd565, #fee39a); /* FF 3.6+ */  
+    background: -ms-linear-gradient(#ffd565, #fee39a); /* IE10 */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffd565), color-stop(100%, #fee39a)); /* Safari 4+, Chrome 2+ */  
+    background: -webkit-linear-gradient(#ffd565, #fee39a); /* Safari 5.1+, Chrome 10+ */  
+    background: -o-linear-gradient(#ffd565, #fee39a); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd565', endColorstr='#fee39a'); /* IE6 & IE7 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd565', endColorstr='#fee39a')"; /* IE8+ */  
+    background: linear-gradient(#ffd565, #fee39a); /* the standard */ 
+    padding: 0;
+    width: 120px;
+    color: #333;
+    text-align: center;
+    border: 1px solid #f6ba17;
+}
+.form_clinic_add_review .clinic-rates-list a.select span {
+    border-left: 1px solid #b59341;
+    border-top: 1px solid #b59341;
+    display: block;
+    color: #333;
+}
+
+/*========== "ЧТО НАПИСАТЬ?" ==========*/
+
+.clinic-rates__what-write {
+    position: relative;
+}
+.clinic-rates__what-write__link {
+    color: #378fbf!important;
+    cursor: pointer;
+    position: absolute;
+    top: -40px;
+    right: 5px;
+    border-bottom: 1px dashed #378fbf;
+    font-size: 14px;
+}
+.clinic-rates__what-write__text {
+    position: fixed;
+    padding: 10px 15px 5px;
+    box-sizing: border-box;
+    z-index: 2500;
+    top: 10px;
+    left: 50%;
+    margin: 0 0 0 -350px;
+    display: none;
+    width: 700px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px -5px #333;
+    -webkit-box-shadow: 0px 0px 20px -5px #333;
+    -moz-box-shadow: 0px 0px 20px -5px #333;
+    -o-box-shadow: 0px 0px 20px -5px #333;
+}
+.clinic-rates__what-write__text__close {
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    top: 0px;
+    color: #378fbf;
+    font-size: 28px;
+    font-weight: bold;
+}
+.clinic-rates__what-write__text h2 {
+    font-size: 16px!important;
+}
+.clinic-rates__what-write__text p {
+    font-size: 12px!important;
+    color: #333!important;
+    margin: 0 0 15px;
+}
+.clinic-rates__what-write__text ul {
+    color: #333!important;
+    margin: 0 0 15px;
+    padding: 0 0 0 20px;
+}
+.clinic-rates__what-write__text li {
+    list-style: disc!important;
+    font-size: 12px!important;
+    margin: 0 0 3px;
+}
+.clinic-rates__what-write__text.on {
+    display: block;
+}
+/*========== "ЧТО НАПИСАТЬ?" - КОНЕЦ ==========*/
+
+.review_form_content .info_required_field {
+    background: none repeat scroll 0 0 #FFF5BC;
+    border: 1px solid #D6D6D6;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #333333;
+    font-size: 12px;
+    margin: 10px 0 5px;
+    padding: 5px 8px;
+    position: relative;
+}
+.review_form .info_required_field .red_text a {
+    color: #378FBF;
+}
+.review_form_content .info_required_field .arrow {
+    width: 21px;
+    height: 23px;
+    background: url("/images_site/arrow_up_comment.png") no-repeat;
+    position: absolute;
+    right: 12%;
+    top: -23px;
+}
+/*сообщение об обязательных полях на форме*/
+.review_form_content .item_social {
+    display: inline-block;
+    position: relative;
+    margin-top: 4px;
+}
+.review_form_content .info_required_field span.red_text {
+    color: #FF1D1D;
+    font-weight: normal;
+    line-height: normal;
+}
+.review_form_content .info_required_field .review_error_message{
+    margin: 0;
+}
+.review_form span.close_info {
+    background: url("/images_site/basic_sprite.png") no-repeat scroll -750px -511px;
+    cursor: pointer;
+    height: 8px;
+    position: absolute;
+    right: 9px;
+    top: 8px;
+    width: 7px;
+}
+/* Комментарий администрации */
+.clinic_comments .comment_from_admin {
+    background: #ddffdd;
+}
+
+/* Комментарий клиники */
+.clinic_comments .comment_from_clinic {
+    background: #ffdddd;
+}
+
+/* Комментарий врача */
+.clinic_comments .comment_from_doctor {
+    background: #ddddff;
+}
+
+/* Остальные комментарии */
+.clinic_comments .comment_from_none {
+
+}
+.review_comments{
+    margin-left:20px;
+}
+.comment_block_item{
+    padding:8px 4px;
+    cursor:default;
+    pointer: default;
+}
+.comment_block_item.tree_bg{
+    background-color:#fdfbea;
+}
+
+.comment-author-data .smallhint
+{
+    text-indent:40px;
+    color:#BD2D09;
+    font-size:12px;
+    line-height:1em;
+}
+.comment-author-data .smallhint
+{
+    text-indent:40px;
+    color:#BD2D09;
+    font-size:12px;
+    line-height:1em;
+}

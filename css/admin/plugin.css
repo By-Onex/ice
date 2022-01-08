@@ -1,0 +1,44 @@
+#link-plugin ul.dd {
+    list-style-type: none;
+    display: none;
+    width: 150px;
+    border: 0;
+    position: relative;
+    padding: 5px;
+    max-height: 300px;
+    overflow: auto;
+    background: #d3d3d3;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    left: -45px;
+    z-index: 99;
+}
+
+#link-plugin ul.dd.show {
+    display: block;
+}
+
+#link-plugin .dd label {
+    display: inline;
+}
+
+#link-plugin .droplist {
+    margin-left: 20px;
+}
+
+#link-plugin span.open-list {
+    font-size: 1.2em;
+    color: #004ab3;
+    border-bottom: 1px dashed;
+    cursor: pointer;
+}
+
+#link-plugin .link-data {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#link-plugin .not-active {
+    color: #778A98;
+}

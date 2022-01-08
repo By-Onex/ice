@@ -1,0 +1,126 @@
+/*
+**************************************
+
+	Content Blocks Corners
+
+**************************************
+
+.content_block .tl_corner, 
+
+.content_block .tr_corner, 
+
+.content_block .bl_corner, 
+
+.content_block .br_corner{
+
+	height:6px;	width:6px;
+
+	position:absolute;
+
+	display:block !important;
+
+	border:none !important;
+
+	margin:0; padding:0;
+
+	background: url(/images_site/basic_sprite.png) no-repeat -8px 132px;
+
+}
+
+.content_block .tl_corner{
+
+	top:-1px;	left:-1px;
+
+	background-position: -8px -132px;
+
+}
+
+.content_block .tr_corner{
+
+	top:-1px;	right:-1px;
+
+	background-position: -14px -132px;
+
+}
+
+.content_block .br_corner{
+
+	bottom:-1px;	right:-1px;
+
+	background-position: -14px -138px;
+
+}
+
+.content_block .bl_corner{
+
+	bottom:-1px;	left:-1px;
+
+	background-position: -8px -138px;
+
+}
+
+Balloons Corners
+
+.balloon .tl_corner,
+
+.balloon .tr_corner,
+
+.balloon .bl_corner,
+
+.balloon .br_corner{
+
+	height:4px;	width:4px;
+
+	position:absolute;
+
+	display:block !important;
+
+	margin:0 !important;
+
+	padding:0 !important;
+
+	border:none !important;
+
+	background: url(/images_site/basic_sprite.png) 0 0 no-repeat;
+
+}
+
+.balloon .tl_corner{
+
+	top:-1px;	left:-1px;
+
+	//top:0;
+
+	background-position: -20px -127px;
+
+}
+
+.balloon .tr_corner{
+
+	top:-1px;	right:-1px;
+
+	//top:0;
+
+	background-position: -24px -127px;
+
+}
+
+.balloon .bl_corner{
+
+	bottom:-1px;	left:-1px;
+
+	//bottom:0;
+
+	background-position: -20px -131px;
+
+}
+
+.balloon .br_corner{
+
+	bottom:-1px;	right:-1px;
+
+	//bottom:0;
+
+	background-position: -24px -131px;
+
+}*/

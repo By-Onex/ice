@@ -1,0 +1,65 @@
+
+.form_add .current_image:hover .noneditable_image{
+    border: 5px solid #dadad9;
+    border-bottom: 20px solid #dadad9;
+    margin: -5px -5px -20px -5px;
+
+}
+.current_image{
+    float: left;
+    height: 160px;
+    width: 190px;    
+}
+.form_add .current_image:hover input, 
+.form_add .current_image:hover label{
+    display: block;
+}
+.nonsignificant_photo {
+    /*display: none;*/
+    font-size: 12px;
+    line-height: normal;
+    margin: 134px 5px 0 5px;
+    position: absolute;
+
+}
+.nonsignificant_photo input[type="checkbox"] {
+    height: 15px;
+    margin: 2px 5px 0 0 !important;
+    padding: 0;
+    vertical-align: middle;
+    width: 15px;
+    display: none;
+}
+.nonsignificant_photo label {
+    color: #000;
+    vertical-align: middle;
+    display: none;
+    position: relative;
+    left: 20px;
+    bottom: 15px;
+}
+
+.nonsignificant_photo input:checked+label{
+    display: block;
+}
+.nonsignificant_photo input:checked{
+    display: block;
+}
+.block_information_reclame {
+    position: relative;
+    background: #fff5bd;
+    padding: 6px 10px;
+    color: #333;
+    margin: 10px 0;
+    font-size: 12px;
+    font-family: Tahoma, Geneva, Times, serif;
+    border: 1px solid #d5d5d5;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.block_information_reclame p{
+    margin: 5px 0;
+    line-height: normal;
+}

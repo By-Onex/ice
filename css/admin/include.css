@@ -1,0 +1,327 @@
+#primaryContent #admin_edit .user_role,
+#admin_edit .table
+{
+    font:14px/16px 'Trebuchet Ms'; 
+}
+#primaryContent #admin_edit .user_role thead,
+#admin_edit .table thead
+{
+    background-color:#CFD897;
+    text-align:center;
+}
+#primaryContent #admin_edit .user_role thead th,
+#admin_edit .table thead th
+{
+    border-left:1px solid #E4EAC8;
+    text-align:center !important;
+}
+#primaryContent #admin_edit .user_role .fst,
+#admin_edit .table .fst
+{
+    border-left:1px solid #E4EAC8;
+}
+#primaryContent #admin_edit .user_role .c,
+#admin_edit .table .c
+{
+    text-align:center;
+}
+#primaryContent #admin_edit .user_role td,
+#primaryContent #admin_edit .user_role tr,
+#admin_edit .table td,
+#admin_edit .table tr
+{
+    height:25px;
+    padding: 3px 5px;
+    border-bottom:1px solid #CFD897;
+    border-right:1px solid #CFD897;
+}
+#primaryContent #admin_edit .user_role input,
+#primaryContent #admin_edit .user_role select,
+#admin_edit .table input,
+#admin_edit .table select
+{
+    width:95%;
+    height:22px;
+}
+#primaryContent #admin_edit .user_role .input,
+#admin_edit .table .input
+{
+    height:40px;
+    vertical-align:middle;
+    text-align:center;
+}
+#primaryContent #admin_edit .user_role .edit_button, 
+#primaryContent #admin_edit .user_role .add_button,
+#admin_edit .table .edit_button, 
+#admin_edit .table .add_button
+{
+    width:50px;
+}
+#primaryContent #admin_edit .user_role.all tr:hover td,
+#admin_edit .table tr:hover td
+{
+    background-color:#EBEFD6;
+}
+#primaryContent #admin_edit .nav,
+#admin_edit .nav
+{
+    text-align:right;
+    padding-bottom:15px;
+}
+#admin_edit .table
+{
+    width:100%;
+}
+#admin_edit .table textarea
+{
+    width:100%;
+    height:100px;
+    border:1px solid #E4EAC8;
+}
+
+
+#admin_edit .table .c1
+{
+    text-align:left;
+    background-color: #EBEFD6;
+}
+#admin_edit .table .c2
+{
+    text-align:center;
+    background-color: #EBEFD6;
+}
+
+.mceToolbar span.mceIcon , .mceToolbar a.mceButton, .mceToolbar img, .mceToolbar *
+{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.img-container
+{
+    position: relative; float: left; width: 210px; /*height: 160px; overflow: hidden;*/
+}
+.img-container-menu
+{ position: absolute; top: 0; left: 5px; width: 180px; height: 20px; font-size: 15px; line-height: 20px; background-color: #000; border: solid 1px #fff; border-top-width: 0; padding: 0 0 0 10px; }
+.img-container-menu span
+{ color: #fff; text-decoration: underline; cursor: pointer; cursor: hand; }
+.img-container-menu span.img-container-menu-delete-link
+{ color: #f00; text-decoration: underline; }
+#img-edit-dialog *
+{ font-size: 11pt; }
+p.submit-button-container
+{
+    font-weight: bold;
+    font-size: 16pt;
+}
+div.file-result-div
+{
+    float: right;
+    text-align: right;
+}
+div.file-result-div img
+{
+    height: 100px;
+    padding: 4px;
+    border: solid 1px;
+}
+div.image-work-block form.choose-file input
+{
+    width: 500px;
+}
+div.image-work-block form.choose-file iframe
+{
+    width: 0;
+    height: 0;
+    border: 0;
+}
+div.image-work-block p
+{
+    margin: 0;
+    padding: 5px 0;
+}
+div.image-work-block span.pseudo-link
+{
+    padding: 0;
+    border-bottom: 1px dashed;
+    color: blue;
+    cursor: pointer;
+    cursor: hand;
+}
+ul.picture-formats-ul li p
+{
+    color: #999;
+}
+ul.picture-formats-ul li input
+{
+    /*background-color: #;*/
+    /*width: 30px;
+    border: none;
+    border-bottom: solid 1px;
+    text-align: right;*/
+}
+ul.picture-formats-ul li
+{
+    margin: 0 0 10px 10px;
+    padding: 0 0 0 20px;
+    list-style-type: none;
+}
+ul.picture-formats-ul li div.picture-settings
+{
+    float: left;
+    position: relative;
+    /*border: 1px solid blue;
+    width: 470px;*/
+    clear: left;
+}
+ul.picture-formats-ul li div.picture-preview
+{
+    margin: 0 0 0 500px;
+    padding: 0;
+}
+ul.picture-formats-ul li div.picture-preview img
+{
+    border: 1px solid black;
+    padding: 5px;
+}
+ul.picture-formats-ul li div.picture-quality
+{
+    height: 200px;
+    width: 27px;
+    float: left;
+    /*border: solid 1px blue;*/
+    position: relative;
+}
+ul.picture-formats-ul li div.picture-quality div.picture-quality-slider
+{
+    /*
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    */
+    margin: 15px 0 0 5px;
+    height: 150px;
+    width: 15px;
+    position: relative;
+}
+ul.picture-formats-ul li div.picture-quality div.picture-quality-value
+{
+    /*
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    */
+    margin-top: 10px;
+    height: 50px;
+    border: none;
+    position: relative;
+}
+ul.picture-formats-ul li div.picture-quality div.picture-quality-value input
+{
+    border: none;
+    border: 0;
+    color:#000;
+    font-weight:bold;
+    width: 25px !important;
+    text-align: center;
+}
+.hidden
+{
+    display:none;
+}
+.form_add td
+{
+    color:#555;
+    font-size:16px;
+}
+
+.adm-serv th {vertical-align:middle !important; text-align:center !important;}
+.adm-serv td, .adm-serv th {border-bottom:1px solid #eee; border-right:1px solid #eee}
+.adm-serv input[type='text'] {width:255px;}
+
+.form_add_doctor .add_images {
+    margin:0 auto;
+    display:block;
+    height:100%;
+	/*    width:570px;*/
+}
+
+div.editContainerImage {
+	float:left;
+}
+
+.form_add_doctor .image 
+{
+    float:left;
+    overflow:hidden;
+    padding:0;
+    margin:0 10px 10px 0;
+    width:177px;
+    height:133px;
+    border:1px solid #bdbdbd;
+    background:#e4e4e4 url('/images_site/add_images_cap.png') center no-repeat;
+    display:block;
+    position:relative;
+    cursor:pointer;
+    cursor:hand;
+}
+.form_add_doctor .image img {margin:0; padding:0; height:auto; width:100%;}
+.form_add_doctor .image .hover {
+    position:absolute;
+    top:0;
+    width:177px;
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    display:block;
+    text-align:right;
+}
+.form_add_doctor .image .del,
+.form_add_doctor .image .del:visited
+{
+    text-decoration:none;
+    font-size:14px;
+    color:white;
+    display:block;
+    line-height:22px;
+    margin:4px 4px 4px 0;
+}
+.form_add_doctor .image .del.hover
+{
+    margin-top: 0px;
+}
+.form_add_doctor .image .del:hover {
+    text-decoration:underline;
+}
+.form_add_doctor .image .del .btn{
+    background: url('/images_site/basic_sprite.png') -11px -83px no-repeat;
+    height: 22px; width:22px;
+    margin-left:4px;
+    float: right;
+}
+.form_add_doctor .image .del:hover .btn{
+    background-position: -11px -105px;
+}
+.form_add_doctor .label{
+	float: left;
+}
+
+#plot-tooltip
+{
+	position:absolute;
+	display:none;
+	border:1px solid #fdd;
+	padding:2px;
+	background-color:#fee;
+	opacity:0.80;
+}
+
+a.external-link {
+	width:15px;
+	height:15px;
+	position:relative;
+	display:inline-block;
+	background:url(/images_site/icon-external-link.png) no-repeat;
+	background-position:center;
+	text-decoration:none;
+}

@@ -1,0 +1,161 @@
+/* ========== СТРАНИЦЫ КЛИНИК ========== */
+
+/***************************************
+
+*	Message Form  
+
+***************************************/
+
+#message-form .just-text {margin-top: 5px;}
+#message-form .part1 {
+	height: 23px;	
+	padding: 2px;
+	font-size: 15px;
+	width: 120px;}
+#message-form #btn {float: right}
+#message-form .time-in {
+	width: 122px;
+	height: 20px;
+	color: #A3C2D8;
+	padding: 2px;
+	font: bold 14px/20px "Trebuchet MS";
+	border: 1px solid #CCCCCC;}
+
+#message-form .date-in {
+	margin-right: 10px;
+	width: 90px; 
+	height:20px;
+	padding: 2px;
+	color:#A3C2D8;
+	font: bold 14px/20px "Trebuchet MS";
+	border: 1px solid #CCCCCC;}
+
+#message-form .mess-date {float: right;	margin-top: 10px;}
+#message-form .name_user {
+	margin-top:10px;
+	float:left;
+	width:195px;
+	height:20px;
+	color:#A3C2D8;
+	padding:2px;
+	font: bold 14px/20px "Trebuchet MS";
+	border: 1px solid #CCCCCC;}
+ #message-form .part1 {
+	margin-top:10px;
+	margin-left:10px;
+	float:left;
+	height:20px;
+	color:#A3C2D8;
+	padding:2px;
+	font: bold 14px/20px "Trebuchet MS";
+	border: 1px solid #CCCCCC;}
+#div-mess textarea {
+	resize: vertical;
+	width: 99.3%;
+	padding: 0 2px;
+	margin: 8px 0 0;
+	height: 55px;
+	color:#A3C2D8;
+	font: 14px/20px "Trebuchet MS";
+	border: 1px solid #CCCCCC;}
+#div-mess .phone-block input {
+	margin-top:10px;
+	color:#A3C2D8;
+	height:20px;
+	font: bold 14px/20px "Trebuchet MS";
+	border: 1px solid #CCCCCC;}
+
+#div-mess .review_form .button {margin-top: 0;}
+#link-to-comments {text-decoration: none; font-size: 16px;}
+#clin_descript .more_info_service td a.count_percent {color: #378FBF !important;}
+#clin_descript.no-background img {background: none!important;}
+
+/* ========= НАГРАДЫ КЛИНИК ========= */
+
+/* честно стыдно за каждый !important ( ._.) */
+.avards {
+	display: block;
+	margin: 12px 0 0 !important;
+}
+.avards__item {
+	background: #e2eff7;
+	border:1px solid #77afd0;
+	padding: 10px;
+	margin: 0 0 20px;
+}
+.avards__item__img {
+	width: 100px;
+	height: 100px;
+	margin: 0 !important;
+	border:1px solid #77afd0;
+	overflow: hidden;
+	float: left;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    background-size: contain !important;
+    cursor: pointer;
+}
+.avards__item__img:hover {
+	text-decoration: none !important;
+	float: left;
+}
+.avards__item__img img {
+	width: 100%;
+}
+.avards__item__text {
+	margin: 0 0 0 190px;
+}
+.avards__item__text h4 {
+	font-size: 16px;
+	color: #378fbf!important;
+}
+.avards__item__text p {
+	font-size: 14px;
+}
+
+/* ========= НАГРАДЫ КЛИНИК - КОНЕЦ ========= */
+
+/* ========= ПРАЙС-ЛИСТ ==========*/
+
+.price-list {
+	width: 100%;
+	padding: 12px;
+	box-sizing: border-box;
+}
+.price-list__table {
+	display: table;
+	width: 100%;
+	border: 1px solid #d5d5d5;
+	margin:0 0 40px 0;
+	position: relative;
+}
+.price-list__table__row {
+	display: table-row;
+}
+.price-list__table__row:first-child .price-list__table__cell {
+	background: #5ba1cf;
+	color: #fff;
+	border-top:none;}
+.price-list__table__cell {
+	display: table-cell;
+	font: 14px 'Trebuchet MS';
+	width: 25%;
+	padding: 10px 15px;
+	vertical-align: middle;
+	text-align: left;
+	color: #000;
+	border-top: 1px solid #d5d5d5;
+	border-left: 1px solid #d5d5d5;}
+.price-list__table__cell:first-child {
+	width: 75%;
+	border-left:none;}
+.price-list__show-all {
+	cursor: pointer;
+	text-decoration: none;
+	color: #378fbf;
+	border-bottom: 1px dashed #378fbf;
+	position: absolute;
+	bottom: -25px;
+	right: 0px;
+}	
+/* ========= ПРАЙС-ЛИСТ - КОНЕЦ ==========*/

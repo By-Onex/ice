@@ -1,0 +1,118 @@
+.clinic_comments .comment_block_item_bottom, 
+.clinic_comments .review_comments_bottom {
+    border-bottom: 1px solid #d5d5d5;
+}
+.clinic_comments .article_comment_block_item {
+    position: relative;
+    border: 1px solid #D5D5D5;
+    border-radius: 5px 5px 5px 5px;
+    padding: 8px 4px;
+    cursor: default;
+}
+.comment_block_item .avatar_user {
+    float: left;
+    width: 90px;
+    height: auto;
+    display: inline-block;
+    padding-left: 3px;
+    display: none;
+}
+.comment_block_item .body_comment_block {
+    float: right;
+    width: 100%;
+    margin-left: -93px;
+}
+.comment_block_item .avatar_user_block {
+    height: auto;
+    padding-left: 3px;
+    float: left;
+    width: auto;
+}
+.comment_block_item .body_comment_block .right_column {
+    padding: 0 5px 0;
+}
+ul#clinic-list-white-and-black {
+    margin-top: 3px;
+}
+#clinic-list-white-and-black.clinic_comments li, 
+.review_comments .comment_block_item {
+    border: none;
+}
+.clinic_comments .review_comments .comment_block_item {
+    margin: 0;
+}
+.comment_block_item .body_comment_block .right_column .bwlist-author-and-date {
+    color: #586174;
+    font-size: 13px;
+}
+.comment_block_item .body_comment_block .right_column .social_icon {
+    display: inline-block;
+    margin-right: 4px;
+    position: relative;
+    top: -2px;
+    vertical-align: middle;
+}
+.comment_block_item .bwlist-answer-pseudolink .pseudo_link, 
+.comment_block_item .bwlist-answer-pseudolink .pseudo_link:visited, 
+.comment_block_item .bwlist-answer-pseudolink .pseudo_link:active {
+    color: #586174;
+    font-size: 13px;
+}
+.votes-block {
+    font-size: 11px;
+}
+/*.votes-block {*/
+    /*color: #7E979F;*/
+    /*font-size: 11px;*/
+/*}*/
+
+/*.comment_block_item .votes-block a.yes  {*/
+    /*border-bottom: 1px dashed #31a34c;*/
+/*}*/
+
+/*.comment_block_item .votes-block a.yes:hover, */
+/*.comment_block_item .votes-block a.no:hover {*/
+    /*border-bottom: none;*/
+/*}*/
+
+
+/*.comment_block_item .votes-block a.no{*/
+    /*border-bottom: 1px dashed #FF0000;*/
+/*}*/
+
+/*ul#clinic-list-white-and-black li .review_comments ul.child-comment-list {
+    margin: 0 0 0 107px;
+}*/
+
+.clinic_comments .review_comments {
+    margin: 0;
+}
+
+.tomind {color: #378FBF;}
+
+.clinic_comments__item {
+    position: relative;
+}
+.clinic_comments__item.rejected .clinic_comments__item__message {
+    display: block;
+}
+.clinic_comments__item__message {
+    display: none;
+    position: absolute;
+    top: 0;    bottom: 0;
+    left: 0;   right: 0;
+    background: rgba(255,255,255,0.7);
+    z-index: 10;
+    padding: 25px 10px 0;
+    margin-bottom: 2px;
+    box-sizing: border-box;
+}
+.clinic_comments__item__message span {
+    vertical-align: middle;
+    display: inline-block;
+    color: #d22c2c;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    text-align: left;
+}

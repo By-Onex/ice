@@ -1,0 +1,198 @@
+.appendix ul
+{
+    list-style: none;
+}
+.appendix ul li, .appendix ul li div, .appendix ul li object
+{
+    margin:0 auto;
+    text-align:center;
+    list-style: none outside none;
+}
+.appendix table, .appendix table tr, .appendix table tr td 
+{
+    height: 80px; 
+    margin: 0; 
+    padding: 0;
+    vertical-align:top;
+}
+.appendix img
+{
+    border: none;
+}
+.appendix.head_bottom .teaser_block{
+    position: relative;
+    margin-top: 2px;
+}
+.appendix.head_bottom .teaser_block_wrapper{
+    overflow: hidden;
+}
+.appendix.head_bottom{
+    position: relative; 
+    /*padding: 0px 35px;*/
+    height: 102px;
+}
+.appendix.head_bottom .teaser_block .teaser_element{
+    width: 132px;
+    height: 98px;
+    padding: 0 5px;
+    overflow: hidden;
+}
+
+.appendix.head_bottom .teaser_block .teaser_element div{
+    margin: 0 auto;
+}
+
+.appendix.head_bottom .teaser_left_button{
+    background: url("/images_site/basic_sprite.png") no-repeat -265px -448px;
+    width: 25px;
+    height: 102px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 20;
+    left: 0;
+    display: none;
+}
+.appendix.head_bottom .teaser_right_button{
+    background: url("/images_site/basic_sprite.png") no-repeat -291px -448px;
+    width: 25px;
+    height: 102px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 20;
+    right: 0;
+    display: none;
+}
+
+
+.clinic-info{
+    margin: 12px 0; /*border: solid 1px blue;*/
+}
+.clinic-info .rounded{
+    position: relative;
+    border: solid 1px white; /*невидмый бордер - против глюка ИЕ7*/
+}
+
+div.clinic-info.active .rounded{
+    background-color: #FFFBD6; /*margin-top: 12px;*/
+}
+
+.clinic-info .rounded .insearch-banner{
+    position: relative;
+    margin: 12px 0;
+    padding: 0;
+}
+
+.clinic-info .rounded .insearch-banner .insearch-banner-container{
+    width: 100%;
+}
+
+.clinic-info .rounded .info{
+    margin: 12px;
+}
+
+.clinic-info .rounded p.clinic-name a{
+    font-size: 14pt;
+}
+
+div.clinic-info.active .rounded p.clinic-name a{
+    color: #f00 !important;
+}
+
+div.clinic-info.active .rounded p.clinic-name{
+    border: none;
+    background: transparent !important;
+    margin: auto;
+    padding: 0 !important;
+    line-height: auto;
+}
+
+div.clinic-info .rounded p.clinic-name a{
+    color: #5388bc;
+}
+
+div.clinic-info .rounded p.clinic-name{
+    border-left-width: 0;
+    border-right-width: 0;
+    background-color: #f3f3f3;
+    margin: 0 -12px;
+    padding: 0 12px !important;
+    text-align: left !important;
+}
+div.clinic-info.active .rounded .lt, .clinic-info .rounded .lb, .clinic-info .rounded .rb, .clinic-info .rounded .rt{
+    width: 12px;
+    height: 12px; /*border: solid 1px green;*/
+}
+div.clinic-info.active .rounded .lt{
+    background-image: url(/images_site/clinic_infp_lt.png);
+}
+div.clinic-info.active .rounded .lb{
+    background-image: url(/images_site/clinic_infp_lb.png);
+}
+
+div.clinic-info.active .rounded .rb{
+    background-image: url(/images_site/clinic_infp_rb.png);
+}
+
+div.clinic-info.active .rounded .rt{
+    background-image: url(/images_site/clinic_infp_rt.png);
+}
+.clinic-info .rounded table{
+    margin: 12px;
+}
+a#table-text-ad-block{
+    color: #0077dd; text-decoration: none;
+}
+
+a#table-text-ad-block div{
+    /*border: #000 solid 2px;*/
+    width: 170px;
+    border: #f00 solid 2px;
+    padding: 0;
+}
+/*
+a#table-text-ad-block:hover div{
+    border: #333399 solid 1px;
+}
+*/
+
+a#table-text-ad-block h4{
+    padding: 1px;
+    margin: 0;
+    font-size: 10pt;
+    text-align: center;
+    background-color: #f00;
+    text-decoration: none !important;
+    color: #fff;
+}
+a#table-text-ad-block p{
+    margin: 0;
+    padding: 3px  0;
+    cursor: pointer;
+    cursor: hand;
+    background-color: #FFF;
+    color: #0077dd;
+    /*border-bottom: #0077dd 1px dashed;*/
+}
+a#table-text-ad-block p.nechet{/*
+    background-color: #f00;
+    color: #fff;
+    text-decoration: none;
+    */
+}
+.banner_href{
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    color: #378FBF !important;
+    font-size: 12px;
+    line-height: 1.1em;
+    text-align: center;
+}
+.tizer_container{
+    width:115px;
+}
+.appendix {
+    overflow:hidden;
+    max-width: 1200px;
+}
+.banner_href.redText{
+    color: #f00 !important;
+}

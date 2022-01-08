@@ -1,0 +1,590 @@
+/***************************************
+        Common Description of Both Coll
+***************************************/
+#left-col{width: 192px;}
+#right-col {width:206px;}
+#left-col,
+#right-col {
+    height:100%;
+    vertical-align:top;
+}
+
+#tertiaryContent h3,
+#left-col h3,
+#right-col h3{
+    color:white;
+    font-size:16px;
+    padding:4px 92px 4px 4px;
+    width:91px;
+    margin:0;
+    line-height:1em;
+    background:url('/images_site/basic_sprite.png') -157px -66px no-repeat;
+    border-bottom:1px solid #6999b5;
+    position:relative !important;
+    text-shadow: #347ea9 1px 1px;
+    font-weight:bold;}
+#tertiaryContent h3 span,
+#tertiaryContent h3 span:hover,
+#left-col h3 span,
+#right-col h3 span,
+#left-col h3 span:hover,
+#right-col h3 span:hover{
+    background-color:transparent; cursor:default;
+    display:block;
+    position:absolute !important;
+    border:none;
+    margin:0;
+    padding:0;
+    background-image: url('/images_site/basic_sprite.png');
+    background-repeat: no-repeat;}
+#tertiaryContent ul,
+#left-col ul,
+#right-col ul{
+    color:#393939;
+    list-style:none outside;
+}
+#tertiaryContent a.more,
+#left-col a.more,
+#right-col a.more {
+    color:#378fbf;
+    display:block;
+    text-align:right;
+}
+#tertiaryContent a.more:hover,
+#left-col a.more:hover,
+#right-col a.more:hover {
+    text-decoration:none;
+}
+#left-col div#appendix_other_under_diagnost ul li,
+div#appendix_other_under_diagnost ul li,
+div#appendix_other_bottom ul li {
+    margin-bottom: 16px;
+}
+#tertiaryContent #forumDiv,
+#left-col .case_tab,
+#left-col .case_diagnos,
+#left-col .case_gift,
+#left-col .case_interesting,
+#left-col .case_forum,
+#left-col #forumDiv{
+    margin-top:25px;
+    margin-bottom:35px;
+}
+#tertiaryContent #forumDiv ul.menu-link-list li a,
+#left-col #forumDiv ul.menu-link-list li a {
+	display:block;
+	text-decoration:none;
+	outline:none;
+}
+#tertiaryContent #forumDiv ul.menu-link-list li a .link-title,
+#left-col #forumDiv ul.menu-link-list li a .link-title {
+	text-decoration:underline;
+}
+#tertiaryContent #forumDiv ul.menu-link-list li a:hover .link-title,
+#left-col #forumDiv ul.menu-link-list li a:hover .link-title {
+	text-decoration:none;
+}
+.header_metro .m {
+    background-position:-361px 0;
+    bottom:-5px;	right:0;
+    height:59px;	width:84px;
+}
+.header_metro .mm {
+    background-position:-200px 0;
+    bottom:-7px;	right:-3px;
+    height:63px;	width:82px;
+}
+.header_metro .l {
+    background-position:-82px -448px;
+    bottom:-8px;	right:4px;
+    height:69px;	width:78px;
+}
+.header_diagnos span,.header_diagnos_illness span {
+    background-position:0 0;
+    bottom:-14px;	right:3px;
+    height:83px;	width:38px;
+}
+.header_gift {
+    position: relative;
+    background: url("/images_site/basic_sprite.png") -157px -66px no-repeat;
+    border-bottom: 1px solid #6999b5;
+    height: 30px;
+    z-index: 0;
+    padding:4px 92px 14px 4px!important;
+}
+.header_gift h3{
+    background: transparent !important;
+    border: none;
+}
+.header_gift span {
+    background-color: transparent;
+    cursor: default;
+    display: block;
+    position: absolute !important;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background-image: url("/images_site/basic_sprite.png");
+    background-repeat: no-repeat;
+    background-position: -118px 0;
+    bottom: -4px;
+    right: -15px;
+    height: 63px;
+    width: 82px;
+    z-index: -1;
+}
+.header_forum span {
+    background-position:-38px 0;
+    bottom:-6px;	right:-4px;
+    height:62px;	width:80px;
+}
+.header_ask span {
+    background-position:0 -447px;
+    bottom:-6px;	right:1px;
+    height:62px;	width:76px;
+}
+/***************************************
+        Left Collumn Description
+***************************************/
+.tab_block {
+    display:block;
+    border:1px solid #d5d5d5;
+    /*border-bottom:0;*/
+    overflow:hidden;
+    padding:0;
+    margin: -1px 0 5px 0;
+    width:190px;
+}
+.tab_block.metro {
+	max-height: 191px !important;
+	height: auto !important;
+}
+.tab_block.metro ul{
+    background-color:white;
+    border-bottom:0;
+    width:auto;
+	max-height: 165px !important;
+	height: auto !important;
+    color:#365160;
+    font-size:14px;
+    overflow:auto;
+}
+.tab_block.metro ul a,
+.tab_block.metro ul a:visited{
+    width: 169px;
+    text-decoration: none;
+    color:#393939;
+    float:none;
+    margin-left:4px;
+    display: inline-block;
+}
+.tab_block.metro ul a:hover {
+    color:white;
+}
+.tab_block.metro ul li:hover,
+.tab_block.metro ul li:hover,
+.tab_block.metro ul li a:hover {
+    background-color:#fde569;
+    color:#1d4a37;
+    cursor:pointer;
+    cursor:hand;
+}
+.tab_block.metro ul li:last-child {
+    margin-bottom:8px;
+}
+/***************************************
+        Left Coll -> Search by Metro Tabs
+***************************************/
+ul.dash,
+ul.hint{
+    margin-top:10px;
+}
+ul.dash .ico,
+ul.hint .ico{
+	display:block;
+    margin:0; padding:0;
+    height:10px; width:10px;
+    position:absolute;
+    top: 2px; left: 3px;
+}
+ul.dash li{
+    padding-left:16px;
+    padding-right:10px;
+    margin-bottom:15px;
+    line-height:1em;
+    color:#393939;
+    position:relative;
+}
+ul.hint li{
+    padding-left:20px;
+    padding-right:10px;
+    margin-bottom:12px;
+    line-height:1em;
+    color:#393939;
+    position:relative;
+}
+ul.dash li a,
+ul.hint li a{
+    color:#393939;
+    float:none;
+}
+ul.hint .ico{
+    background: url('/images_site/basic_sprite.png') -482px -198px no-repeat;
+}
+ul.dash .ico{
+    background: url('/images_site/basic_sprite.png') -482px -209px no-repeat;
+}
+/***************************************
+        Right Coll
+***************************************/
+#right-col .clinic_block{
+    color:#7a7a7a;
+    display:block;
+    border:1px solid transparent;
+    border-bottom:1px solid #9db2c0;
+    margin:-3px 0 0;
+    padding:10px 4px;
+    cursor:pointer;	cursor:hand;
+    height:100%;
+}
+#right-col .clinic_block a{
+    font-size:13px;
+}
+#right-col .clinic_block:hover,
+#right-col .clinic_block.hover{
+    border-color:#eddb7b !important;
+    background-color:#fff3b4 !important;
+    cursor:pointer !important;
+    cursor:hand !important;
+}
+#tertiaryContent .balloon,
+#right-col .balloon,
+#left-col .balloon {
+	display:block;
+    position: relative;
+    padding: 5px;
+    margin: 0 0 10px;
+    border: 1px solid #6999b5;
+    border-radius: 4px;
+    background-color: #FEFFB9;
+	text-decoration:none;
+}
+#tertiaryContent .balloon,
+#left-col .balloon
+{
+    top:6px;
+    color: #3880B0;
+}
+.tail{
+	display:block;
+    position:absolute;
+    left:25px;	bottom:-10px;
+    //bottom:-9px;
+    width:9px;	height:10px;
+    margin:0 !important;
+    padding:0 !important;
+    background: url('/images_site/basic_sprite.png') no-repeat scroll -317px -448px rgba(0, 0, 0, 0);
+}
+.tail.top{
+    left:15px;	top:-7px;
+    width:6px;	height:7px;
+    background-position:-620px -83px;
+}
+#tertiaryContent .balloon a,
+#right-col .balloon a,
+#left-col .balloon a{
+    line-height:17px;
+    text-decoration:none;
+    font-size:13px;
+    font-weight:bold;
+}
+#tertiaryContent .balloon a:hover,
+#right-col .balloon a:hover,
+#left-col .balloon a:hover{
+    text-decoration:underline;
+}
+a.metro_link{
+    padding-left:11px;
+   /* background: transparent url('/images_site/basic_sprite.png') -791px -176px no-repeat;*/
+    display:inline-block;
+    /*font:10px/14px 'Trebuchet MS' !important;*/
+    text-decoration:none;
+}
+p.metro_link{
+    /*padding-left:11px!important;
+    background: transparent url('/images_site/basic_sprite.png') -791px -176px no-repeat;*/
+    display:inline-block;
+    font:10px/14px 'Trebuchet MS' !important;
+    text-decoration:none;
+}
+p.metro_link.red:before {
+    content: "М";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 15px;
+    padding-right: 5px;
+    color: #ff1335;
+    font-weight: bold;
+}
+
+p.metro_link.green:before {
+    content: "М";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 15px;
+    padding-right: 5px;
+    color: #a7d52c;
+    font-weight: bold;
+}
+p.metro_link.navy:before  {
+    content: "М";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 15px;
+    padding-right: 5px;
+    color: #000080;
+    font-weight: bold;
+}
+p.metro_link.lightBlue:before  {
+    content: "М";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 15px;
+    padding-right: 5px;
+    color: #a4c2e2;
+    font-weight: bold;
+}
+p.metro_link.blue:before  {
+    content: "М";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 15px;
+    padding-right: 5px;
+    color:#0079c3;
+    font-weight: bold;
+}
+p.metro_link.brown:before  {
+    content: "М";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 15px;
+    padding-right: 5px;
+    color:#9c4d31;
+    font-weight: bold;
+}
+p.metro_link.orange:before  {
+    content: "М";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 15px;
+    padding-right: 5px;
+    color: #ff8627;
+    font-weight: bold;
+}
+
+p.metro_link.purple:before  {
+    content: "М";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 15px;
+    padding-right: 5px;
+    color:#a345a1;
+    font-weight: bold;
+}
+p.metro_link.yellow:before  {
+    content: "М";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 15px;
+    padding-right: 5px;
+    color: #ffcc06;
+    font-weight: bold;
+}
+p.metro_link.gray:before  {
+    content: "М";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 15px;
+    padding-right: 5px;
+    color: #a3a3a6;
+    font-weight: bold;
+}
+p.metro_link.lightGreen:before  {
+    content: "М";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 15px;
+    padding-right: 5px;
+    color: #90EE90;
+    font-weight: bold;
+}
+p.metro_link.aqua:before  {
+    content: "М";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 15px;
+    padding-right: 5px;
+    color: #00c2f4;
+    font-weight: bold;
+}
+p.metro_link.white:before  {
+    content: "М";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 15px;
+    padding-right: 5px;
+    color:#fff;
+    font-weight: bold;
+}
+p.metro_link.black:before {
+    content: "М";
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-size: 15px;
+    padding-right: 5px;
+    color:#000;
+    font-weight: bold;
+}
+a.metro_link:hover {
+    text-decoration:underline !important;
+}
+#right-col .right_teaser img{
+	width: 99%;
+}
+#right-col .right_teaser a{
+	color: #637e99;
+	font-family: Arial;
+}
+/* center */
+#mainContent .forum_block {
+    margin: 30px 0 20px;
+    position: relative;
+    font-family: Trebuchet MS, Verdana, Arial, sans-serif;
+}
+#mainContent .forum_block .header_forum span{
+    cursor: default;
+    display: block;
+    position: absolute;
+    border: none;
+    margin: 0;
+    top: -12px;
+    left: 5px;
+    padding: 0;
+    background: url("/images_site/basic_sprite.png") no-repeat -213px -449px;
+    width: 52px;
+    height: 40px;
+}
+#mainContent .forum_block .header_forum a {
+    position: absolute;
+    top: 1px;
+    right: 13px;
+    color: #fff;
+    font-size: 13px;
+    text-shadow: 0 0 0 #fff;
+    font-weight: normal;
+}
+#mainContent .forum_block .header_forum {
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    background: #77afd0;
+    border: 1px solid #6999b5;
+    position: relative;
+    text-shadow: #347EA9 1px 1px;
+    font-weight: bold;
+    padding: 0px 10px 3px 65px;
+    border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -khtml-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #6999b5;
+}
+#mainContent .forum_block div.menu-link-list {
+    display: block;
+    position: relative;
+    border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -khtml-border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    /*border: 1px solid #689AB3;*/
+    border-top: 0 none;
+    padding: 15px 0px;
+}
+#mainContent .forum_block div.menu-link-list li {
+    display: block;
+    width: 25%;
+    color: #393939;
+    float: left;
+    position: relative;
+}
+#mainContent .forum_block div.menu-link-list li a {
+    display: block;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 10px;
+    outline: none;
+}
+#mainContent .forum_block div.menu-link-list li a .ico {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+    background: url("/images_site/basic_sprite.png") -482px -198px no-repeat;
+}
+#mainContent .forum_block div.menu-link-list li a .link-title {
+    color: #383838;
+    font-size: 12px;
+    text-decoration: underline;
+    min-height: 30px;
+    display: block;
+}
+#mainContent .forum_block div.menu-link-list li a .link-title:hover {
+    text-decoration: none;
+}
+#mainContent .forum_block div.menu-link-list li a .balloon {
+    display: block;
+    position: relative;
+    padding: 5px;
+    margin: 0 0 10px;
+    border: 1px solid #6999B5;
+    border-radius: 4px;
+    background-color: white;
+    text-decoration: none;
+    top: 10px;
+    color: #3880B0;
+    left: -18px;
+    width: 107%;
+    min-height: 45px;
+}
+#mainContent .forum_block div.menu-link-list li a .balloon .tail{
+    left: 25px;
+    top: -7px;
+    width: 6px;
+    height: 7px;
+    background-position: -620px -83px;
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    margin: 0;
+    padding: 0;
+    background: url("/images_site/basic_sprite.png") -620px -83px no-repeat;
+}

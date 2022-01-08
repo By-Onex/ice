@@ -1,0 +1,277 @@
+/* 
+    Document   : components
+    Created on : 03.11.2011, 10:24:22
+    Author     : Юрий Жигадло
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+.table {
+	border-top: 2px solid #3fa2d3;
+	border-left: 2px solid #3fa2d3;
+	border-right: 2px solid #3fa2d3;
+	border-bottom: 2px solid #3fa2d3;
+	margin: 0px;
+	padding: 0px;
+}
+
+.th_border_right{
+	border-right: 1px solid #FFFFFF;
+}
+
+.th_border_left{
+	border-left: 1px solid #FFFFFF;
+}
+
+.table table tr th {
+	background-color:#77afd0;
+	color: #FFFFFF;
+	font-size: 10pt;
+	text-align: center;
+}
+
+.table.article-clinics-price table tr th a
+{
+    color: #fff;
+}
+
+.table table tr th a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.table table tr td {
+	background-color: #dde6ee;
+	color: #2c72b1;
+	height:10px; 
+	border-top:2px solid #fff;
+	border-right:1px solid #fff;
+	border-left:1px solid #fff;
+
+}
+
+.table .min_price_highlighted_cell {
+    background-color: #f5f5f5;
+}
+
+.tdlight{
+	background-color: #deecf3;
+}
+
+
+.table table tr td a {
+	color: #378FBF;
+}
+
+.acolor{
+	color: #378FBF; 
+}
+
+
+.table table tr td.exception {
+	text-align: left;
+	font-size: 8pt;
+	background-color: #badbfc;
+}
+
+/*  считаем рейтинг  */
+.top32{
+
+	background-position:0px 0px;
+	display:block;
+	background:url(/images_site/basic_sprite.png) no-repeat 0 0;
+	background-repeat: no-repeat;
+}
+
+.ratingDivComment{
+	text-align:center;
+	z-index: 100;
+	position: absolute; 
+	top:0;
+	left:0;
+	width:100%;
+	text-align:center;
+	height:15px; 
+	cursor:pointer;
+	font-size: 11px;
+
+}
+
+/*    рейтинг */
+.top32NullRate{
+	background-position:-607px -125px;
+	width:19px;
+	height:22px;
+	color:#fff;
+	text-decoration: none;
+	text-align: center;
+	list-style-type:none;
+	vertical-align: middle;
+	padding-top:3px;
+
+}
+
+.top32PlusRate{
+	background-position:-588px -125px;
+	width:19px;
+	height:22px;
+	color:#fff;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	padding-top:3px;
+
+}
+
+.top32MinusRate{
+	background-position:-569px -125px;
+	width:19px;
+	height:22px;
+	color:#fff;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	padding-top:3px;
+
+}
+
+/*  для процентов рейтинга */
+.top32ProgressRateFone{
+	background-position:-710px -463px;
+	width:59px;
+	height:4px;
+	color:#fff;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle
+}
+
+/**     прогресс для рейтингов коментарий   **/
+.top32ProgressRateCommentFone{
+	background-position:-712px -447px;
+	width:79px;
+	height:15px;
+	color:#fff;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+	position:relative;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+
+.top32ProgressRateCommentRed{
+	background :url(/images_site/progressCommentColorRed.png);
+	height:15px;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+
+}
+
+.top32ProgressRateCommentGreen{
+	background :url(/images_site/progressCommentColorGreen.png);
+	height:15px;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;	
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+
+}
+
+.top32ProgressRateCommentGreen span{
+    margin-left:30px;
+
+
+}
+
+top32ProgressRateCommentRed span{
+	margin-left:30px;
+
+}
+
+/*          end comment           */ 
+.dateName{
+    color:#378FBF;
+    margin-top:4px;
+	float:left;
+
+}	
+.colorBlueRating{
+	color: #378FBF;
+}
+
+.top32ProgressRateColorGreen{
+	background :url(/images_site/progressColorGreen.png);
+	width:30px;
+	height:4px;
+	text-align: center;
+	vertical-align: middle
+
+}
+
+.top32ProgressRateColorRed{
+	background :url(/images_site/progressColorRed.png);
+	width:20px;
+	height:4px;
+	text-align: center;
+	vertical-align: middle
+
+}
+
+.balloon ul li{
+	list-style: none;
+	margin-left: 0;
+
+}
+
+.article .table li {
+    list-style: none;
+}
+.article .table table {
+    margin-bottom: 0;
+}
+.article .table table td {
+    background-color: #deecf3;
+}
+.article .table {
+    margin-bottom: 15px;
+}
+.button_action {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #29709F;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 4px 15px 5px;
+    line-height: 14px;
+    border: 1px solid #29709F;
+    margin: 10px 0 10px 15px;
+    float: right;
+    background: #3B84B4;
+    background: -moz-linear-gradient(#58A0C8, #3680B1);
+    background: -ms-linear-gradient(#58A0C8, #3680B1);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #58A0C8), color-stop(100%, #3680B1));
+    background: -webkit-linear-gradient(#58A0C8, #3680B1);
+    background: -o-linear-gradient(#58A0C8, #3680B1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#58a0c8', endColorstr='#3680b1');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#58a0c8', endColorstr='#3680b1')";
+    background: linear-gradient(#58A0C8, #3680B1);
+}

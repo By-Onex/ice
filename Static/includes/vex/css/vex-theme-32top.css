@@ -1,0 +1,218 @@
+@-webkit-keyframes vex-pulse {
+  0% {
+    box-shadow: inset 0 0 0 300px transparent; }
+  70% {
+    box-shadow: inset 0 0 0 300px rgba(255, 255, 255, 0.25); }
+  100% {
+    box-shadow: inset 0 0 0 300px transparent; }
+}
+
+@keyframes vex-pulse {
+  0% {
+    box-shadow: inset 0 0 0 300px transparent; }
+  70% {
+    box-shadow: inset 0 0 0 300px rgba(255, 255, 255, 0.25); }
+  100% {
+    box-shadow: inset 0 0 0 300px transparent; }
+}
+
+.vex.vex-theme-32top {
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.vex.vex-theme-32top .vex-content {
+  font-family: "PT Sans", sans-serif;
+  background: #ffffff;
+  color: #444;
+  padding: 20px 30px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 100%;
+  width: fit-content;
+  width: -moz-fit-content;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.vex.vex-theme-32top .vex-content h1,
+.vex.vex-theme-32top .vex-content h2,
+.vex.vex-theme-32top .vex-content h3,
+.vex.vex-theme-32top .vex-content h4,
+.vex.vex-theme-32top .vex-content h5,
+.vex.vex-theme-32top .vex-content h6,
+.vex.vex-theme-32top .vex-content p,
+.vex.vex-theme-32top .vex-content ul,
+.vex.vex-theme-32top .vex-content li {
+  color: inherit;
+}
+
+.vex.vex-theme-32top .vex-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.vex.vex-theme-32top .vex-close:before {
+  position: absolute;
+  content: "\00D7";
+  font-size: 26px;
+  font-weight: normal;
+  line-height: 31px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  top: 3px;
+  right: 3px;
+  color: #bbb;
+  background: transparent;
+}
+
+.vex.vex-theme-32top .vex-close:hover:before, .vex.vex-theme-32top .vex-close:active:before {
+  color: #777;
+  background: #e0e0e0;
+}
+
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-message {
+  margin-bottom: .5em;
+}
+
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input {
+  margin-bottom: 1em;
+}
+
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input select,
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input textarea,
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="date"],
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="datetime"],
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="datetime-local"],
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="email"],
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="month"],
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="number"],
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="password"],
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="search"],
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="tel"],
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="text"],
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="time"],
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="url"],
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="week"] {
+  background: #ffffff;
+  width: 100%;
+  padding: .25em .67em;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  min-height: 2.5em;
+  margin: 0 0 .25em;
+  border: 1px solid #adb5bd;
+  border-radius: 0.25em;;
+}
+
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input select:focus,
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input textarea:focus,
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="date"]:focus,
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="datetime"]:focus,
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="datetime-local"]:focus,
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="email"]:focus,
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="month"]:focus,
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="number"]:focus,
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="password"]:focus,
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="search"]:focus,
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="tel"]:focus,
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="text"]:focus,
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="time"]:focus,
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="url"]:focus,
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-input input[type="week"]:focus {
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.2);
+  outline: none;
+}
+
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-buttons {
+  *zoom: 1;
+}
+
+.vex.vex-theme-32top .vex-dialog-form .vex-dialog-buttons:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.vex.vex-theme-32top .vex-dialog-button {
+  border-radius: 0;
+  border: 0;
+  float: right;
+  margin: 0 0 0 .5em;
+  font-family: inherit;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: .8em;
+  line-height: 1em;
+  padding: .75em 2em;
+}
+
+.vex.vex-theme-32top .vex-dialog-button.vex-last {
+  margin-left: 0;
+}
+
+.vex.vex-theme-32top .vex-dialog-button:focus {
+  -webkit-animation: vex-pulse 1.1s infinite;
+  animation: vex-pulse 1.1s infinite;
+  outline: none;
+}
+
+
+
+.vex.vex-theme-32top .vex-dialog-button.vex-dialog-button-primary {
+  background: #2d6f9c;
+  color: #fff;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+.vex.vex-theme-32top .vex-dialog-button.vex-dialog-button-secondary {
+  background: #e0e0e0;
+  color: #777;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+.vex-loading-spinner.vex-theme-32top {
+  height: 2.5em;
+  width: 2.5em;
+}
+td.workTimeEditPopup__titleDay {
+  font-weight: 700;
+}
+@media (max-width: 600px) {
+    .vex.vex-theme-32top .vex-content {
+        padding: 20px;
+    }
+  .clinicWorkTimeEditPopup .workTimeEditPopup__dayOff,
+  .clinicWorkTimeEditPopup .workTimeEditPopup__rangeTime {
+    flex-wrap: wrap;
+  }
+}
+
+
+
+
+@media (max-width: 568px) {
+    .vex.vex-theme-32top .vex-dialog-button:focus {
+        -webkit-animation: none;
+        animation: none;
+    }
+}
+@media (max-width: 480px) {
+  .vex.vex-theme-32top .vex-dialog-button {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+
+
+@media (max-width: 420px) {
+  .vex.vex-theme-32top .vex-content {
+    padding: 20px 10px;
+  }
+}

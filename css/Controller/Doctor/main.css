@@ -1,0 +1,83 @@
+/*#doctor_border
+{
+	background: url('/images_site/doctors_photo/photo_border.png') no-repeat;
+	width: 125px;
+	height: 175px;
+}
+
+#doctor_photo
+{
+	height: 175px;
+}
+
+#search_doctor_name
+{
+	text-align: center;
+	font: 13px/15px Trebuchet MS;
+	width: 136px;
+	text-decoration: underline;
+	margin-bottom: 15px;
+	margin: 0 0 10px -15px;
+
+}	
+
+.photo_doctor_content
+{
+	background-color: #F7F7F7;
+	border: solid 1px;
+	border-radius: 10px;
+	border-color: #D5D5D5;
+	position: relative;
+	margin: 10px 10px 10px 10px;
+	
+}
+
+.doctor_rating
+{
+    cursor: pointer;
+	background: url("/images_site/rate-grey.png") repeat-x scroll 0 0 transparent;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    height: 7px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.doctor_rating .rate 
+{
+    cursor: pointer;
+    background: url("/images_site/rate-green.png") repeat-x scroll 0 0 transparent;
+    border-radius: 2px 2px 2px 2px;
+    height: 7px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+
+.doctor_rating_block
+{
+
+    position: relative;
+    top: -5px;
+	width: 100px;
+	margin-right: 15px;
+
+}
+.ratingDivCommentDoc {
+    cursor: pointer;
+    font-size: 11px;
+    height: 15px;
+    left: 0;
+    position: relative;
+    text-align: left;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+	color: #AAC403;
+}
+*/

@@ -1,0 +1,616 @@
+#header
+{
+    width:100%;
+    min-width:950px;
+    max-width:1200px;
+    padding:0;
+    background:transparent;
+    color:#777777;
+    margin-top: 5px;
+}
+#header .header_nowrap_links 
+{
+    white-space: nowrap;
+    float: left;
+}
+#header .header_nowrap_links a{
+	font-size: 1.2em;
+}
+#header a 
+{
+    color:#448cba; 
+    margin-right:16px
+}
+#header span
+{
+    font-size:14px;
+}
+
+#list_of_city_site {
+    position: relative;
+}
+
+#list_of_city_site .select_city {
+    color: #777777;
+    display: block;
+    float: right;
+    font-size: 14px;
+    /* padding: 3px 0 5px;*/
+    padding-right: 0;
+    position: relative;
+    white-space: nowrap;
+}
+
+#list_of_city_site .select_city .current {    
+    color: #378FBF;
+    cursor: pointer;
+    font: bold 16px/18px 'Trebuchet Ms';
+    margin-left: 5px;
+    padding: 2px 20px 2px 9px;
+    position: relative;
+    white-space: nowrap; 
+    top: -3px;
+    float: right;
+}
+
+#list_of_city_site .select_city .current nobr {
+    border-bottom: 1px dashed #0072bc;   
+}
+#header .total_list_city {
+    position: relative;
+    display: none;
+    top: -3px;
+
+}
+#header .total_list_city .table {
+    display: inline-table;
+    position: relative;
+    background: #4c91be;
+    border-radius: 8px 0 8px 8px; 
+    -moz-border-radius: 8px 0 8px 8px;  
+    -khtml-border-radius: 8px 0 8px 8px; 
+    -webkit-border-radius: 8px 0 8px 8px; 
+    padding: 8px 0;
+    width: 100%;
+    border-width: 0;
+
+}
+#header .total_list_city .block_td ul li a {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    padding-left: 37px;
+    padding-right: 5px;
+    margin-right: 0!important;
+
+}
+
+#header .total_list_city .block_td ul li a:hover {
+    background: #fbd42e;
+
+}
+
+#header .total_list_city .block_td {
+    display: table-cell;
+}
+
+#header .total_list_city .current_city {
+    font-weight: bold;    
+}
+
+#header .total_list_city .current_city a {
+    cursor: default;
+}
+
+#header .total_list_city .ip_city a
+{
+    background: url(/images_site/ip_city.png) no-repeat 11px 5px!important;
+
+}
+
+#header .total_list_city .ip_city a:hover {
+    background: url(/images_site/ip_city.png) no-repeat 11px 5px #fbd42e!important;
+}
+
+#header .total_list_city .block_td ul li {
+    position: relative;
+    height: 20px;
+
+}
+#header .total_list_city .ip_city {
+    font-weight: bold;
+
+}
+
+/*========== КНОПКА ДОБАВЛЕНИЯ КЛИНИКИ / ДОКТОРА ==========*/
+
+.header_links {
+    float: left;
+    position: absolute;
+    top: -1px;
+    left: 0px;
+    width: 100px;
+    border-right: 1px solid #8dbad7;}
+.header_links:hover {
+    border-radius: 0 0 10px 0;}    
+.header_links__button {
+    color: #286e9a !important;
+    text-shadow: -1px -1px #fecb3e!important;
+    font-size: 14px!important;
+    line-height: 30px;
+    padding: 0 10px;
+    position: relative;
+    border: 1px solid #568baf;
+    border-top: none;
+    border-radius: 0 0 0 7px;
+    display: block;
+    height: 30px;
+    z-index: 10;
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #F9E24D), color-stop(1, #FFC83C));
+    background-image: -o-linear-gradient(bottom, #F9E24D 0%, #FFC83C 100%);
+    background-image: -moz-linear-gradient(bottom, #F9E24D 0%, #FFC83C 100%);
+    background-image: -webkit-linear-gradient(bottom, #F9E24D 0%, #FFC83C 100%);
+    background-image: -ms-linear-gradient(bottom, #F9E24D 0%, #FFC83C 100%);
+    background-image: linear-gradient(to bottom, #F9E24D 0%, #FFC83C 100%); }
+.header_links:hover .header_links__button {
+    border-radius: 0;}
+.header_links:hover .header_links__list {
+    display: block;} 
+.header_links__button:before {
+    content: " ";
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    width: 12px;
+    height: 12px;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAKCAMAAACZt25aAAAA9lBMVEX/yyYAbp3/yyYAbp3/yyYAbp3/yyYAbp3/yyYAbp3/yyYAbp3/yyYAbp3/yyb/yyYAbp3/xy7/yyYAcpoAbp3/yyYAdZf3wjb/yyYAbp0Ad5TkukMAbp3/yyYAeJPStEsAbp3/yyYAbp3/yyYAbp3/yyYAdJjCr1UAbp0Adpaio2H/yyb/yyYAbp0AdJiKm2wAbp0AcppxknX/yyYAcJxPiYEAbp0AcJwAc5kAdJgAeJMlf4xkqMNlqcR1lHR2scp3ssqGuM+Huc+UnmivqVzO4uvQ5OzovEDo8fXp8fXq8vb6wjb8/f38/f7/xy7/yij/yyb////cH4IIAAAANnRSTlMAAwMKCgsLGBgZGSoqKytHSEpKTGJia2t9foyMmZmsrLOztbfS0uDg5eXl5fLz8/P7+/v7/v7+H8I4AAAAoUlEQVR42i2ORxaCQBAFEXPGnBXMOQuKIEFBRVD7/pdxxqYW/X692jRDyeYZpPf1Ef7KDkYFDJmD6MNTLX3OkwCWjuQBwV0niYRmN0UtY0hsTRqMJpXqW7bsZRhL4+gAPBdRMmPzqwag1zFEVjqAVqOz9To9AJxNHEtFtq1xkIzU7mIAwWxjYKeqUqRDuEsuDd4+jSU37OOLvOjTZRCOo/cHeEodSQtQ5L4AAAAASUVORK5CYII=) -14px 0px no-repeat;}
+.header_links:hover .header_links__button:before {
+    background-position: 0px 0px;}
+.header_links__list {
+    display: none;
+    border-radius: 0 0 5px 5px;}
+.header_links__list li {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #568baf;
+    border-top: none;
+    background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #F9E24D), color-stop(1, #FFC83C));
+    background-image: -o-linear-gradient(bottom, #F9E24D 0%, #FFC83C 100%);
+    background-image: -moz-linear-gradient(bottom, #F9E24D 0%, #FFC83C 100%);
+    background-image: -webkit-linear-gradient(bottom, #F9E24D 0%, #FFC83C 100%);
+    background-image: -ms-linear-gradient(bottom, #F9E24D 0%, #FFC83C 100%);
+    background-image: linear-gradient(to bottom, #F9E24D 0%, #FFC83C 100%); }
+.header_links__list li:last-child {
+    border-radius: 0 0 7px 7px;}
+.header_links__list li:hover {
+    background: #fff;}
+.header_links__list a {
+    color: #286e9a!important;
+    text-shadow: none!important;
+    text-decoration: none!important;
+    display: inline-block;
+    width: 100%;}
+
+/*========== КНОПКА ДОБАВЛЕНИЯ КЛИНИКИ / ДОКТОРА - КОНЕЦ ==========*/
+
+#list_of_city_site .active .arr {
+    background: url("/images_site/basic_sprite.png") no-repeat -453px -203px;
+}
+
+#list_of_city_site .select_city .active {
+    background-color: #4C91BE;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: white;
+    padding-left: 5px;
+    padding: 2px 20px 8px 9px;
+
+}
+
+#list_of_city_site .select_city span {
+    float: left;
+}
+
+.form_logon_registartion {
+    position: relative;
+    display: none;
+}
+/*.form_logon_registartion.logon_site #form_logon_site*/
+/*{*/
+/*    display: block;*/
+/*}*/
+.form_logon_registartion.registration_site #form_registration_data {
+    display: block;
+}
+.modal_window{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    opacity: 0.4;
+    background: #A8A8A8;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.container_form {
+    height: auto;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -220px;
+    position: fixed;
+    display: none;
+    width: 527px;
+    z-index: 1100;
+    background: #fff;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#login_page .container_form {
+    height: auto;
+    left: 50%;
+    top: 50%;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: inherit;
+    display: block;
+    width: 100%;
+    z-index: 1100;
+    background: #fff;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#register_page .container_form {
+    height: auto;
+    left: 50%;
+    top: 50%;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: inherit;
+    display: block;
+    width: 100%;
+    z-index: 1100;
+    background: #fff;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.container_form .header {
+    position: relative;
+    text-align: center;
+    padding: 7px 0;
+    background: #f7f6f6;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2d6f9c;
+    border-bottom: 1px solid #fff;
+    border-radius: 5px 5px 0 0; 
+    -moz-border-radius: 5px 5px 0 0; 
+    -khtml-border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+}
+.container_form .close {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    background: url(/images_site/basic_sprite.png) no-repeat -751px -487px;
+    cursor: pointer;
+    top: 8px;
+    right: 8px;
+}
+.container_form .content {
+    position: relative;
+    padding: 20px;
+    border-top: 1px solid #b9b9b9;
+}
+.container_form .content .infogrey_block {
+    border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 20px;
+    background: #f7f6f6;
+    border: 1px solid #b9b9b9;
+    color: #505050;
+    font-size: 14px;
+}
+.container_form .content .infogrey_block p {
+    margin: 0 0 7px;
+}
+.container_form .content .infogrey_block img {
+    margin: 0 9px;
+    border: 0 none;
+}
+.container_form .text {
+    text-align: center;
+    color: #2D6F9C;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.container_form .content .infogrey_block .item_form {
+    display: block;
+    font-size: 16px;
+    color: #818181;
+    margin-bottom: 4px;
+    position: relative;
+}
+.container_form .content .infogrey_block input {
+    border: 1px solid #bbb;
+    padding: 6px 8px;
+    width: 96%;
+}
+.container_form a {
+    color: #0072bc;
+    font-size: 14px;
+}
+.container_form .action_form {
+    position: relative;
+    margin: 5px 0 15px;
+    color: #818181;
+    font-size: 14px;
+}
+.container_form .forgot_password {
+    float: left;
+}
+.container_form .registration {
+    float: right;
+}
+.container_form .button_form {
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #3179a5;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 3px 40px;
+    cursor: pointer;
+    font-family: 'Trebuchet MS',Verdana, Arial,sans-serif;
+    text-shadow: -1px -1px 1px #245d84;
+    -o-background-size: 100% 100%; 
+    -webkit-background-size: 100% 100%; 
+    -khtml-background-size: 100% 100%; 
+    background-size: 100% 100%;    
+    background: -o-linear-gradient(270deg,#41a1c8,#296695);
+    background: -moz-linear-gradient(top,#41a1c8,#296695);
+    background: -webkit-gradient(linear, left top, left bottom, from(#41a1c8), to(#296695));
+    background: linear-gradient(top,#41a1c8,#296695);
+    background-clip: border-box; 
+    -moz-background-clip: border; 
+    -webkit-background-clip: border-box;
+    background-origin: border-box; 
+    -moz-background-origin: border; 
+    -webkit-background-origin: border-box;
+    background: #3686b1\9;
+}
+
+.container_form .show_password {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    color: #818181;
+    font-size: 12px;
+}
+.container_form .show_password input[type="checkbox"] {
+    width: 13px;
+    vertical-align: middle;
+    margin: 0 5px 0;
+    border: 0 none;
+}
+.container_form .show_password label {
+    vertical-align: middle;
+    cursor: default;
+}
+.container_form .no_padding {
+    padding: 3px 20px;
+}
+
+#incorrect_login_in_reg {
+    display: none;
+}
+
+#incorrect_login_in_log {
+    display: none;
+}
+
+#exists_login_in_reg {
+    display: none;
+}
+
+#incorrect_password_in_reg {
+    display: none;
+}
+
+#incorrect_password_in_log {
+    display: none;
+}
+
+#auth_reg {
+    display: none;
+}
+
+#incorrect_password_in_log{
+    display: none;
+}
+
+#incorrect_user_in_log {
+    display: none;
+}
+
+#password_not_exist_in_log{
+    display: none;
+}
+
+#user_not_exist_in_log{
+    display: none;
+}
+
+#password_not_exist_in_reg {
+    display: none;
+}
+
+#not_validate {
+    display: none;
+}
+
+#if_admin_in_log {
+    display: none;
+}
+
+#exists_login_in_log {
+    display: none;
+}
+/**********************/
+#container #header {
+    color: #fff;
+    margin-top: 0;
+    position: relative;
+}
+#container #header .header_block {
+    background: url(/images_site/header_bg.png) repeat-x;
+    border-radius: 0 0 8px 8px; 
+    -moz-border-radius: 0 0 8px 8px; 
+    -khtml-border-radius: 0 0 8px 8px;
+    -webkit-border-radius: 0 0 8px 8px;
+    color: #fff;
+    height: 18px;
+
+    padding: 6px 0 6px 100px; /*!!!!!!!!*/
+
+    width: auto;
+    position: relative;
+    z-index: 100;
+    border-bottom: 1px solid #abc6d8;
+}
+#container #header a {
+    color: #fff;
+    text-shadow: -1px -1px 1px #387ab0;
+    margin-right: 10px;
+}
+#list_of_city_site {
+    float: right;
+    position: relative;
+    top: -6px;
+}
+#block_authorization_users {
+    color: #2F729E;
+    float: right;
+    font-size: 14px;
+    min-height: 26px;
+    padding: 6px 18px;
+    text-align: center;
+    position: relative;
+    top: -6px;
+    margin-right: 10px;
+    border-radius: 0 0 8px 8px; 
+    -moz-border-radius: 0 0 8px 8px; 
+    -khtml-border-radius: 0 0 8px 8px;
+    -webkit-border-radius: 0 0 8px 8px;
+    box-shadow: 0 2px 3px #8ea2af;
+    -moz-box-shadow: 0 0 2px #8ea2af;
+    -webkit-box-shadow: 0 0 2px #8ea2af;    
+    border: 1px solid #40799f;
+    border-top: 0;
+    z-index: 100;
+    background: #fefefe;
+    background: -moz-linear-gradient(top, #dfe6ea, #fefefe);
+    background: -webkit-gradient(linear, left top, left bottom,
+    color-stop(0%,#dfe6ea), color-stop(100%,#fefefe));
+    background: -webkit-linear-gradient(top, #dfe6ea, #fefefe);
+    background: -o-linear-gradient(top, #dfe6ea, #fefefe);
+    background: -ms-linear-gradient(top, #dfe6ea, #fefefe);
+    background: linear-gradient(top, #dfe6ea, #fefefe);
+}
+#container #header #block_authorization_users a {
+    color: #2f729e;
+    font-style: italic;
+    text-shadow: 0 0 0 #fff;
+    margin: 0;    
+}
+#container #header .total_list_city {
+    z-index: 50;
+    top: -22px;
+}
+#header .header_nowrap_links {
+    margin-left: 10px;
+}
+#container #header .total_list_city .table {
+    border-radius: 0 0 8px 8px; 
+    -moz-border-radius: 0 0 8px 8px; 
+    -khtml-border-radius: 0 0 8px 8px;
+    -webkit-border-radius: 0 0 8px 8px;
+    background: url(/images_site/bg_list_city.png) repeat-x #65acda;
+    min-height: 79px;
+    padding: 16px 0;
+    font-size: 19px;
+    padding: 16px 0 0 0\9;
+}
+#container #header .total_list_city .block_td ul li a {
+    font-size: 18px;
+    text-shadow: 0 0 0 #fff;
+    padding: 2px 5px 2px 37px;    
+}
+
+#header .total_list_city .block_td ul li {
+    margin-bottom: 5px;
+    height: auto\9;
+}
+#container #header .header_nowrap_links a {
+    font-size: 12px;
+}
+#container #header #list_of_city_site .select_city {
+    font-size: 14px;
+    padding: 6px 5px 0 14px;
+    margin-right: 10px;
+    height: 25px;
+}
+#container #header #list_of_city_site .select_city, 
+#container #header #list_of_city_site .select_city .current {
+    color: #fff;
+    text-shadow: -1px -1px 1px #387AB0;
+}
+#container #header #list_of_city_site .select_city .current {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 23px 0 0;
+    top: 0;    
+}
+#container #list_of_city_site .select_city .current nobr {
+    border: 0 none;
+}
+#container #list_of_city_site .select_city .arr {
+    background: url(/images_site/basic_sprite.png) no-repeat -783px -504px;
+    height: 8px;
+    top: 6px;
+    display: block;
+    width: 9px;
+    position: absolute;
+    right: 10px;
+}
+
+#container #header #list_of_city_site .select_city.active {
+    background: url(/images_site/active_city_bg.png) repeat-x;
+    border-left: 1px solid #a6c5da;
+    border-right: 1px solid #a6c5da;
+}
+
+#container #list_of_city_site .select_city .arr.down {
+    background-position: -750px -503px;
+}

@@ -1,0 +1,12 @@
+#left-col .case_tab
+{
+    margin-bottom: 35px;
+    margin-top: 25px;   
+
+}
+#left-col .case_tab h3 {margin-bottom: 0}
+.header_interesting span {
+    background-position:-282px 0;
+    bottom:-8px;	right:-8px;
+    height:66px;	width:79px;
+}

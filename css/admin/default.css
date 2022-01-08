@@ -1,0 +1,557 @@
+/*
+        Design by Free CSS Templates
+        http://www.freecsstemplates.org
+        Released for free under a Creative Commons Attribution 2.5 License
+*/
+/* Basic */
+input, textarea {
+    padding-left: 5px;
+}
+.left-data-col {
+        background-color: #C0E8C7;
+        font-weight: bold;
+        text-align: left;
+        padding: 5px;
+        width: 170px;
+}
+
+#deleteDiv {
+        float: right;
+}
+
+.field-description {
+        font-size: 10pt;
+}
+
+.pseudo-link {
+        color: #669911;
+        border-bottom: 1px dashed;
+        cursor: pointer;
+        cursor: hand;
+}
+
+.data-ul {
+        list-style: none;
+        margin-left: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+}
+
+#submit-reset {
+        text-align: center;
+        margin-top: 15px;
+}
+
+#submit-reset input {
+        font-size: 170%;
+}
+
+* {
+        margin: 0em;
+        padding: 0em;
+}
+h1,h2 {
+}
+body {
+        font-family: "trebuchet ms", sans-serif;
+        color: #555555;
+        font-size: 11pt;
+}
+a {
+        color: #669911;
+}
+/* Outer */
+#outer {
+}
+/* Header */
+#header {
+        height: 95px;
+        background-image: url('/images_site/admin/a2.gif');
+        background-position: bottom left;
+        padding-left: 40px;
+        padding-top: 45px;
+}
+#header h1 a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.5em;
+}
+#header h1 {
+        text-transform: lowercase;
+        font-size: 1.6em;
+}
+#header h2 {
+        position: relative;
+        top: -0.3em;
+        color: #E8EFC2;
+        font-weight: normal;
+        font-size: 1.1em;
+        text-transform: lowercase;
+}
+/* Menu */
+#menu {
+        background-image: url('/images_site/admin/a3.gif');
+        background-repeat: repeat-x;
+        background-position: bottom left;
+        padding: 1em 2.5em 1em 2.5em;
+}
+#menu ul {
+        list-style: none;
+}
+#menu li {
+        display: inline;
+}
+#menu li a {
+        font-size: 1.1em;
+        font-weight: bold;
+        text-transform: lowercase;
+        color: #5D5F53;
+        text-decoration: none;
+        margin-right: 1em;
+}
+#menu li a:hover {
+        color: #6B7E09;
+        text-decoration: underline;
+}
+/* Content */
+#content {
+        padding: 3em 15px 1em 15px;
+        line-height: 1.6em;
+        background: url('/images_site/admin/a4.gif') repeat-x top left;
+		max-width: 1200px;
+}
+#content p {
+        margin-bottom: 1.5em;
+}
+#content h2,h3,h4,h5,h6 {
+        margin-bottom: 1em;
+}
+#content ul {
+        margin-bottom: 1.5em;
+        padding-left: 1em;
+}
+#content blockquote {
+        padding: 1em;
+        margin-bottom: 1.5em;
+        background-color: #FFFCD8;
+        background-image: url('/images_site/admin/a5.gif');
+        background-repeat: no-repeat;
+        background-position: top left;
+        border: dotted 1px #DFD999;
+}
+#content blockquote p {
+        margin-bottom: 0em;
+}
+#content table {
+        margin-bottom: 0em;
+}
+#content table th {
+        text-align: left;
+        font-weight: bold;
+        padding: 0.5em;
+}
+#content table td {
+        /*padding: 0.5em;*/
+}
+#content table tr.rowA {
+        background-color: #EAEFE0;
+        color: inherit;
+}
+#content table tr.rowB {
+        background-color: #F9FFEF;
+        color: inherit;
+}
+
+#primaryContent table#doctor-list {
+        border: none;
+}
+
+#primaryContent table#doctor-list col.left {
+        text-align: right;
+}
+
+#primaryContent table#doctor-list td a.red {
+        color: red;
+}
+
+#primaryContent form#editInterface input[type = "text"],#primaryContent form#editInterface textarea {
+        width: 100%;
+		padding:2px 0;
+}
+#primaryContent form#editInterface textarea {
+	min-height:150px;
+}
+#primaryContent form#editInterface input[type = "file"] {
+        width: 100%;
+}
+
+#primaryContent form#editInterface table td {
+        padding: 5px;
+}
+
+
+#primaryContent form#editInterface table td p, #content form#editInterface table td ul {
+        margin-bottom: 0;
+}
+
+#primaryContent form#editInterface table td #doctor-clinics {
+        width: 100%;
+        /*height: 200px;
+        overflow:auto;*/
+        border: 1px dashed rgb(150,150,150);
+}
+
+
+#primaryContent form#editInterface table td #doctor-photo {
+        width: 100%;
+        height: 400px;
+        overflow:auto;
+        border: 1px dashed rgb(150,150,150);
+}
+
+/*
+#primaryContent form#editInterface table td #doctor-photo img {
+        border: none;
+}
+*/
+#primaryContent form#editInterface table col.left-data-col {
+        background-color: #C0E8C7;
+        font-weight: bold;
+        text-align: left;
+        padding: 5px;
+        width: 170px;
+}
+
+#deleteDiv {
+        float: right;
+}
+
+#primaryContent form#editInterface .field-description {
+        font-size: 8pt;
+}
+
+.pseudo-link {
+        color: #669911;
+        border-bottom: 1px dashed;
+        cursor: pointer;
+        cursor: hand;
+}
+
+.pseudo-link:hover
+{
+    cursor: default;
+    content: '';
+}
+
+#primaryContent form#editInterface .data-ul {
+        list-style: none;
+        margin-left: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+}
+
+#primaryContent form#editInterface #submit-reset {
+        text-align: center;
+        margin-top: 15px;
+}
+
+#primaryContent form#editInterface #submit-reset input {
+        font-size: 170%;
+}
+
+/* Primary Content */
+#primaryContentContainer {
+        float: left;
+        margin-right: -300px;
+        width: 100%;
+}
+#primaryContent {
+    margin: 0 250px 0 0;
+    padding: 0;
+}
+#primaryContent h2, #primaryContent h3 {
+        text-transform: lowercase;
+        color: #5D5F53;
+        border-bottom: dotted 1px #ECEEDF;
+        padding-bottom: 0.3em;
+}
+.secondaryContent h3, #tertiaryContent h3 {
+        background: url('/images_site/admin/a1.gif') no-repeat;
+        width: 185px;
+        height: 27px;
+        font-size: 1.0em;
+        font-weight: bold;
+        padding-left: 15px;
+        padding-top: 5px;
+        text-transform: lowercase;
+        color: #5D5F53;
+}
+/* Secondary Content */
+.secondaryContent {
+        float: left;
+        width: 215px;
+}
+/* Tertiary Content */
+#tertiaryContent {
+        float: right;
+        width: 215px;
+        /*padding-right: 1em;*/
+}
+/* Footer */
+#footer {
+        background: url('/images_site/admin/a4.gif') repeat-x top left;
+        border-top: solid 1px #D0D4BB;
+        padding: 2.0em 3.5em 3.0em 3.5em;
+        font-size: 0.8em;
+}
+.clear {
+        clear: both;
+}
+#content div.small {
+	line-height:1.25em;
+    font-size: 10.5pt;
+}
+
+#content table.comments  {
+	border:none;
+	border-collapse:collapse;
+	width:100%;
+}
+#content table.comments td {
+	border:none;
+	padding:15px 10px;
+}
+#content table.comments tr.even {
+	background-color: #f5f5f5;
+}
+#content table.comments tr.dubious {
+	border: solid red;
+    background-color: #FFE0E0;
+}
+#content table.comments .buttons  {
+	padding:5px 0;
+}
+#content ul.chzn-choices {
+	margin-bottom:0;
+}
+
+#content table.comments .answer_cont {
+	display:none;
+	padding:15px 0;
+}
+#content #links_cont {
+	display:none;
+}
+#content table.comments .buttons input {
+	margin-left:10px;
+}
+table.tbl tr td,table.tbl tr th {
+	padding:3px 8px;
+}
+table.tbl tr th {
+	font-weight:bold;
+}
+sup.new {
+	margin-left:5px;
+	background-color:#BB0000;
+	color:#fff;
+	font-style:italic;
+	font-weight:normal;
+	padding:2px;
+}
+ul#forum_topic_messages,ul#forum_topic_messages li {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+ul#forum_topic_messages {
+	position:relative;
+	max-height:400px;
+	overflow:auto;
+}
+ul#forum_topic_messages li {
+	padding:5px 10px;
+}
+ul#forum_topic_messages li .title {
+	font-weight:bold;
+}
+ul#forum_topic_messages li .date {
+	color:#999;
+	font-style:italic;
+	font-size:10pt;
+	float:right;
+}
+ul#forum_topic_messages li .text {
+	border-top:1px dashed #999;
+	margin:3px 0;
+	padding:3px;
+}
+ul#forum_topic_messages li .hidden {
+	display:none;
+}
+#msg_functions {
+	position:absolute;
+	border:1px solid #666;
+	background-color:#1a1a1a;
+	color:#fff;
+	font-size:10pt;
+	display:none;
+	padding:5px 10px;
+}
+#msg_functions a {
+	color:#fff;
+	text-decoration:none;
+	font-size:10pt;
+}
+#msg_functions a:hover {
+	color:#888;
+}
+#content #seo-data {
+	width:100%;
+}
+#content #seo-data input {
+	width:95%;
+}
+#content #seo-data textarea {
+	width:95%;
+	min-height:150px;
+}
+#attention {
+ /*color: red;*/
+ font-size: 1.5em;
+}
+.attention_city{
+ text-transform:none;
+ font-weight: bold;
+ color:green;
+}
+.attention_list {
+    display:inline;
+}
+.attention_list li, .admin-panel__tables ul li {
+    list-style: none;
+}
+.attention_list li a {
+    color:red;
+}
+tr form span.add_filter {
+	width: 24px;
+	height: 24px;
+	background: url('/images_site/stock_standard-filter.png') no-repeat;
+	display: inline-block;
+	cursor: pointer;
+}
+tr form span.remove_filter {
+	width: 16px;
+	height: 16px;
+	background: url('/images_site/button_cancel.png') no-repeat;
+	display: inline-block;
+	cursor: pointer;
+}
+ 
+.topic_tbl td{
+    border-bottom: 1px solid #ccc;
+}
+.doctorFormContainer .alert{
+    background-color: #FFEFB9;
+    border: 1px solid #E0C360;
+    border-radius: 5px;
+    color: #333333;
+    font-size: 12px;
+    height: auto;
+    left: 62.5%;
+    line-height: 1em;
+    padding: 0 4px 4px;
+    position: absolute;
+    top: 0;
+    width: 36.5%;
+    z-index: 10;
+}
+.doctorFormContainer .alert p{
+    margin: 4px 0 0;
+}
+.doctorFormContainer {
+    background: url("/images_site/basic_sprite.png") no-repeat scroll -367px -199px rgba(0, 0, 0, 0);
+    display: block;
+    height: 22px;
+    margin-top: -10px;
+    position: absolute;
+    width: 17px;
+}
+.doctorFormContainer .fileapiContainer .btn input{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+}
+.doctorFormContainer .fileapiContainer .b-thumb__preview{
+    height: 100px;
+    width: 150px;
+}
+.doctorFormContainer .fileapiContainer .b-upload .js-files:after{
+    clear: none;
+}
+.doctorFormContainer .form_add .image.btn-small{
+    height: 140px;
+    width: 164px;
+    margin-top: 2px;
+}
+.doctorFormContainer .fileapiContainer .b-thumb__progress{
+    top: 92px;
+}
+.doctorFormContainer .fileapiContainer .b-thumb__name{
+    width: 150px;
+}
+.doctorFormContainer .clinicFormImageContainer{
+    padding: 0px;
+}
+.doctorFormContainer .clinicFormImageContainer .nonsignificant_photo{
+    bottom: -22px;
+}
+.doctorFormContainer .clinicFormImageContainer .image{
+    width: 163px;
+    height: 125px;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+.form_add .add_images {
+    display: block;
+    height: 100%;
+    margin: 0 auto;
+}
+.form_add .image, .form_add .noneditable_image {
+    background: url("/images_site/add_images_cap.png") no-repeat scroll center center #E4E4E4;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 133px;
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 177px;
+}
+.image {
+    background: url("/images_site/add_images_cap.png") no-repeat scroll center center #E4E4E4;
+    border: 1px solid #BDBDBD;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 133px;
+    margin: 0 10px 10px 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 177px;
+}
+.worktime-add {
+    margin: 0 10px 0 0;
+}
+.row-add-year-event {
+    display: flex;
+    flex-direction: row;
+}
+.row-add-year-event > * {
+    display: block;
+}

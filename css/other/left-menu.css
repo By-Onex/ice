@@ -1,0 +1,421 @@
+#main-menu-links-block{
+	margin: 0;
+	padding: 0 !important;
+	list-style: none; /*border: solid 1px black;*/
+}
+
+#main-menu-links-block li
+
+
+{ margin: 0 0 5px 0; padding: 0; list-style-type: none; font-weight :bold; /*border: solid 1px red;*/ }
+
+
+
+
+
+
+
+
+#secondaryContent .non-clickable, #tertiaryContent .non-clickable, #primaryContent .non-clickable
+
+
+{ height: 29px; background: #e3f0fd url(/images_site/light_blue_center_2c.png) left top repeat-x; margin: 0 0 5px 0; }
+
+
+#secondaryContent .non-clickable p.header, #tertiaryContent .non-clickable p.header, #primaryContent .non-clickable p
+
+
+{ color: #768492; font-size: 16px; line-height: 29px; font-weight: bold; border: none; }
+
+
+#secondaryContent .non-clickable p.header span
+
+
+{ margin: 0 0 0 10px; }
+
+
+ #tertiaryContent .non-clickable p.header span, #primaryContent .non-clickable p.nc-content span.nc-content-span
+
+
+{ margin:0; }
+
+
+#primaryContent .non-clickable p.nc-content span.nc-content-span
+
+
+{ padding: 0 0 0 14px; }
+
+
+#primaryContent .non-clickable
+
+
+{ width: 200px; background: none; float: right; }
+
+
+#primaryContent .non-clickable p.nc-content
+
+
+{ padding: 0; text-align: right; }
+
+
+#secondaryContent .non-clickable p.header 
+
+
+{ background: url(/images_site/light_blue_right_2c.png) right top no-repeat; }
+
+
+#tertiaryContent  .non-clickable p.header
+
+
+{ background: url(/images_site/light_blue_left_2c.png)   left top no-repeat; display: block; }
+
+
+
+
+
+#secondaryContent #forum-consult-banner-left
+
+
+{ margin: 0 0 5px 0; }
+
+
+#forum-consult-banner-left a
+
+
+{ display: block; font-size: 1px; width: 175px; height: 140px; margin: 0 0 10px 10px; }
+
+
+#forum-consult-banner-left a img
+
+
+{ border: none; margin: 0; padding: 0; }
+
+
+
+
+
+.clickable
+
+
+{ height: 29px; background: #b9c728 url(/images_site/menu_bg.png) left top repeat-x; margin: 0 0 5px 0; line-height: 29px; }
+
+
+.clickable a
+
+
+{ color: #fff; text-decoration: none; display: block; height: 29px; line-height: 29px; width: 100%; }
+
+
+#secondaryContent .clickable a, #primaryContent .clickable a
+
+
+{ background: url(/images_site/menu_right.png) right top no-repeat; }
+
+
+#tertiaryContent .clickable a
+
+
+{ background: url(/images_site/menu_left.png)   left top no-repeat; }
+
+
+.clickable a span
+
+
+{  text-decoration: underline;  }
+
+
+.clickable a:hover span
+
+
+{ text-decoration: none; }
+
+
+#secondaryContent .clickable a span
+
+
+{ margin: 0 0 0 10px; }
+
+
+#tertiaryContent .clickable a span
+
+
+{ margin: 0 0 0 14px; }
+
+
+#primaryContent .clickable a span
+
+
+{ display: block; height: 29px; background: url(/images_site/menu_left.png)   left top no-repeat; padding: 0 0 0 10px; cursor: pointer; cursor: hand; font-weight: bold; }
+
+
+#primaryContent .clickable
+
+
+{ width: 95px; float: right; }
+
+
+#primaryContent .active .clickable a span
+
+
+{ background-image: url(/images_site/menu_left_nt.png); }
+
+
+#primaryContent .active .clickable a
+
+
+{ background-image: url(/images_site/menu_right_nt.png); }
+
+
+
+
+
+
+
+
+#clinics-by-metro-block
+
+
+{ padding: 0; /*position: relative;*/ background-color: #e3f0fd;/*#fff;*/ margin: 0 0 15px 0; }
+
+
+#clinics-by-metro-block #cmb-top, #clinics-by-metro-block #cmb-bottom
+
+
+{ /*position: relative;*/ height: 14px; background-color: #fff;}
+
+
+#clinics-by-metro-block #cmb-top
+
+
+{ background: url(../images_site/light_blue_tr.png) right top no-repeat; }
+
+
+#clinics-by-metro-block #cmb-bottom
+
+
+{ background: url(../images_site/light_blue_br.png) right bottom no-repeat;  }
+
+
+#clinics-by-metro-block p
+
+
+{ margin: 0; padding: 0; border: none; color: #768492; }
+
+
+#clinics-by-metro-block p.header
+
+
+{ font-size: 16px; font-weight: bold; margin: 5px 0; }
+
+
+#clinics-by-metro-block p.header.active span
+
+
+{ color: #0070db; cursor: pointer; cursor: hand; border-bottom: 1px dashed; position: relative;}
+
+
+#clinics-by-metro-block p.header span, #clinics-by-metro-block p.other span
+
+
+{ margin: 0 0 0 10px; }
+
+
+div.search-clinic-container
+
+
+{
+
+
+	width: 170px;
+
+
+	padding: 0 0 0 5px;
+
+
+}
+
+
+
+
+
+div.left-menu-clinic-list
+
+
+{
+
+
+	position: relative; width: 170px; height: 150px; overflow: auto; background-color: #f3f3f3; border: #ccc 1px solid; margin: 0 0 5px 0; /*border: solid 1px red*/;
+
+
+}
+
+
+div.left-menu-clinic-list p.comment
+
+
+{
+
+
+	font-size: 8pt;
+
+
+}
+
+
+div.left-menu-clinic-list ul
+
+
+{
+
+
+	list-style: none; margin: 0; padding: 0 !important;
+
+
+}
+
+
+div.left-menu-clinic-list ul li
+
+
+{
+
+
+	margin: 0; padding: 0 0 0 5px; border: 1px solid #f3f3f3;
+
+
+}
+
+
+div.left-menu-clinic-list ul li a
+
+
+{
+
+
+	display: block;
+
+
+	position: relative;
+
+
+	margin: 0;
+
+
+	padding: 0;
+
+
+	color: #0070db;
+
+
+}
+
+
+div.left-menu-clinic-list ul li a:first-letter
+
+
+{
+
+
+	color: #f00 !important;
+
+
+	font-weight: bold;
+
+
+}
+
+
+input#search-metro-name
+
+
+{
+
+
+	display: block;
+
+
+	position: relative;
+
+
+	width: 100%;
+
+
+	background-color: #f3f3f3;
+
+
+	border: #ccc 1px solid;
+
+
+	border-bottom-width: 0;
+
+
+	color: #abbac6;
+
+
+	padding: 0;
+
+
+	margin: 0;
+
+
+	background-position: right top;
+
+
+	background-repeat: no-repeat;
+
+
+	outline: none;
+
+
+	font-size: 11px;
+
+
+	background-image: url(/images_site/search.png);
+
+
+}
+
+
+*html input#search-metro-name
+
+
+{
+
+
+	margin-bottom: -1px;
+
+
+	background-image: url(/images_site/search.png);
+
+
+}
+
+
+input#search-metro-name.no-name
+
+
+{
+
+
+	color: #abbac6;
+
+
+	background-image: url(/images_site/search.png);
+
+
+}
+
+
+input#search-metro-name.has-name
+
+
+{
+
+
+	color: #abbac6;
+
+
+	background-image: url(/images_site/down.png);
+
+
+}

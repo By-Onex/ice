@@ -1,0 +1,26 @@
+#poster_order_plugin{
+    margin: 10px 0;
+}
+
+#poster_order_plugin .poster_list{
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 600px;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+#poster_order_plugin table {
+    width: 100%;
+}
+
+#poster_order_plugin table td{
+    padding: 3px 10px;
+    text-align: center;
+}
+
+#poster_order_plugin .poster_count{
+    width: 30px;
+    margin-bottom: 0;
+}

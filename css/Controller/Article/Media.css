@@ -1,0 +1,13 @@
+.content_block.media_articles .image{
+    width:80px;
+    height: 80px;
+    margin-right:10px;
+    float:left;
+}
+.content_block.media_articles .image img{
+    width:80px;
+    height:auto;
+    box-shadow: 2px 2px 4px #aaa;
+    border-radius: 4px;
+}
+

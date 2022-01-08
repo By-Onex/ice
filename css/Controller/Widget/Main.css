@@ -1,0 +1,283 @@
+/***************************************
+
+*	main widgets
+
+***************************************/
+
+/*Common*/
+
+.content_block.mainpage_widget
+
+{
+
+	margin:auto 10px;
+
+}   
+
+.mainpage_widget .widget-main
+
+{
+
+	width:100%;
+
+}
+
+.mainpage_widget .media
+
+{
+
+	vertical-align:top;
+
+	width:50%;
+
+}
+
+.mainpage_widget .media,
+
+.mainpage_widget .page_list
+
+{
+
+	border-left:1px solid #fff;
+
+}
+
+.mainpage_widget .media:first-child,
+
+.mainpage_widget .comments
+
+{
+
+	border-right:1px solid #DFDFDF;
+
+	border-left:none;
+
+}
+
+.mainpage_widget .media img
+
+{
+
+	width:68px;
+
+	height:auto;
+
+	border:1px solid #d4d6d3;
+
+}
+
+.mainpage_widget .media .content a,
+
+.mainpage_widget .media .content a:hover,
+
+.mainpage_widget .media .content a:visited
+
+{
+
+	color:#363636;
+
+}
+
+.mainpage_widget h2,
+
+.mainpage_widget h2 a
+
+{
+
+	color:#828282;
+
+	text-shadow:1px 0px 0px #fff;
+
+	font-weight:normal;
+
+	margin:-5px auto 5px;
+
+	text-align:center;
+
+	text-decoration: underline;
+
+}
+
+.mainpage_widget .media h2 a,
+
+.mainpage_widget .media h2 a:hover,
+
+.mainpage_widget .media h2 a:visted
+
+{
+
+	color:#878787;
+
+}
+
+.mainpage_widget .media a img,
+
+.mainpage_widget .media a:hover img,
+
+.mainpage_widget .media a:visited img
+
+{
+
+	text-decoration: none;
+
+}
+
+.mainpage_widget .media .photo,
+
+.mainpage_widget .media .video
+
+{
+
+	text-align:center;
+
+	width:100%;
+
+}
+
+.mainpage_widget .media .photo,
+
+.mainpage_widget .media .video,
+
+.mainpage_widget .comments,
+
+.mainpage_widget .page_list
+
+{
+
+	vertical-align:top;
+
+	margin: 0 auto;
+
+}
+
+.mainpage_widget .comments,
+
+.mainpage_widget .page_list
+
+{
+
+	width:50%;
+
+}
+
+.mainpage_widget .media .photo td,
+
+.mainpage_widget .media .video td
+
+{
+
+	vertical-align: top;
+
+	width: 50%;
+
+}
+
+.mainpage_widget .media .photo .content,
+
+.mainpage_widget .media .video .content
+
+{
+
+	width:100%;
+
+	min-width:110px;
+
+	position:relative;
+
+	margin:0 auto;
+
+}
+
+.mainpage_widget .media .photo .content .btn,
+
+.mainpage_widget .media .video .content .btn
+
+{
+
+	position:absolute;
+
+	width:17px;	height:17px;
+
+	left:50%;	top:18px;
+
+	margin-left:-9px;
+
+	background:url('/images_site/basic_sprite.png') -16px -390px no-repeat;
+
+}
+
+/*Comments*/
+
+.mainpage_widget .comments h2,
+
+.mainpage_widget .page_list h2
+
+{
+
+	margin-top:5px;
+
+	text-decoration: underline;
+
+	text-shadow: 1px 1px 1px #fff;
+
+}
+
+.mainpage_widget .name,
+
+.mainpage_widget .name a
+
+{
+
+	color:#4A5D6B;
+
+	font-size:12px;
+
+	line-height:16px;
+
+	margin-top: 5px;
+
+}
+
+.mainpage_widget .date
+
+{
+
+	color:#AFAFAF;
+
+	font-size:12px;
+
+	line-height:16px;
+
+}
+
+.mainpage_widget .comments .text
+
+{
+
+	color:#3A86B7;
+
+	font-size:13px;
+
+}
+
+.mainpage_widget .iterator
+
+{
+
+	margin-left:10px;
+
+}
+
+.mainpage_widget .comment
+
+{
+
+	margin-right:10px;
+
+}
+
+.widget-comment {
+
+	margin-top:10px;
+
+}

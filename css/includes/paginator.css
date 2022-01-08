@@ -1,0 +1,195 @@
+/***************************************
+
+	Paginators
+
+***************************************/
+
+.result_pagelist{
+
+    color:#7a7a7a;
+
+    height:30px !important;
+
+    text-align:center;
+
+    display:block;
+
+    position:relative;
+
+}
+
+.result_pagelist.top {
+
+    padding:7px 0 17px 0;
+
+
+
+}
+
+.result_pagelist.bot {
+
+    padding:15px 0 7px 0;
+
+    margin-top:-8px;
+
+}
+
+
+
+.result_pagelist.top a,
+
+.result_pagelist.top a:hover{
+
+    margin:7px 4px 7px 4px;
+
+    font-size:12px;
+
+    display:inline-block;
+
+}
+
+.result_pagelist.bot a,
+
+.result_pagelist.bot a:hover{
+
+    margin:4px 4px 11px 4px;
+
+    font-size:12px;
+
+    display:inline-block;
+
+}
+
+.result_pagelist a:visited{
+
+    color:#91abbc;
+
+}
+
+.result_pagelist.top .page,
+
+.result_pagelist.top .page:hover{
+
+    background: url('/images_site/basic_sprite.png') -567px -186px no-repeat;
+
+    position:relative;
+
+/*    z-index:5;    */
+
+    text-decoration:none;
+
+    color:#7a7a7a;
+
+    height:24px;
+
+    width:90px;
+
+    padding-top:8px;
+
+    margin:0;
+
+    cursor:default;
+
+}
+
+.result_pagelist.top a.next,
+
+.result_pagelist.top a.next:hover{
+
+    float:right;
+
+    margin-right:25px;
+
+    margin-top:7px;	//margin-top:-24px;
+
+}
+
+.result_pagelist.top a.prev,
+
+.result_pagelist.top a.prev:hover{
+
+    float:left;
+
+    margin-left:25px;
+
+    margin-top:7px;
+
+}
+
+.result_pagelist.bot .page,
+
+.result_pagelist.bot .page:hover{
+
+    background: url('/images_site/basic_sprite.png') -659px -186px no-repeat;
+
+    text-decoration:none;
+
+    position:relative;
+
+    z-index:5;
+
+    color:#7a7a7a;
+
+    height:24px;
+
+    width:90px;
+
+    padding-top:8px;
+
+    margin:0 0 4px;
+
+    cursor:default;
+
+}
+
+.result_pagelist.bot a.next,
+
+.result_pagelist.bot a.next:hover{
+
+    float:right;
+
+    margin-right:25px;
+
+    margin-bottom:22px;	//margin-top:-28px;
+
+}
+
+.result_pagelist.bot a.prev,
+
+.result_pagelist.bot a.prev:hover{
+
+    float:left;
+
+    margin-left:25px;
+
+    margin-bottom:22px;
+
+}
+
+.result_pagelist .reflect {
+
+    position:absolute;
+
+    left:50%;
+
+    margin-left:-275px;
+
+    height:17px;	width:550px;	
+
+}
+
+.result_pagelist.top .reflect {
+
+    background:url('/images_site/basic_sprite.png') 0 -355px no-repeat;
+
+    bottom:0;
+
+}
+
+.result_pagelist.bot .reflect {
+
+    background:url('/images_site/basic_sprite.png') 0 -371px no-repeat;
+
+    /*top:0;*/
+
+}

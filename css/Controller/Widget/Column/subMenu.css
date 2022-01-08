@@ -1,0 +1,35 @@
+ul.second_menu {
+    margin-top:15px;
+}
+ul.second_menu li{
+    padding-left:20px;
+    line-height:20px;
+    margin-bottom:10px;
+    font-size:14px;
+    color:#448cba;
+}
+ul.second_menu li a{
+    color:#448cba; float:none;
+    background:0 !important;
+}
+ul.second_menu .star {
+    background:  transparent url('/images_site/basic_sprite.png') -782px -346px no-repeat;
+    float: left;
+    height: 20px;
+    margin-left: -20px;
+    width: 20px;
+}
+ul.second_menu .fair {
+    background:  transparent url('/images_site/basic_sprite.png') -782px -365px no-repeat;
+    float: left;
+    height: 20px;
+    margin-left: -20px;
+    width: 20px;
+}
+ul.second_menu .ball {
+    background:  transparent url('/images_site/basic_sprite.png') -782px -385px no-repeat;
+    float: left;
+    height: 20px;
+    margin-left: -20px;
+    width: 20px;
+}

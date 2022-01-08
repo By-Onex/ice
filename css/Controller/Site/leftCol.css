@@ -1,0 +1,138 @@
+#left-col ul
+{
+color: #393939;
+    list-style: none outside none;   
+}
+ 
+#left-col .case_diagnos, 
+#left-col .case_gift, 
+#left-col .case_interesting, 
+#left-col .case_forum, 
+#left-col #forumDiv
+{
+ margin-bottom: 35px;
+    margin-top: 25px;   
+}
+#left-col .case_diagnos h3 {margin-bottom: 0}
+#left-col h3
+{
+background: url("/images_site/basic_sprite.png") no-repeat scroll -157px -66px transparent;
+    border-bottom: 1px solid #6999B5;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 0;
+    padding: 4px 97px 4px 4px!important;
+    position: relative !important;
+    text-shadow: 1px 1px #347EA9;
+    width: 96px;    
+}
+#left-col h3 span, #left-col h3 span:hover
+{
+  background-color: transparent;
+    background-image: url("/images_site/basic_sprite.png");
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: default;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: absolute !important; 
+    z-index: 10;
+}
+.case_diagnos .tab_block {
+	margin-bottom:8px;
+	border-bottom:1px solid #D5D5D5;
+}
+.case_diagnos .tab {
+	display:none;
+}
+.case_diagnos .tab_block .tab_block_content ul {
+	height:210px;
+	overflow:auto;
+}
+.case_diagnos ul.dash {
+	margin-top:0;
+	padding-bottom:7px;
+}
+.case_diagnos ul.dash li {
+	padding-top:2px;
+	padding-bottom:2px;
+	margin-bottom:0;
+	line-height:1.3em;
+}
+.case_diagnos ul.dash .ico {
+	top:6px;
+}
+.case_diagnos ul.dash li:hover {
+	background-color:#fee567;
+}
+.case_diagnos ul.dash li:hover a {
+	text-decoration:none;
+}
+/***************************************
+        Coll -> Tabs 
+****************************************/
+.tab_block .tab{
+    font:12px/26px 'Trebuchet MS';
+    display:block;
+    text-align:center;
+    height:34px; width:95px;
+    margin-top:-8px;
+    border:none; 
+    background:transparent url('/images_site/basic_sprite.png') -548px -92px no-repeat;
+    color:#777;
+    float:left;
+    cursor:pointer;	
+    cursor:hand;
+}
+
+.tab_block .tab span {
+	background: none repeat scroll 0 0 transparent;         
+	color: #fff;
+	cursor: default !important;
+	display: inline-block;
+	float: none;
+	line-height: 1em;
+	margin-top: 15px;
+}
+
+.tab_block .nonmetro{
+    font:12px/26px 'Trebuchet MS';
+    display:block;
+    text-align:center;
+    height:34px; width:95px;
+    margin-top:-8px;
+    border:none; 
+    background:transparent url('/images_site/basic_sprite.png') -548px -92px no-repeat;
+    color:#777;
+    float:left;
+}
+.tab_block .tab.selected{
+    position:relative;
+    background:transparent url('/images_site/basic_sprite.png') -453px -92px no-repeat;
+}
+.tab_block .tab a{
+    margin-top:15px;
+    float:none;
+    text-decoration:none;
+    color:#777777;
+    background:transparent;
+    border-bottom:1px dotted;
+    line-height:0.9em;
+    display:inline-block;
+    cursor:pointer; cursor:hand;
+    line-height:1em;
+}
+.tab_block .tab a:hover{
+    color:#4593c0;
+}
+.tab_block .tab.selected a{
+    color:white;
+    border:none;
+}
+
+.left-banner-group img {
+    width: 100%;
+}

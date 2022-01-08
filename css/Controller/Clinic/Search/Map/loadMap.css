@@ -1,0 +1,103 @@
+.map_list_flats #header{
+    /*z-index: 2000;*/
+}
+
+.map_list_flats{
+    max-width: 100%!important;
+}
+
+.map_full {
+/*    overflow: hidden;
+    position: fixed !important;
+    top: 330px;
+    z-index: 1000;
+    background: #eee;
+    max-width: 1188px;
+    min-width: 950px;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    margin-left: -590px;
+    border: 1px solid #8d9487;*/
+}
+
+
+#maps_container {
+    position: relative;
+/*    overflow: hidden;
+    position: fixed;
+    top: 330px;
+    z-index: 1000;
+    background: #eee;
+    max-width: 1188px;
+    min-width: 950px;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    margin-left: -590px;
+    border: 1px solid #8d9487;*/
+}
+
+
+#maps_container .list_of_clinic {
+    background: none #FFF;
+    bottom: 65px;   
+    box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.7);
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    /*right: -325px;*/
+    right: 2px;
+    z-index: 1500;
+    width: 300px;
+	height: 500px;
+}
+
+#maps_container .list_of_clinic .container_clinic {
+    bottom: 0;
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#maps_container .list_of_clinic .container_clinic .marker_spisok {
+    display: inline-block;
+    background: url(/images_site/maps_images/icon_list.png) no-repeat;
+    width: 22px;
+    height: 23px;
+    float: left;
+    color: #231f20;
+    font-family: Arial, Verdana, Trebuchet MS, sans-serif;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 15px;
+}
+#maps_container .list_of_clinic .container_clinic li {
+    margin-bottom: 5px;
+    display: block;
+    padding: 8px;
+    width: 267px;
+}
+
+#maps_container .list_of_clinic .container_clinic li:hover {
+    background: #f3f3f3;
+}
+#maps_container .list_of_clinic .container_clinic .information_clinic {
+    margin-left: 30px;
+    text-align: left;
+    font-family: Arial, Verdana, Trebuchet MS, sans-serif;
+}
+
+#maps_container .list_of_clinic .container_clinic .information_clinic .name_clinic {
+    color: #0072bc;
+    font-size: 17px;    
+}
+
+#maps_container .list_of_clinic .container_clinic .information_clinic .adres_clinic {
+    color: #646464;
+    font-size: 13px;
+}
+
+#maps_container .list_of_clinic .container_clinic .information_clinic .time_work {
+    color: #898989;
+}

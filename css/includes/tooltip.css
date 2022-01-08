@@ -1,0 +1,53 @@
+.popUpWindow {
+
+	background-color: #FFEFB9;
+
+	border: 1px solid #E0C360;
+
+	border-radius:5px;
+
+	padding: 5px;
+
+	margin-left:-6px;
+
+	color:#333;
+
+}
+
+.popUpWindow .plus{
+
+	color:#72CA0B;
+
+	font-weight:bold;
+
+}
+
+.popUpWindow .minus{
+
+	color:#D6432F;
+
+	font-weight:bold;
+
+}
+
+.pseudo_link.hint{
+
+	color:#378FBF;;
+
+}
+
+
+
+.popUpWindow.blue {
+
+    background-color: #DEEDF4;
+
+    border-radius: none;
+
+    border: 1px solid #40A2D3;
+
+    font: 14px/26px 'Trebuchet MS';
+
+    padding: 15px 10px 10px 10px;
+
+}

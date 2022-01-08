@@ -1,0 +1,93 @@
+.discount_main_block{
+    border: 1px solid #d5d5d5; 
+    margin: 10px 0 35px 0; 
+    padding: 20px;
+}
+.block_price {
+    float: left;
+    text-align: center;
+    width: 95px;
+}
+.block_price .per_sent {
+    color: #cc2a2a;
+    text-align: center;    
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.block_price .per_sent span {
+    display: block;
+    font-size: 32px;
+    line-height: 22px;
+    margin-top: 5px;
+}
+.block_price .old_price {
+    color: #a2a2a2;
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.block_price .new_price {
+    color: #333;
+    font-size: 15px;
+    font-weight: bold;
+}
+.block_image_clinic {
+    float: left;
+    width: 100px;
+    overflow: hidden;
+}
+.info_promo {
+    margin-left: 215px;
+}
+.info_promo .title_discount {
+    color: #086CA5;
+    font-size: 18px;
+    font-family: Tahoma, Geneva, serif;
+}
+.info_promo p {
+    margin: 8px 0 17px;
+    font-size: 12px;
+    font-family: Tahoma, Geneva, serif;
+}
+.info_promo .name_clinic {
+    color: #086ca5;
+    font-style: italic;
+    font-size: 13px;
+    font-family: Georgia,'Times New Roman', Times, serif;
+    float: left;
+    width: 56%;
+}
+.period_discount {
+    float: right;
+    color: #333;
+    font-size: 13px;
+    width: 40%;
+    text-align: right;
+}
+.button_action {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #29709F;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 4px 15px 5px;
+    line-height: 14px;
+    border: 1px solid #29709F;
+    margin: 10px 0 10px 15px;
+    float: right;
+    position: relative;
+    top: 20px;
+    background: #3B84B4;
+    background: -moz-linear-gradient(#58A0C8, #3680B1);
+    background: -ms-linear-gradient(#58A0C8, #3680B1);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #58A0C8), color-stop(100%, #3680B1));
+    background: -webkit-linear-gradient(#58A0C8, #3680B1);
+    background: -o-linear-gradient(#58A0C8, #3680B1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#58a0c8', endColorstr='#3680b1');
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#58a0c8', endColorstr='#3680b1')";
+    background: linear-gradient(#58A0C8, #3680B1);
+}

@@ -1,0 +1,244 @@
+.clinic_whitelist {
+	z-index: 1;
+}
+.clinic_whitelist_table {width: 100%;
+	border-collapse: collapse;
+    margin-bottom: 10px;
+}
+.clinic_whitelist_table th {
+	border: 1px solid #fff;
+	border-bottom: 1px solid #fff!important;
+	background-color: #53B1D2;
+	color: #fff;
+	padding-left: 10px;
+}
+.clinic_whitelist_table th .pseudo_link {
+	color: #fff;
+}
+.clinic_whitelist_table th .pseudo_link.checked {
+	border-bottom: 0!important;
+}
+.clinic_whitelist_row.yellow {
+	background: #fff6c8;
+    /*background: #FFF6C7;*/
+}
+.clinic_whitelist_row.green {
+	background: #c2edba;
+    /*background: #EAF1BF;*/
+}
+.clinic_whitelist_row.grey {
+	background: #D9EDF4;
+}
+.clinic_whitelist_table td {
+	padding: 5px 10px;
+	border: 1px solid #fff;
+}
+.clinic_whitelist_table td.num {
+	border-left: 0;
+}
+.clinic_whitelist_table td.rating_or_reviews {
+	border-right: 0;
+}
+.clinic_whitelist_table td.feed {
+	border-right: 1px solid #E4E4E4;
+}
+
+.clinic_whitelist_table .order_none {}
+.clinic_whitelist_table .order_asc {}
+.clinic_whitelist_table .order_desc {}
+
+.clinic_whitelist_table .th_rating_place {padding: 0 17px;width:30px;text-align: center;}
+.clinic_whitelist_table .th_name {width: auto;}
+.clinic_whitelist_table .th_rating,.clinic_whitelist_table .th_votes {padding: 0 10px;width:115px;}
+.clinic_whitelist_table .th_avg_rate {padding: 0 10px;}
+.clinic_whitelist_table .th_answers {padding: 0 10px;}
+.clinic_whitelist_table .th_votes {padding: 0 10px;}
+.clinic_whitelist_table th {font-size:14px; border-bottom:1px solid #e4e4e4; height:30px; vertical-align:middle;font-weight: normal;}
+.clinic_whitelist_table th.th_name {text-align:left;}
+.clinic_whitelist_table td {height:30px; vertical-align:middle; font-size:14px;}
+
+.clinic_whitelist_table td.num {
+	padding:0 10px;
+	text-align:center;
+	border-left:1px solid #e4e4e4;
+	white-space:nowrap;
+}
+.clinic_whitelist_table td.rating_or_reviews {
+	min-width: 170px;
+    width: 180px;
+	text-align: center;
+}
+.clinic_whitelist_table .rating {
+	position: relative;
+	display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+.clinic_whitelist_table .votes {
+	position: relative;
+	display: none;
+	width: 100%;
+}
+
+
+.clinic_whitelist_table .rating_value {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.clinic_whitelist_table td.num span.rating_value {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.clinic_whitelist_table .rating_value.yellow {
+	color: #e6b01f;
+}
+.clinic_whitelist_table .rating_value.green {
+	color: #00aa4b;
+}
+.clinic_whitelist_table .rating_value.grey {
+	color: #cbcbcb;
+}
+.clinic_whitelist_table .rating_value.black {
+	color: #303030;
+}
+
+.clinic_whitelist_table td.name {}
+
+.clinic_whitelist_table td.rait {
+	background-color: #fff5bb;
+	color:#a57800;
+	text-align:center;
+	border-right:1px solid #e4e4e4;
+	padding: 0 20px;
+	white-space:nowrap;
+}
+
+.clinic_whitelist_table td.feed {
+	text-align:center;
+	padding: 0 20px;
+	white-space:nowrap;
+}
+
+.clinic_whitelist_table td.avgrate {
+	background-color: #e8f3f9;
+	color: #345469;
+	text-align:center;
+	padding: 0 10px;
+	white-space:nowrap;
+}
+
+.clinic_whitelist_table td.avgrate span {
+	color: #7E8B93;
+}
+
+.clinic_whitelist_table {
+	border-bottom:1px solid #e4e4e4;
+}
+
+.clinic_whitelist_table td.name a {
+    color: #5c5c5c;
+    text-decoration: none;
+    text-shadow: 0px 0px 1px #ddd;
+}
+
+.clinic_whitelist_table td.name a:hover {
+    color: #5c5c5c;
+    text-decoration: underline;
+}
+
+.clinic_whitelist .small_search_block {
+	margin: 0 auto;
+}
+
+.clinic_whitelist .result_pagelist.bot {
+	z-index: 5;
+	position: relative;
+	/*margin-top: -16px !important;*/
+}
+
+
+.positive_reviews_number,
+.negative_reviews_number {
+	display: block;
+	font-size: 16px;
+	/*font-weight: 700;*/
+	float: left;
+    width: 30px;
+    text-align: right;
+}
+.positive_reviews_number {
+	color: #00aa4b;
+	margin-right: 12px;
+}
+.negative_reviews_number {
+	color: #f00;
+}
+.reviews_number {
+	display: block;
+	float: right;
+	position: relative;
+	top: 3px;
+	font-size: 12px;
+    color: #5c5c5c;
+    /*font-weight: bold;*/
+  } .reviews_number:after {
+		content: "";
+		clear: both;
+}
+
+
+
+/*пузырь*/
+.clinic_whitelist_table .popup_baloon, .clinic_rating_container.doctor .popup_baloon {
+	position: absolute;
+	display: none;
+	background: #fff;
+	border: 1px solid #4A9AB8;
+	padding: 4px 5px;
+	-webkit-border-radius: 4px;
+			border-radius: 4px;
+	bottom: 40px;
+	z-index: 10;
+  } .clinic_whitelist_table .rating:hover .popup_baloon,
+    .clinic_whitelist_table .votes:hover .popup_baloon,
+    .clinic_rating_container.doctor .rating:hover .popup_baloon{
+		display: block;
+}
+.clinic_rating_container.doctor .popup_baloon{
+    bottom: 60px!important;
+}
+.clinic_rating_container.doctor .popup_baloon.c{
+    margin-left: -25px;
+    width: 120px;
+    bottom: 35px;
+}
+.clinic_whitelist_table .popup_text_row, .clinic_rating_container.doctor .popup_text_row {
+	display: block;
+	text-align: left;
+	font-size: 12px;
+	color: #505050;
+}
+.clinic_whitelist_table .popup_text_row_plus, .clinic_rating_container.doctor .popup_text_row_plus {
+    color: #00aa4b;
+}
+.clinic_whitelist_table .popup_text_row_minus, .clinic_rating_container.doctor .popup_text_row_minus {
+    color: #f00;
+}
+
+
+
+/* блик внизу страницы */
+#mainContent .clinic_whitelist .result_pagelist.bot {
+    margin-top: -2px;
+    margin-left: 1px;
+    padding: 0 0 7px;
+}
+.clinic_whitelist .result_pagelist.bot {
+	border-top: 1px solid #E2E4E5;
+}
+
+/*.content_block .productRate,#clinic-rating-block .productRate {
+ cursor:default;
+}*/

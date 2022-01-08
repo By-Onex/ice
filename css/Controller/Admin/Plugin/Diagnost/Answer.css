@@ -1,0 +1,32 @@
+#diagnost_answer_plugin{
+    margin: 0 0 20px 0;
+}
+
+#diagnost_answer_plugin h3{
+    margin-bottom: 10px;    
+}
+
+#diagnost_answer_plugin .service_list{
+    padding: 10px;
+    overflow-y: auto;
+    height: 150px;
+    width: 500px;
+    max-width: 500px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-right: none;
+    margin-bottom: 10px;
+}
+
+#diagnost_answer_plugin .service_list table td{
+    padding: 5px 5px;
+}
+#diagnost_answer_plugin .service_list table td input{
+    margin-bottom: 0;
+    vertical-align: baseline;
+}
+
+
+
+
+

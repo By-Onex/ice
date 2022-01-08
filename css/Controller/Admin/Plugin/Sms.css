@@ -1,0 +1,36 @@
+#sms_plugin .competition_winner{
+    width: 40%;
+    margin: 10px 0;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+#sms_plugin .competition_winner .header{
+    padding: 5px 0;
+    font-size: 14px;
+}
+#sms_plugin .competition_winner .header .place{
+    font-size: 16px;
+}
+#sms_plugin .competition_winner .header .winner_votes{
+    float: right;
+    font-size: 14px;
+}
+#sms_plugin .competition_winner .status_block input{
+    float: left;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+#sms_plugin .competition_winner .status_block label{
+    float: left;
+}
+#sms_plugin .competition_winner .status_block .status{
+    float: right;
+    font-size: 14px;
+}
+
+#sms_plugin .competition_winner textarea{
+    width: 98%;
+    resize: vertical;
+}

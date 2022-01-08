@@ -1,0 +1,145 @@
+.result-msg-code {
+    text-align: center;
+    background: #77afd0;
+    border-radius: 4px; 
+    -moz-border-radius: 4px; 
+    -khtml-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-top: 22px;
+    padding: 10px;
+    margin-bottom: 28px;
+    overflow: hidden;
+}
+
+.result-msg-code p {
+    color: #fff;
+    font-size: Tahoma, Geneva, Times, serif;
+    font-weight: normal;
+}
+
+#result-msg-code_header{
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.review_form .style_input {
+    border: 1px solid #fff!important;
+    border-radius: 5px!important; 
+    -moz-border-radius: 5px!important; 
+    -khtml-border-radius: 5px!important; 
+    -webkit-border-radius: 5px!important; 
+    width: 237px!important;
+}
+
+.result-msg-code #right_block{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: -60px;
+    position: relative;
+    z-index: 2;
+}
+
+.result-msg-code #left_block{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    position: relative;
+    z-index: 1;
+}
+.result-msg-code #left_block input{
+    width: 48%;
+    height: 23px;    
+    border: 1px solid #dcdddf;
+    padding-left: 5px;
+    margin-bottom: 7px;
+    font-size: 12px;
+}
+.result-msg-code #left_block p{
+    color: #c2fdb9;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: normal;
+}
+.result-msg-code #right_block #label{
+    text-align: right;
+    margin-bottom: 5px;
+    font-weight: normal;
+    color: #C2FDB9;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.result-msg-code #right_block p a{
+    color: #c2fdb9;
+}
+
+.send_message_sms{
+    width: 280px; 
+    height: 28px; 
+    background-image: url(/images_site/bg_button_settings.png);
+    background-repeat: repeat-x;
+    border: 1px solid #2a719d;
+    border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    -khtml-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    text-align: center; 
+    padding: 3px 0; 
+    color: #fff !important; 
+    cursor: pointer;      
+    font-family: Tahoma, Geneva, Times, serif;
+    font-weight: bold;
+    font-size: 1.2em;
+
+}
+
+.send_message_sms:hover{
+    background-image: url(/images_site/bg_button_settings_hover.png);
+    background-repeat: repeat;
+}
+
+#confirm_code_fail{
+    background-color: #d07071;
+    border: 1px solid #fff;
+    padding: 4px 0;
+    margin-top: 5px;
+    width: 280px;
+    float: right;
+}
+#confirm_code_ok{
+    background-color: #c2fabd;
+    border: 1px solid #fff;
+    padding: 4px 0;
+    margin-top: 5px;
+    width: 280px;
+    float: right;
+}
+#confirm_code_fail p{
+    font-weight: bold !important;
+    color: #fff !important;
+    text-align: center !important;
+}
+#confirm_code_ok p{
+    font-weight: bold !important;
+    color: #3381b1 !important; 
+    text-align: center !important;
+}
+
+.review_error_message{
+    margin-top: 5px;
+}
+.review_error_message p{
+    color: #FE0100;
+}
+
+#white_cross{
+    float: right;
+    background-image: url(/images_site/cross.png);
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+#white_cross:hover{
+    background-image: url(/images_site/cross_hover.png);
+
+}
